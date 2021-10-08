@@ -1,7 +1,7 @@
 .mixin.out
 asm
 assets
-astralsorcery
+/astralsorcery
 backups
 coremods
 local
@@ -26,3 +26,5 @@ patchouli_data.json
 usercache.json
 usernamecache.json
 mods
+config/thaumicjei_itemstack_aspects.json
+config/AppliedEnergistics2/items.csv
