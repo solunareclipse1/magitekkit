@@ -1,0 +1,182 @@
+itemGroup.modularmachinery=Modular Machinery
+
+command.modularmachinery.syntax=/mm-syntax
+command.modularmachinery.hand=/mm-hand
+command.modularmachinery.hand.empty=Please hold an item to get the data from.
+
+gui.controller.blueprint=Blueprint Found: %s
+gui.controller.blueprint.none=None
+gui.controller.structure=Structure Found: %s
+gui.controller.structure.none=None
+gui.controller.status=Status:
+gui.controller.status.redstone_stopped=Machine stopped by incoming redstone signal
+gui.controller.status.missing_structure=Missing structure
+gui.controller.status.no_recipe=No matching recipe found
+gui.controller.status.crafting=Processing...
+gui.controller.status.crafting.progress=Progress: %s
+
+craftcheck.failure.item.input=Awaiting item input...
+craftcheck.failure.item.output.space=Not enough inventory space for item output(s)!
+craftcheck.failure.fluid.input=Awaiting liquid input...
+craftcheck.failure.fluid.output.space=Not enough tank space for fluid output(s)!
+craftcheck.failure.gas.input=Awaiting gas input...
+craftcheck.failure.gas.output.space=Not enough space for gas output(s)!
+craftcheck.failure.energy.input=Low power
+
+component.missing.modularmachinery.energy.output=EU output port not detected
+component.missing.modularmachinery.energy.input=EU input port not detected
+component.missing.modularmachinery.fluid.output=Liquid output port not detected
+component.missing.modularmachinery.fluid.input=Liquid input port not detected
+component.missing.modularmachinery.gas.output=Gas output port not detected
+component.missing.modularmachinery.gas.input=Gas input port not detected
+component.missing.modularmachinery.item.output=Item output hatch not detected
+component.missing.modularmachinery.item.input=Item input hatch not detected
+
+gui.blueprint.popout.info=Sneak-click to vizualize in-world
+gui.blueprint.popout.place=Rightclick to place preview; move away from the placed one or open another structure preview (blueprint) to remove the one in-world.
+
+jei.category.preview=Structure Preview
+
+message.structurebuild.confirmrotation=Controller is facing %s
+message.structurebuild.confirmrotation.rotating=Rotating structure for saving by %s degrees...
+message.structurebuild.empty=You have nothing selected to save.
+message.structurebuild.warndedicated=You're saving the machine on a dedicated server! Be sure to download it from the server!
+message.structurebuild.save=Machine saved as %s in the machinery directory!
+message.structurebuild.fail=Failed to save the machine to a file! Check the log for more information!
+
+tooltip.machinery.empty=Empty
+
+tooltip.machinery.fuel=Accepts any fuel.
+tooltip.machinery.fuel.item=BurnTime: %s
+tooltip.machinery.fuel.in=Required total Fuel Burntime:
+tooltip.machinery.fuel.in.total=%s ticks.
+
+tooltip.machinery.blueprint.required=Requires Blueprint
+tooltip.machinery.blueprint.upgrades=Upgrades
+
+tooltip.machinery.duration=Processing Time: %s ticks
+
+tooltip.machinery.chance.in=Consumption Chance: %s
+tooltip.machinery.chance.out=Production Chance: %s
+tooltip.machinery.chance.in.never=Doesn't get consumed.
+tooltip.machinery.chance.out.never=Is never produced.
+
+tooltip.machinery.energy.in=Required Energy:
+tooltip.machinery.energy.in.tick=Per Tick: %s %s/t
+tooltip.machinery.energy.in.total=Total: %s %s
+tooltip.machinery.energy.out=Produced Energy:
+tooltip.machinery.energy.out.tick=Per Tick: %s %s/t
+tooltip.machinery.energy.out.total=Total: %s %s
+
+tooltip.energy.type.fe=FE
+tooltip.energy.type.ic2_eu=EU
+tooltip.energy.type.gt_eu=EU
+
+tooltip.constructtool.creative=Creative Structure-To-JSON Tool
+
+tooltip.itembus.slot=1 Slot
+tooltip.itembus.slots=%s Slots
+
+tooltip.fluidhatch.empty=Empty
+tooltip.fluidhatch.fluid=[Fluid]
+tooltip.fluidhatch.gas=[Gas]
+tooltip.fluidhatch.tank=%smb / %smb
+tooltip.fluidhatch.tank.gas=%s / %s
+tooltip.fluidhatch.tank.info=Can hold %s mb
+tooltip.fluidhatch.tank.mek=Accepts Mekanism Gas
+
+tooltip.energyhatch.charge=%s / %s %s
+tooltip.energyhatch.storage=Stores %s EU
+tooltip.energyhatch.out.transfer=Transfers %s EU per tick
+tooltip.energyhatch.in.accept=Accepts %s EU per tick
+
+tooltip.energyhatch.ic2.powerrate=EU/t
+tooltip.energyhatch.ic2.any=Any
+tooltip.energyhatch.ic2.out.voltage=EU Output Voltage: %s
+tooltip.energyhatch.ic2.out.transfer=EU Output Transfer: %s %s
+tooltip.energyhatch.ic2.in.voltage=EU Input Voltage: %s
+tooltip.energyhatch.ic2.in.transfer=EU Input Transfer: %s %s
+
+tooltip.energyhatch.gregtech.voltage.in=Voltage IN: §a%s §7(§a%s§7)
+tooltip.energyhatch.gregtech.voltage.out=Voltage OUT: §a%s §7(§a%s§7)
+tooltip.energyhatch.gregtech.amperage=Amperage: §e%s
+tooltip.energyhatch.gregtech.storage=Internal Energy Capacity: §9%s
+
+tooltip.ic2.powertier.0.name=ULV
+tooltip.ic2.powertier.1.name=LV
+tooltip.ic2.powertier.2.name=MV
+tooltip.ic2.powertier.3.name=HV
+tooltip.ic2.powertier.4.name=EV
+tooltip.ic2.powertier.5.name=IV
+tooltip.ic2.powertier.6.name=LuV
+tooltip.ic2.powertier.7.name=SV
+tooltip.ic2.powertier.8.name=XV
+tooltip.ic2.powertier.9.name=XXV
+tooltip.ic2.powertier.10.name=XXXV
+tooltip.ic2.powertier.11.name=XXXXV
+tooltip.ic2.powertier.12.name=OV
+
+item.modularmachinery.itemblueprint.name=Machine Blueprint
+item.modularmachinery.itemmodularium.name=Polysteel Ingot
+item.modularmachinery.itemconstructtool.name=Construct Selection Tool
+
+tile.modularmachinery.blockcontroller.name=Machine Controller
+
+tile.modularmachinery.blockcasing.plain.name=Polysteel Casing
+tile.modularmachinery.blockcasing.vent.name=Machine Ventilation Component
+tile.modularmachinery.blockcasing.firebox.name=Firebox Casing
+tile.modularmachinery.blockcasing.gearbox.name=Machine Mechanical Component
+tile.modularmachinery.blockcasing.reinforced.name=Reinforced Polysteel Casing
+tile.modularmachinery.blockcasing.circuitry.name=Machine Circuitry Component
+
+tile.modularmachinery.blockinputbus.tiny.name=Single Item Input Hatch
+tile.modularmachinery.blockinputbus.small.name=Quad Item Input Hatch
+tile.modularmachinery.blockinputbus.normal.name=6 Item Input Hatch
+tile.modularmachinery.blockinputbus.reinforced.name=9 Item Input Hatch
+tile.modularmachinery.blockinputbus.big.name=12 Item Input Hatch
+tile.modularmachinery.blockinputbus.huge.name=16 Item Input Hatch
+tile.modularmachinery.blockinputbus.ludicrous.name=32 Item Input Hatch
+
+tile.modularmachinery.blockoutputbus.tiny.name=Single Item Output Hatch
+tile.modularmachinery.blockoutputbus.small.name=Quad Item Output Hatch
+tile.modularmachinery.blockoutputbus.normal.name=6 Item Output Hatch
+tile.modularmachinery.blockoutputbus.reinforced.name=9 Item Output Hatch
+tile.modularmachinery.blockoutputbus.big.name=12 Item Output Hatch
+tile.modularmachinery.blockoutputbus.huge.name=16 Item Output Hatch
+tile.modularmachinery.blockoutputbus.ludicrous.name=32 Item Output Hatch
+
+tile.modularmachinery.blockfluidinputhatch.tiny.name=Tiny Fluid Input Port
+tile.modularmachinery.blockfluidinputhatch.small.name=Small Fluid Input Port
+tile.modularmachinery.blockfluidinputhatch.normal.name=Normal Fluid Input Port
+tile.modularmachinery.blockfluidinputhatch.reinforced.name=Reinforced Fluid Input Port
+tile.modularmachinery.blockfluidinputhatch.big.name=Big Fluid Input Port
+tile.modularmachinery.blockfluidinputhatch.huge.name=Huge Fluid Input Port
+tile.modularmachinery.blockfluidinputhatch.ludicrous.name=Ludicrous Fluid Input Port
+tile.modularmachinery.blockfluidinputhatch.vacuum.name=Vacuum Fluid Input Port
+
+tile.modularmachinery.blockfluidoutputhatch.tiny.name=Tiny Fluid Output Port
+tile.modularmachinery.blockfluidoutputhatch.small.name=Small Fluid Output Port
+tile.modularmachinery.blockfluidoutputhatch.normal.name=Normal Fluid Output Port
+tile.modularmachinery.blockfluidoutputhatch.reinforced.name=Reinforced Fluid Output Port
+tile.modularmachinery.blockfluidoutputhatch.big.name=Big Fluid Output Port
+tile.modularmachinery.blockfluidoutputhatch.huge.name=Huge Fluid Output Port
+tile.modularmachinery.blockfluidoutputhatch.ludicrous.name=Ludicrous Fluid Output Port
+tile.modularmachinery.blockfluidoutputhatch.vacuum.name=Vacuum Fluid Output Port
+
+tile.modularmachinery.blockenergyinputhatch.tiny.name=ULV Input Plug
+tile.modularmachinery.blockenergyinputhatch.small.name=LV Input Plug
+tile.modularmachinery.blockenergyinputhatch.normal.name=MV Input Plug
+tile.modularmachinery.blockenergyinputhatch.reinforced.name=HV Input Plug
+tile.modularmachinery.blockenergyinputhatch.big.name=EV Input Plug
+tile.modularmachinery.blockenergyinputhatch.huge.name=IV Input Plug
+tile.modularmachinery.blockenergyinputhatch.ludicrous.name=LuV Input Plug
+tile.modularmachinery.blockenergyinputhatch.ultimate.name=SV Input Plug
+
+tile.modularmachinery.blockenergyoutputhatch.tiny.name=ULV Output Plug
+tile.modularmachinery.blockenergyoutputhatch.small.name=LV Output Plug
+tile.modularmachinery.blockenergyoutputhatch.normal.name=MV Output Plug
+tile.modularmachinery.blockenergyoutputhatch.reinforced.name=HV Output Plug
+tile.modularmachinery.blockenergyoutputhatch.big.name=EV Output Plug
+tile.modularmachinery.blockenergyoutputhatch.huge.name=IV Output Plug
+tile.modularmachinery.blockenergyoutputhatch.ludicrous.name=LuV Output Plug
+tile.modularmachinery.blockenergyoutputhatch.ultimate.name=SV Output Plug

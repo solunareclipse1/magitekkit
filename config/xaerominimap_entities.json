@@ -11,12 +11,12 @@
     "displayed": true,
     "heightBasedFade": true,
     "renderOrder": 0.0,
-    "names": 0.0,
     "heightLimit": 20.0,
-    "color": 13.0,
+    "names": 1.0,
+    "color": 15.0,
     "displayNameWhenIconFails": true,
     "entityNumber": 1000.0,
-    "alwaysDisplayNametags": false,
+    "alwaysDisplayNametags": true,
     "dotSize": 2.0,
     "icons": 1.0,
     "iconScale": 1.0
@@ -45,7 +45,8 @@
           "protection": true,
           "settingOverrides": {
             "renderOrder": 6.0,
-            "color": 15.0
+            "color": 15.0,
+            "icons": 2.0
           },
           "subCategories": [
             {
@@ -80,7 +81,8 @@
           "name": "gui.xaero_entity_category_hostile",
           "protection": true,
           "settingOverrides": {
-            "renderOrder": 3.0
+            "renderOrder": 3.0,
+            "color": 4.0
           },
           "subCategories": [
             {
@@ -91,7 +93,8 @@
               "name": "gui.xaero_entity_category_hostile_tamed",
               "protection": true,
               "settingOverrides": {
-                "renderOrder": 5.0
+                "renderOrder": 5.0,
+                "color": 1.0
               },
               "subCategories": []
             }
@@ -104,7 +107,10 @@
           "excludeList": [],
           "name": "gui.xaero_entity_category_friendly",
           "protection": true,
-          "settingOverrides": {},
+          "settingOverrides": {
+            "names": 0.0,
+            "color": 2.0
+          },
           "subCategories": [
             {
               "hardInclude": "tamed",
@@ -114,7 +120,8 @@
               "name": "gui.xaero_entity_category_friendly_tamed",
               "protection": true,
               "settingOverrides": {
-                "renderOrder": 4.0
+                "renderOrder": 4.0,
+                "color": 3.0
               },
               "subCategories": []
             }
@@ -131,7 +138,7 @@
       "protection": true,
       "settingOverrides": {
         "renderOrder": 1.0,
-        "color": 12.0
+        "color": 6.0
       },
       "subCategories": []
     },

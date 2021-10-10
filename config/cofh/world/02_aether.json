@@ -1,0 +1,138 @@
+{
+	"populate": {
+		"diorite": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "geode",
+				"block": [{
+					"name": "quark:marble",
+					"properties": {
+						"variant": "stone_marble"
+					}
+				},
+				{
+					"name": "quark:marble",
+					"properties": {
+						"variant": "stone_marble"
+					}
+				},
+				{
+					"name": "quark:marble",
+					"properties": {
+						"variant": "stone_marble"
+					}
+				},
+				{
+					"name": "quark:marble",
+					"properties": {
+						"variant": "stone_marble"
+					}
+				},
+				{
+					"name": "quark:marble",
+					"properties": {
+						"variant": "stone_marble"
+					}
+				},
+				{
+					"name": "quark:marble",
+					"properties": {
+						"variant": "stone_marble"
+					}
+				},
+				{
+					"name": "quark:marble",
+					"properties": {
+						"variant": "stone_marble"
+					}
+				},
+				{
+					"name": "quark:marble",
+					"properties": {
+						"variant": "stone_marble"
+					}
+				},
+				{
+					"name": "quark:marble",
+					"properties": {
+						"variant": "stone_marble"
+					}
+				},{
+					"name": "quark:marble",
+					"properties": {
+						"variant": "stone_marble"
+					}
+				},
+				{
+					"name": "quark:marble",
+					"properties": {
+						"variant": "stone_marble"
+					}
+				},
+				{
+					"name": "quark:marble",
+					"properties": {
+						"variant": "stone_marble"
+					}
+				},
+				{
+					"name": "quark:marble",
+					"properties": {
+						"variant": "stone_marble"
+					}
+				},
+				{
+					"name": "quark:marble",
+					"properties": {
+						"variant": "stone_marble"
+					}
+				},
+				{
+					"name": "quark:marble",
+					"properties": {
+						"variant": "stone_marble"
+					}
+				},
+				{
+					"name": "quark:marble",
+					"properties": {
+						"variant": "stone_marble"
+					}
+				},
+				{
+					"name": "quark:marble",
+					"properties": {
+						"variant": "stone_marble"
+					}
+				},
+				{
+					"name": "quark:marble",
+					"properties": {
+						"variant": "stone_marble"
+					}
+				},
+				{
+					"name": "metallurgy:adamantine_ore"
+				}],
+				"material": "aether_legacy:holystone",
+				"crust": {
+					"name": "quark:marble",
+					"properties": {
+						"variant": "stone_marble"
+					}
+				}
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 128,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					4
+				]
+			}
+		}
+	}
+}
