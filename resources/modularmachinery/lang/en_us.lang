@@ -23,8 +23,8 @@ craftcheck.failure.gas.input=Awaiting gas input...
 craftcheck.failure.gas.output.space=Not enough space for gas output(s)!
 craftcheck.failure.energy.input=Low power
 
-component.missing.modularmachinery.energy.output=EU output port not detected
-component.missing.modularmachinery.energy.input=EU input port not detected
+component.missing.modularmachinery.energy.output=Output plug not detected
+component.missing.modularmachinery.energy.input=Input plug not detected
 component.missing.modularmachinery.fluid.output=Liquid output port not detected
 component.missing.modularmachinery.fluid.input=Liquid input port not detected
 component.missing.modularmachinery.gas.output=Gas output port not detected
@@ -111,10 +111,10 @@ tooltip.ic2.powertier.5.name=IV
 tooltip.ic2.powertier.6.name=LuV
 tooltip.ic2.powertier.7.name=SV
 tooltip.ic2.powertier.8.name=XV
-tooltip.ic2.powertier.9.name=XXV
-tooltip.ic2.powertier.10.name=XXXV
-tooltip.ic2.powertier.11.name=XXXXV
-tooltip.ic2.powertier.12.name=OV
+tooltip.ic2.powertier.9.name=RV
+tooltip.ic2.powertier.10.name=DV
+tooltip.ic2.powertier.11.name=BV
+tooltip.ic2.powertier.12.name=InfV
 
 item.modularmachinery.itemblueprint.name=Machine Blueprint
 item.modularmachinery.itemmodularium.name=Polysteel Ingot
@@ -122,12 +122,12 @@ item.modularmachinery.itemconstructtool.name=Construct Selection Tool
 
 tile.modularmachinery.blockcontroller.name=Machine Controller
 
-tile.modularmachinery.blockcasing.plain.name=Polysteel Casing
-tile.modularmachinery.blockcasing.vent.name=Machine Ventilation Component
-tile.modularmachinery.blockcasing.firebox.name=Firebox Casing
-tile.modularmachinery.blockcasing.gearbox.name=Machine Mechanical Component
-tile.modularmachinery.blockcasing.reinforced.name=Reinforced Polysteel Casing
-tile.modularmachinery.blockcasing.circuitry.name=Machine Circuitry Component
+tile.modularmachinery.blockcasing.plain.name=Polysteel Machine Casing
+tile.modularmachinery.blockcasing.vent.name=Ventilated Polysteel Machine Casing
+tile.modularmachinery.blockcasing.firebox.name=Heatproof Polysteel Machine Casing
+tile.modularmachinery.blockcasing.gearbox.name=Mechanical Polysteel Machine Casing
+tile.modularmachinery.blockcasing.reinforced.name=Reinforced Polysteel Machine Casing
+tile.modularmachinery.blockcasing.circuitry.name=Wired Polysteel Machine Casing
 
 tile.modularmachinery.blockinputbus.tiny.name=Single Item Input Hatch
 tile.modularmachinery.blockinputbus.small.name=Quad Item Input Hatch

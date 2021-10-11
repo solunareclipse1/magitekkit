@@ -1,0 +1,38 @@
+item.pe_philosophers_stone.name=Minium Stone
+item.pe_repair_talisman.name=Talisman of Repair
+item.pe_fuel_alchemical_coal.name=Alchemicoal
+item.pe_covalence_dust_low.name=Low Covalence Dust
+item.pe_covalence_dust_medium.name=Medium Covalence Dust
+item.pe_covalence_dust_high.name=High Covalence Dust
+item.pe_matter_dark.name=Dark Matter
+item.pe_matter_red.name=Red Matter
+item.pe_divining_rod_1.name=Divining Rod (low)
+item.pe_divining_rod_2.name=Divining Rod (medium)
+item.pe_divining_rod_3.name=Divining Rod (high)
+item.pe_rm_katar.name=Blue Matter Katar
+item.pe_rm_morning_star.name=Blue Matter Morningstar
+item.pe_gem_armor_0.name=Blue Matter Boots
+item.pe_gem_armor_1.name=Blue Matter Leggings
+item.pe_gem_armor_2.name=Blue Matter Chestplate
+item.pe_gem_armor_3.name=Blue Matter Helmet
+item.pe_tome.name=Tome of Unlimited Knowledge
+
+tile.pe_transmutation_stone.name=Transmutation Table
+tile.pe_collector_MK1.name=Crude Energy Collector
+tile.pe_relay_MK1.name=Charging Relay MKI
+tile.pe_relay_MK2.name=Charging Relay MKII
+tile.pe_relay_MK3.name=Charging Relay MKIII
+tile.pe_fuel_block_0.name=Alchemicoal Block
+
+pe.gem.activate=Blue Matter powers now ACTIVE
+pe.gem.deactivate=Blue Matter powers now INACTIVE
+
+pe.relay.mk1=Charging Relay MKI
+pe.relay.mk2=Charging Relay MKII
+pe.relay.mk3=Charging Relay MKIII
+
+pe.timewatch.disabled=This item is currently disabled
+
+pe.nei.worldtransmute=In-World Transmutation
+pe.nei.worldtransmute.description=Right click in world, sneak right click for alternate output
+pe.nei.philo=Minium Smelting
