@@ -4,70 +4,70 @@
     "oremeta": 0,
     "source": "minecraft:stone",
     "srcmeta": 0,
-    "veins": 32,
+    "veins": 64,
     "size": 16,
-    "miny": 10,
-    "maxy": 246
+    "miny": 1,
+    "maxy": 254
   },
   {
     "ore": "minecraft:iron_ore",
     "oremeta": 0,
     "source": "minecraft:stone",
     "srcmeta": 0,
-    "veins": 24,
+    "veins": 48,
     "size": 16,
-    "miny": 10,
-    "maxy": 246
+    "miny": 1,
+    "maxy": 254
   },
   {
     "ore": "minecraft:lapis_ore",
     "oremeta": 0,
     "source": "minecraft:stone",
     "srcmeta": 0,
-    "veins": 12,
+    "veins": 24,
     "size": 8,
-    "miny": 10,
-    "maxy": 246
+    "miny": 1,
+    "maxy": 254
   },
   {
     "ore": "minecraft:redstone_ore",
     "oremeta": 0,
     "source": "minecraft:stone",
     "srcmeta": 0,
-    "veins": 12,
+    "veins": 24,
     "size": 12,
-    "miny": 10,
-    "maxy": 246
+    "miny": 1,
+    "maxy": 254
   },
   {
     "ore": "minecraft:gold_ore",
     "oremeta": 0,
     "source": "minecraft:stone",
     "srcmeta": 0,
-    "veins": 8,
+    "veins": 16,
     "size": 8,
-    "miny": 10,
-    "maxy": 246
+    "miny": 1,
+    "maxy": 254
   },
   {
     "ore": "minecraft:diamond_ore",
     "oremeta": 0,
     "source": "minecraft:stone",
     "srcmeta": 0,
-    "veins": 4,
+    "veins": 8,
     "size": 8,
-    "miny": 10,
-    "maxy": 246
+    "miny": 1,
+    "maxy": 254
   },
   {
     "ore": "minecraft:emerald_ore",
     "oremeta": 0,
     "source": "minecraft:stone",
     "srcmeta": 0,
-    "veins": 2,
+    "veins": 4,
     "size": 4,
-    "miny": 10,
-    "maxy": 246
+    "miny": 1,
+    "maxy": 254
   },
   {
     "ore": "minecraft:monster_egg",
@@ -76,7 +76,367 @@
     "srcmeta": 0,
     "veins": 48,
     "size": 24,
-    "miny": 10,
-    "maxy": 246
+    "miny": 1,
+    "maxy": 254
+  },
+  {
+    "ore": "metallurgy:copper_ore",
+    "oremeta": -1,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 30,
+    "size": 8,
+    "miny": 1,
+    "maxy": 254
+  },
+  {
+    "ore": "metallurgy:deep_iron_ore",
+    "oremeta": -1,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 30,
+    "size": 5,
+    "miny": 1,
+    "maxy": 254
+  },
+  {
+    "ore": "metallurgy:tin_ore",
+    "oremeta": -1,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 30,
+    "size": 10,
+    "miny": 1,
+    "maxy": 254
+  },
+  {
+    "ore": "metallurgy:prometheum_ore",
+    "oremeta": -1,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 30,
+    "size": 6,
+    "miny": 1,
+    "maxy": 254
+  },
+  {
+    "ore": "metallurgy:manganese_ore",
+    "oremeta": -1,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 30,
+    "size": 9,
+    "miny": 1,
+    "maxy": 254
+  },
+  {
+    "ore": "metallurgy:oureclase_ore",
+    "oremeta": -1,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 20,
+    "size": 5,
+    "miny": 1,
+    "maxy": 254
+  },
+  {
+    "ore": "metallurgy:infuscolium_ore",
+    "oremeta": -1,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 20,
+    "size": 7,
+    "miny": 1,
+    "maxy": 254
+  },
+  {
+    "ore": "metallurgy:adamantine_ore",
+    "oremeta": -1,
+    "source": "quark:marble",
+    "srcmeta": 0,
+    "veins": 10,
+    "size": 6,
+    "miny": 1,
+    "maxy": 254
+  },
+  {
+    "ore": "metallurgy:rubracium_ore",
+    "oremeta": -1,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 20,
+    "size": 3,
+    "miny": 1,
+    "maxy": 254
+  },
+  {
+    "ore": "metallurgy:atlarus_ore",
+    "oremeta": -1,
+    "source": "quark:basalt",
+    "srcmeta": 0,
+    "veins": 10,
+    "size": 6,
+    "miny": 1,
+    "maxy": 254
+  },
+  {
+    "ore": "metallurgy:mithril_ore",
+    "oremeta": -1,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 5,
+    "size": 5,
+    "miny": 1,
+    "maxy": 254
+  },
+  {
+    "ore": "metallurgy:zinc_ore",
+    "oremeta": -1,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 30,
+    "size": 8,
+    "miny": 1,
+    "maxy": 254
+  },
+  {
+    "ore": "metallurgy:orichalcum_ore",
+    "oremeta": -1,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 20,
+    "size": 6,
+    "miny": 1,
+    "maxy": 254
+  },
+  {
+    "ore": "metallurgy:astral_silver_ore",
+    "oremeta": -1,
+    "source": "aether_legacy:holystone",
+    "srcmeta": 0,
+    "veins": 10,
+    "size": 6,
+    "miny": 1,
+    "maxy": 254
+  },
+  {
+    "ore": "metallurgy:silver_ore",
+    "oremeta": -1,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 20,
+    "size": 8,
+    "miny": 1,
+    "maxy": 254
+  },
+  {
+    "ore": "metallurgy:platinum_ore",
+    "oremeta": -1,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 10,
+    "size": 4,
+    "miny": 1,
+    "maxy": 254
+  },
+  {
+    "ore": "metallurgy:lutetium_ore",
+    "oremeta": -1,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 10,
+    "size": 4,
+    "miny": 1,
+    "maxy": 254
+  },
+  {
+    "ore": "metallurgy:osmium_ore",
+    "oremeta": -1,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 20,
+    "size": 6,
+    "miny": 1,
+    "maxy": 254
+  },
+  {
+    "ore": "metallurgy:sulfur_ore",
+    "oremeta": -1,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 20,
+    "size": 6,
+    "miny": 1,
+    "maxy": 254
+  },
+  {
+    "ore": "metallurgy:phosphorite_ore",
+    "oremeta": -1,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 20,
+    "size": 5,
+    "miny": 1,
+    "maxy": 254
+  },
+  {
+    "ore": "metallurgy:potash_ore",
+    "oremeta": -1,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 30,
+    "size": 7,
+    "miny": 1,
+    "maxy": 254
+  },
+  {
+    "ore": "metallurgy:ignatius_ore",
+    "oremeta": -1,
+    "source": "minecraft:netherrack",
+    "srcmeta": 0,
+    "veins": 30,
+    "size": 10,
+    "miny": 1,
+    "maxy": 254
+  },
+  {
+    "ore": "metallurgy:shadow_iron_ore",
+    "oremeta": -1,
+    "source": "minecraft:netherrack",
+    "srcmeta": 0,
+    "veins": 30,
+    "size": 6,
+    "miny": 1,
+    "maxy": 254
+  },
+  {
+    "ore": "metallurgy:lemurite_ore",
+    "oremeta": -1,
+    "source": "minecraft:netherrack",
+    "srcmeta": 0,
+    "veins": 30,
+    "size": 7,
+    "miny": 1,
+    "maxy": 254
+  },
+  {
+    "ore": "metallurgy:midasium_ore",
+    "oremeta": -1,
+    "source": "minecraft:netherrack",
+    "srcmeta": 0,
+    "veins": 20,
+    "size": 6,
+    "miny": 1,
+    "maxy": 254
+  },
+  {
+    "ore": "metallurgy:vyroxeres_ore",
+    "oremeta": -1,
+    "source": "minecraft:netherrack",
+    "srcmeta": 0,
+    "veins": 20,
+    "size": 5,
+    "miny": 1,
+    "maxy": 254
+  },
+  {
+    "ore": "metallurgy:ceruclase_ore",
+    "oremeta": -1,
+    "source": "minecraft:netherrack",
+    "srcmeta": 0,
+    "veins": 10,
+    "size": 5,
+    "miny": 1,
+    "maxy": 254
+  },
+  {
+    "ore": "metallurgy:alduorite_ore",
+    "oremeta": -1,
+    "source": "minecraft:netherrack",
+    "srcmeta": 0,
+    "veins": 20,
+    "size": 4,
+    "miny": 1,
+    "maxy": 254
+  },
+  {
+    "ore": "metallurgy:kalendrite_ore",
+    "oremeta": -1,
+    "source": "minecraft:netherrack",
+    "srcmeta": 0,
+    "veins": 20,
+    "size": 5,
+    "miny": 1,
+    "maxy": 254
+  },
+  {
+    "ore": "metallurgy:vulcanite_ore",
+    "oremeta": -1,
+    "source": "minecraft:netherrack",
+    "srcmeta": 0,
+    "veins": 20,
+    "size": 5,
+    "miny": 1,
+    "maxy": 254
+  },
+  {
+    "ore": "metallurgy:sanguinite_ore",
+    "oremeta": -1,
+    "source": "minecraft:netherrack",
+    "srcmeta": 0,
+    "veins": 10,
+    "size": 4,
+    "miny": 1,
+    "maxy": 254
+  },
+  {
+    "ore": "metallurgy:eximite_ore",
+    "oremeta": -1,
+    "source": "minecraft:end_stone",
+    "srcmeta": 0,
+    "veins": 30,
+    "size": 7,
+    "miny": 1,
+    "maxy": 254
+  },
+  {
+    "ore": "metallurgy:meutoite_ore",
+    "oremeta": -1,
+    "source": "minecraft:end_stone",
+    "srcmeta": 0,
+    "veins": 30,
+    "size": 7,
+    "miny": 1,
+    "maxy": 254
+  },
+  {
+    "ore": "aether_legacy:ambrosium_ore",
+    "oremeta": 0,
+    "source": "aether_legacy:holystone",
+    "srcmeta": 0,
+    "veins": 72,
+    "size": 24,
+    "miny": 1,
+    "maxy": 254
+  },
+  {
+    "ore": "aether_legacy:zanite_ore",
+    "oremeta": 0,
+    "source": "aether_legacy:holystone",
+    "srcmeta": 0,
+    "veins": 56,
+    "size": 24,
+    "miny": 1,
+    "maxy": 254
+  },
+  {
+    "ore": "aether_legacy:gravitite_ore",
+    "oremeta": 0,
+    "source": "aether_legacy:holystone",
+    "srcmeta": 0,
+    "veins": 16,
+    "size": 16,
+    "miny": 1,
+    "maxy": 254
   }
 ]

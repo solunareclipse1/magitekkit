@@ -3,13 +3,116 @@
 		"atlarus": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "metallurgy:atlarus_ore",
-				"material": "magma",
-				"cluster-size": 1
+				"type": "geode",
+				"block": [
+					{
+						"name": "magma"
+					},
+					{
+						"name": "magma"
+					},
+					{
+						"name": "magma"
+					},
+					{
+						"name": "magma"
+					},
+					{
+						"name": "magma"
+					},
+					{
+						"name": "quark:basalt",
+						"properties": {
+							"variant": "stone_basalt"
+						}
+					},
+					{
+						"name": "quark:basalt",
+						"properties": {
+							"variant": "stone_basalt"
+						}
+					},
+					{
+						"name": "quark:basalt",
+						"properties": {
+							"variant": "stone_basalt"
+						}
+					},
+					{
+						"name": "quark:basalt",
+						"properties": {
+							"variant": "stone_basalt"
+						}
+					},
+					{
+						"name": "quark:basalt",
+						"properties": {
+							"variant": "stone_basalt"
+						}
+					},
+					{
+						"name": "quark:basalt",
+						"properties": {
+							"variant": "stone_basalt"
+						}
+					},
+					{
+						"name": "quark:basalt",
+						"properties": {
+							"variant": "stone_basalt"
+						}
+					},
+					{
+						"name": "quark:basalt",
+						"properties": {
+							"variant": "stone_basalt"
+						}
+					},
+					{
+						"name": "quark:basalt",
+						"properties": {
+							"variant": "stone_basalt"
+						}
+					},
+					{
+						"name": "quark:basalt",
+						"properties": {
+							"variant": "stone_basalt"
+						}
+					},
+					{
+						"name": "quark:basalt",
+						"properties": {
+							"variant": "stone_basalt"
+						}
+					},
+					{
+						"name": "quark:basalt",
+						"properties": {
+							"variant": "stone_basalt"
+						}
+					},
+					{
+						"name": "quark:basalt",
+						"properties": {
+							"variant": "stone_basalt"
+						}
+					},
+					{
+						"name": "metallurgy:atlarus_ore"
+					}
+				],
+				"material": "netherrack",
+				"crust": {
+					"name": "quark:biome_cobblestone",
+					"properties": {
+						"variant": "fire_stone"
+					}
+				}
 			},
-			"cluster-count": 200,
-			"min-height": 0,
-			"max-height": 128,
+			"cluster-count": 3,
+			"min-height": 1,
+			"max-height": 127,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {

@@ -1,4 +1,83 @@
 {
 	"populate": {
+		"deadrock-livingrock-carmot-spike": {
+			"distribution": "cave",
+			"ceiling": true,
+			"ground-level": 250,
+			"generator": {
+				"type": "sequential",
+				"generators": [
+					{
+						"type": "plate",
+						"block": "twilightforest:deadrock",
+						"radius": 11,
+						"material": []
+					},
+					{
+						"type": "stalactite",
+						"min-height": 20,
+						"height-variance": 30,
+						"block": {
+							"name": "twilightforest:deadrock",
+							"properties": {
+								"variant": "cracked"
+							}
+						},
+						"gen-body": [],
+						"material": "twilightforest:deadrock",
+						"smooth": true,
+						"alt-sinc": true
+					},
+					{
+						"type": "boulder",
+						"material": "twilightforest:deadrock",
+						"block": {
+							"name": "twilightforest:deadrock",
+							"properties": {
+								"variant": "solid"
+							}
+						},
+						"diameter": 3,
+						"size-variance": 2,
+						"count": 1
+					},
+					{
+						"type": "boulder",
+						"material": {
+							"name": "twilightforest:deadrock",
+							"properties": {
+								"variant": "solid"
+							}
+						},
+						"block": [
+							{
+								"name": "botania:livingrock",
+								"properties": {
+									"variant": "default"
+								},
+								"weight": 95
+							},
+							{
+								"name": "metallurgy:carmot_ore",
+								"weight": 5
+							}
+						],
+						"diameter": 1,
+						"size-variance": 2,
+						"count": 1
+					}
+				]
+			},
+			"cluster-count": 1,
+			"chunk-chance": 256,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		}
 	}
 }
