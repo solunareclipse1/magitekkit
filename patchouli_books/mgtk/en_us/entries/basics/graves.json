@@ -1,0 +1,17 @@
+{
+    "name": "'Til Death Do Us Part",
+    "icon": "minecraft:skull",
+    "category": "patchouli:basics",
+    "advancement": "triumph:patchouli-backend/graves",
+    "pages": [
+        {
+            "type": "text",
+            "text": "In some worlds, death is known to be rather punishing, with all your possesions dropping onto the floor, vulnerable to theft or damage. This is not the case here."
+        },
+        {
+            "type": "spotlight",
+            "item": "minecraft:skull",
+            "text": "Should you take fatal damage and be forced to respawn, all of your items will be stored safely within a totem. To retrieve them, simply attack the totem It is unknown where these strange totems come from, some believe it to be divine intervention, others blame it on something they call 'game design', whatever that means."
+        }
+    ]
+}

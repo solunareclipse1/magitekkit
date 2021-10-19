@@ -1,0 +1,21 @@
+{
+    "name": "It's Getting Hot in Here!",
+    "icon": "minecraft:obsidian",
+    "category": "patchouli:dimensions",
+    "advancement": "minecraft:story/enter_the_nether",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The Nether is a horrible place. It is swelteringly hot dimension, with a sizeable number of unique ores, and of course, things that want to kill you."
+        },
+        {
+            "type": "spotlight",
+            "item": "metallurgy:atlarus_ore",
+            "text": "Atlarus geodes form under the extreme temperature and pressure at the bottom of the nether. These geodes are encased in brimstone, and also contain large amounts of basalt and magma."
+        },
+        {
+            "type": "text",
+            "text": "Everything else about the Nether is well documented in other places, so this book will not be going over anything else about the dimension."
+        }
+    ]
+}

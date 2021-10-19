@@ -1,0 +1,36 @@
+{
+    "name": "Getting Started",
+    "icon": "retroexchange:transmutation_shard",
+    "category": "patchouli:alchemy",
+    "priority": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "So you want to be a powerful alchemist? The road to get there is not easy, requiring you to dabble in all things arcane, but there are a few things you can do now that will make life easier later on."
+        },
+        {
+            "type": "spotlight",
+            "item": "retroexchange:transmutation_shard",
+            "text": "The first thing you'll want to do is get your hand on some Potent Shards. These are an uncommon drop from enemies, and you'll need a fair few of them."
+        },
+        {
+            "type": "spotlight",
+            "item": "contenttweaker:alchemical_glowstone",
+            "text": "Once you have some shards, make 1 or more Alchemical Glowstone. Once you've done that, place it in the world and right click it with some Salis Mundus. This will create a Crude Energy Collector."
+        },
+        {
+            "type": "spotlight",
+            "item": "projecte:collector_mk1",
+            "text": "This object sifts EMC from the air, sun, and earth, and stores it within itself for later use. Placing certain items into the device will cause them to absorb EMC from its internal buffer, slowly turning into something else. Consult JEI for more information."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:badPhilo",
+            "text": "Work your way up the chain of items until you reach the top, a block of Aeternalis Fuel. You could burn this as fuel for something like a furnace, but creating a Stone of Transmutation would be a much better investment."
+        },
+        {
+            "type": "text",
+            "text": "This item can do quite a few different things on its own, too many to list in this book. In general, it will exchange items for other items of the same value. Use JEI to see exactly what items are compatible. Note that it can only perform 1500 operations before being destroyed, so it would be best to use it sparingly."
+        }
+    ]
+}

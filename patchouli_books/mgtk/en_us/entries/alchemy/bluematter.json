@@ -1,0 +1,31 @@
+{
+    "name": "Blue Matter",
+    "icon": "equivadditions:blue_matter",
+    "category": "patchouli:alchemy",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Red Matter is good and all, but if you want even more power, Blue Matter is the stuff you're looking for."
+        },
+        {
+            "type": "spotlight",
+            "item": "equivadditions:blue_matter",
+            "text": "Blue Matter takes the already great Red Matter and turns it up to 11. Created by using a large amount of mana to forcefully bind Red Matter with certain other materials, you'd be hard pressed to find anything better than it."
+        },
+        {
+            "type": "spotlight",
+            "item": "projecte:item.pe_rm_morning_star",
+            "text": "Blue Matter can be used to upgrade your Red Matter tools even further beyond! It also condenses multiple tools into 1 single item, saving on space."
+        },
+        {
+            "type": "spotlight",
+            "item": "projecte:item.pe_gem_armor_2",
+            "text": "As you might have expected, Blue Matter can be used to upgrade armor as well. The damage reduction is still 90%, but you get a plethora of useful abilities, the main one being the ability to fly, for free, with no limits."
+        },
+        {
+            "type": "spotlight",
+            "item": "projectex:collector:7",
+            "text": "Blue Matter, like the other 2 matters before it, can once again be used to upgrade your collectors and relays. This provides yet another 4x boost to all their stats."
+        }
+    ]
+}

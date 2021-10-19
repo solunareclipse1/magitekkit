@@ -1,0 +1,27 @@
+{
+    "name": "The Hostile Paradise",
+    "icon": "minecraft:glowstone",
+    "category": "patchouli:dimensions",
+    "advancement": "aether_legacy:enter_aether",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The Aether is the sister dimension to the Nether. It resides far above the clouds, completely unreachable from below, save for a portal constructed from glowstone, and activated with water. The dimension is composed of many floating islands of varying shapes and sizes, as well as clouds and 3 different types of dungeon."
+        },
+        {
+            "type": "spotlight",
+            "item": "metallurgy:astral_silver_ore",
+            "text": "The Aether also contains an assortment of materials native to it, one of which is astral silver. This metal forms from exposure to the night sky at high altitudes, and seems to hold some mystical power. Perhaps there could be a way to harness it?"
+        },
+        {
+            "type": "spotlight",
+            "item": "metallurgy:adamantine_ore",
+            "text": "Adamantine is a rather strong, and rather rare, metal that is formed from the curious reaction between the cold Aether air and veins of marble. The marble absorbs some of the chilling aura, freezing the holystone. It then slowly expends this coldness to create a 'geode' of icestone and adamantine."
+        },
+        {
+            "type": "spotlight",
+            "item": "aether_legacy:lore_book",
+            "text": "There are other materials to be found in the Aether, but they are covered in the Book of Lore, so they will not be covered here."
+        }
+    ]
+}

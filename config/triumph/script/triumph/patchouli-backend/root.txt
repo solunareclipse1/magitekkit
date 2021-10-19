@@ -1,0 +1,8 @@
+setTitle("patchouli-backend")
+setDescription("backend advancements. should be invisible during normal play.")
+addCriteria("location", "minecraft:location")
+setAnnounceToChat(false)
+setShowToast(false)
+setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")
+setIcon(<minecraft:bedrock>)
+setPos(0,0)

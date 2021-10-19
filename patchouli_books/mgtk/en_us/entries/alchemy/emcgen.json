@@ -1,0 +1,70 @@
+{
+    "name": "Passive EMC Generation",
+    "icon": "projectex:power_flower:15",
+    "category": "patchouli:alchemy",
+    "pages": [
+        {
+            "type": "text",
+            "text": "One cannot perform higher level transmutation without EMC, but where does one get that EMC? The simplest way is to use Energy Collectors, Relays, and Power Flowers."
+        },
+        {
+            "type": "spotlight",
+            "item": "projectex:collector",
+            "text": "You should already be familiar with the Crude Energy Collector, but that thing pales in comparison to a REAL energy collector. Generating more than 10x the EMC of the crude one came with the cost of having to remove the upgrading functionality, but that is a small price to pay."
+        },
+        {
+            "type": "spotlight",
+            "item": "projectex:relay",
+            "text": "An EMC Relay acts similar to an EMC Conduit, but it adds some bonus EMC generation to any attatched energy collectors, and they cannot be chained together. Combine this with energy collectors and you can build what is called a power flower."
+        },
+        {
+            "type": "multiblock",
+            "name": "Power Flower",
+            "multiblock": {
+                "mapping": {
+                    "C": "projectex:collector",
+                    "R": "projectex:relay",
+                    "0": "projectex:collector"
+                },
+                "pattern": [
+                    [
+                        "     ",
+                        "     ",
+                        "  C  ",
+                        "     ",
+                        "     "
+                    ],
+                    [
+                        "     ",
+                        "  C  ",
+                        " CRC ",
+                        "  C  ",
+                        "     "
+                    ],
+                    [
+                        "  C  ",
+                        " CRC ",
+                        "CR RC",
+                        " CRC ",
+                        "  C  "
+                    ], 
+                    [
+                        "     ",
+                        "  C  ",
+                        " CRC ",
+                        "  C  ",
+                        "     "
+                    ], 
+                    [
+                        "     ",
+                        "     ",
+                        "  0  ",
+                        "     ",
+                        "     "
+                    ]
+                ]
+            },
+            "text": "A basic power flower setup. Objects that accept EMC can be placed in the middle."
+        }
+    ]
+}

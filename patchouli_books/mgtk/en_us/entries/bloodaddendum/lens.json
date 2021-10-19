@@ -1,0 +1,16 @@
+{
+    "name": "I can see forever",
+    "icon": "randomthings:spectrelens",
+    "category": "patchouli:bloodaddendum",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The beacon is a strange device. It channels the mystical energies of a Nether Star to apply an effect to things near it. Combining this with some soul magic, and red string, perhaps one can channel this effect to be on them, even when out of its normal range?"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:lens",
+            "text": "The Soulforged Beacon Link, when placed, will attatch itself to the soul of the one who placed it using red string magic. Place it on top of a beacon, and you will recieve the beacon effect from anywhere, so long as the beacon is loaded and active."
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "The Land of Eternal Twilight",
+    "icon": "twilightforest:miniature_structure",
+    "category": "patchouli:dimensions",
+    "advancement": "twilightforest:root",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The Twilight Forest is an interesting place. It is something of an alternative version of the Overworld, but it is very different in a lot of ways."
+        },
+        {
+            "type": "spotlight",
+            "item": "metallurgy:orichalcum_ore",
+            "text": "There is far more variation in terms of ores here, including most (if not all) the materials the Overworld has, along with a healthy amount of new ones."
+        },
+        {
+            "type": "text",
+            "text": "The rest of the information on this place is documented within the Traveller's Logbook. It is reccomended you read that for more information on the dimension."
+        }
+    ]
+}

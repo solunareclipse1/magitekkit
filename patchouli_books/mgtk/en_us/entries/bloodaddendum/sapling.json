@@ -1,0 +1,21 @@
+{
+    "name": "Lore of Axing",
+    "icon": "randomthings:spectresapling",
+    "category": "patchouli:bloodaddendum",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Right clicking on most species of sapling with a Raw Soul will transform it, turning it transparent and with a blue color scheme. Listening closely enough, one might be able to hear whispers coming from the young plant."
+        },
+        {
+            "type": "spotlight",
+            "item": "randomthings:spectresapling",
+            "text": "The plant slowly absorbs souls from small organisms in the soil it is planted upon, using light energy to do so. If allowed to mature, this plant will grow into a tree with transparent wood and leaves. The leaves have an interesting property, sometimes dropping ectoplasm, and less commonly, Raw Souls."
+        },
+        {
+            "type": "spotlight",
+            "item": "bewitchment:ectoplasm",
+            "text": "The saplings are rather unstable, attempting to pick one up will cause it to morph into significantly less valuable ectoplasm."
+        }
+    ]
+}

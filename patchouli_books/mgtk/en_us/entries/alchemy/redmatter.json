@@ -1,0 +1,31 @@
+{
+    "name": "Red Matter",
+    "icon": "projecte:item.pe_matter:1",
+    "category": "patchouli:alchemy",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Dark Matter, for whatever reason, acts like a sponge for LP. Allowing a cube of pure dark matter to soak in a blood altar long enough will transform it into something much more powerful."
+        },
+        {
+            "type": "spotlight",
+            "item": "projecte:item.pe_matter:1",
+            "text": "Red Matter is, in many ways, similar to dark matter. The key difference is Red Matter is better in every single way, with the exception of cost. It is lighter, more durable, more powerful, more malleable, you get the idea."
+        },
+        {
+            "type": "spotlight",
+            "item": "projecte:item.pe_rm_pick",
+            "text": "Dark Matter tools can be upgraded using Red Matter to further increase their power. This upgrade increases damage, aoe, mining speed, and more. The tools themselves work pretty much exactly how they used to."
+        },
+        {
+            "type": "spotlight",
+            "item": "projecte:item.pe_rm_armor_2",
+            "text": "Dark Matter armor can also be upgraded, increasing the damage reduction to 90%."
+        },
+        {
+            "type": "spotlight",
+            "item": "projectex:collector:2",
+            "text": "Red Matter can further upgrade your Dark Matter collectors and relays, providing a 4x boost to them."
+        }
+    ]
+}

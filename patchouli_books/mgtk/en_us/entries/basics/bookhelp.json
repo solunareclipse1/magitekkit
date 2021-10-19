@@ -1,0 +1,25 @@
+{
+    "name": "Book: For Dummies",
+    "icon": "akashictome:tome",
+    "category": "patchouli:basics",
+    "pages": [
+        {
+            "type": "text",
+            "text": "This book has a few key features that you should definately know about."
+        },
+        {
+            "type": "spotlight",
+            "item": "akashictome:tome",
+            "text": "First and foremost, punching the air while holding this book will transform it into a different book. Right clicking with this new book will allow you to choose from several guide books, including this one! Any information or items you store in any of the books will be kept, so don't worry about losing items."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:bigGuideBook",
+            "text": "Secondly, if you happen to misplace this book, you can simply craft another one using a piece of dirt. This is a fresh copy of the book, meaning you will have to replace any items or information stored in the previous book manually."
+        },
+        {
+            "type": "text",
+            "text": "Lastly, you can combine this book with pretty much any other book or guide to add it to the list. You can remove any book at any time by selecting it, crouching, and pressing your drop item key."
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "The End of All Things",
+    "icon": "minecraft:ender_eye",
+    "category": "patchouli:dimensions",
+    "advancement": "minecraft:story/enter_the_end",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The End is... Honestly, nobody knows for sure. What is known is that a dragon guards the only way out. Take out her healing crystals, then slay her to gain passage back to the Overworld."
+        },
+        {
+            "type": "spotlight",
+            "item": "draconicevolution:draconium_ore:2",
+            "text": "The End is the ONLY place to find Draconium Ore. It cannot be found anywhere else. Everything else about this dimension is well documented elsewhere."
+        }
+    ]
+}

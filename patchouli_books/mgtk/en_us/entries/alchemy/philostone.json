@@ -1,0 +1,25 @@
+{
+    "name": "The Philosopher's Stone",
+    "icon": "projecte:item.pe_philosophers_stone",
+    "category": "patchouli:alchemy",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Likely one of the most powerful objects able to be created by mortals, the Philosopher's Stone allows transmutation using EMC, the most pure form of magical energy. On it's own it is a little impractical, but maybe you could further unlock its potential in some way..."
+        },
+        {
+            "type": "spotlight",
+            "item": "projecte:item.pe_philosophers_stone",
+            "text": "The Stone is incredibly powerful, but with that power comes great cost. Requiring some of the most powerful magical objects one could even think of, along with a crazy amount of essentia, 250 of each type, in a highly unstable infusion recipe, creating the Stone is not for the faint of heart."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:deepLore",
+            "text": "The Stone is highly complex, so complex that there is no known way of synthesizing one using EMC, as any attempt to do so results in the stone consuming itself to fuel the process."
+        },
+        {
+            "type": "text",
+            "text": "This means every time you need to make one, you will have to go through the arduous crafting process for it again. Unfortunate, but unavoidable."
+        }
+    ]
+}

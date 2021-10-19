@@ -1,0 +1,31 @@
+{
+    "name": "Dark Matter",
+    "icon": "projecte:item.pe_matter",
+    "category": "patchouli:alchemy",
+    "pages": [
+        {
+            "type": "text",
+            "text": "If your looking for a strong material, look no further than Dark Matter. It is incredibly heavy, nigh indestructible, and contains a massive amount of magical energy."
+        },
+        {
+            "type": "spotlight",
+            "item": "projecte:item.pe_matter",
+            "text": "Dark Matter is not cheap by any means. The process to create even a single piece of it is extremely unstable, and very expensive. Once youve made one though, making more should be rather trivial, as you can simply transmute it."
+        },
+        {
+            "type": "spotlight",
+            "item": "projecte:item.pe_dm_pick",
+            "text": "Dark Matter can be shaped into tools, all of them unbreakable. Many of these tools have special abilities that can be used by right clicking or pressing certain keys. They can also be charged by drawing EMC from its surroundings to further increase their power."
+        },
+        {
+            "type": "spotlight",
+            "item": "projecte:item.pe_dm_armor_2",
+            "text": "Dark Matter can also serve as a rather strong set of armor. It reduces incoming damage by 80% and is completely indestructible."
+        },
+        {
+            "type": "spotlight",
+            "item": "projectex:collector:1",
+            "text": "Dark Matter, being highly conductive of EMC, serves as a great way to power up your collectors and relays. This upgrade multiplies all of their stats by a factor of four."
+        }
+    ]
+}

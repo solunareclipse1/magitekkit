@@ -1,0 +1,26 @@
+{
+    "name": "Ignoring the Screams",
+    "icon": "contenttweaker:soulic_compound",
+    "category": "patchouli:bloodaddendum",
+    "pages": [
+        {
+            "type": "text",
+            "text": "If you were to somehow get a soul in a 'physical' form, it would be rather malleable. With enough magical energies, one might be able to shape it as they see fit. Unfortunately, working with souls tends to be rather difficult. Souls naturally want to vanish into nothingness, escaping to an unknown location. The more energy one puts into them, the more likely this is to happen."
+        },
+        {
+            "type": "spotlight",
+            "item": "contenttweaker:untamed_soulium",
+            "text": "Thankfully, the souls of sentient beings seems to be the answer. Untamed Soulium is a material that doesn't have too many uses, at least in this state. It is created by dissolving a soul in a blood altar. The LP fuses with the soul, mixing and clumping together to create an unholy amalgam."
+        },
+        {
+            "type": "spotlight",
+            "item": "contenttweaker:soul_powder",
+            "text": "Using demonic power to bind the compound to a mixture of magical ashes, one can sterilize the soul, purging it of its individuality, but keeping its power. On its own, this powder doesn't do much, though giving it something to inhabit might remedy that."
+        },
+        {
+            "type": "spotlight",
+            "item": "randomthings:ingredient:3",
+            "text": "Combining the strange soulbinding power of Amordrine with the powder using an alchemy circle, one can perfectly bind the two together. Its properties are astounding, having something akin to omnipresence, as well as being rather durable, malleable, and, quite strangely, almost alive..."
+        }
+    ]
+}

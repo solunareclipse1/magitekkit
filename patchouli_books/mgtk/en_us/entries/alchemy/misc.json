@@ -1,0 +1,115 @@
+{
+    "name": "Miscellaneous",
+    "icon": "projecte:item.pe_ring_iron_band",
+    "category": "patchouli:alchemy",
+    "pages": [
+        {
+            "type": "text",
+            "text": "This section is dedicated to things that dont really need their own section, but are still worth mentioning. They aren't in any particular order."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:swrg",
+            "text": "Combining the extreme weight of Dark Matter with the repellant properties of an interdiction torch allows you to fly at the cost of EMC. EMC must be provided by a Klein Star."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:dmMagnet",
+            "text": "The Black Hole Band acts like a magnet for items, pulling them in while it is active."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:mercEye",
+            "text": "The Mercurial Eye is basically a builders wand fueled by EMC. It has multiple modes, and requires a Klein Star and a focus item to be put into it for it to function."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:peBomb1",
+            "recipe2": "crafttweaker:peBomb2"
+        },
+        {
+            "type": "text",
+            "text": "EMC, by its very nature, is extremely energetic. You might be imagining what would happen if you were to use this energy in a destructive fasion, but why imagine? Using EMC infused fuel and combining it with some mundane explosives, one can create bombs with massive destructive potential. What kind of damage this could possibly be doing to the local energies is unknown, but it cannot be pretty."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:tunnelBore",
+            "text": "Right clicking on a block with the Destruction Catalyst will use EMC from Klein Stars in your inventory to dig a 3x3 hole. It can be charged to increase the distance dug."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:bombLens",
+            "text": "The Hyperkinetic Lens will, using EMC from a Klein Star, fire a projectile that will explode upon hitting a block or entity. The explosion does no damage to creatures, but does large damage to blocks. The explosion can be powered up by charging the item."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:tunnelLens",
+            "text": "Using Blue Matter, you can not only combine the previous 2 items, but also amplify their effects. Right click functions like the Catalyst, and the Fire Projectile button functions like the Lens."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:constBreak",
+            "text": "Covering the head of the Blue Matter Morningstar in low covalence dust allows you much more fine tuned control over its energy output, lending more towards precision than speed. This allows configurable mining speed, at the cost of AOE and insta-mining."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:arrowRing",
+            "text": "The Archangel's Smite is a powerful ranged weapon. Right clicking will fire a homing arrow, left clicking will fire a burst, and pressing the Change Mode key will make the item start firing a constant stream. Each arrow summoned will consume 14 EMC from Stars."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ringGreen",
+            "text": "This item, when held or worn, will speed up growth of nearby plants. Pressing the Change Mode key will make it break all nearby plants."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ringFire",
+            "text": "The Ring of Ignition has the ability to create fire. Pressing the Fire Projectile key will hurl a flame that sets blocks ablaze upon impact. Pressing the Change Mode key will burn your surroundings, slowly draining EMC from Klein Stars."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ringIce",
+            "text": "The Zero Ring has the power to create snow and ice. Right clicking will freeze your surroundings. Pressing the Change Mode key will slowly freeze your surroundings."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:waterAmulet",
+            "text": "The Evertide Amulet acts as an infinite water bucket, and can fire a projectile that places a water source on impact. It also allows you to walk on water and will save you from drowning while worn."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:fireAmulet",
+            "text": "The Volcanite Amulet acts as an infinite lava bucket, pulling 32 EMC from Klein Stars to create lava. It can also fire a lava projectile to place it at a distance. Wearing it will save you from fire and lava."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:healerStone",
+            "text": "The Soul Stone will heal you while active, pulling EMC from Klein Stars to do so. Activate it using the Change Mode key."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:feederStone",
+            "text": "The Body Stone will feed you while active, pulling EMC from Klein Stars to do so. Activate it using the Change Mode key."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:godStone",
+            "text": "The Life Stone will heal and feed you while active, pulling emc from Klein Stars to do so. Activate it using the Change Mode key."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:repairTalisman",
+            "text": "The Talisman of Repair will repair most items in your inventory at a rate of 1 durability per second."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:interTorch",
+            "text": "The Interdiction Torch will push all projectiles and hostile mobs away from it."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:WoFT",
+            "text": "The Watch of Flowing Time is extremely useful, and extremely expensive. It allows you to change the time of day for free, and also will speed up nearby blocks and slow down mobs when placed on an active pedestal."
+        }
+    ]
+}

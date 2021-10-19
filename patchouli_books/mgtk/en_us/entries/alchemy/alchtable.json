@@ -1,0 +1,26 @@
+{
+    "name": "Alchemy Table",
+    "icon": "projectex:alchemy_table",
+    "category": "patchouli:alchemy",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The alchemy table allows you to transmute certain items into certain other ones, but the cost to transmute is more than the cost of the output. Even so, it still has its uses."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:alchemTable",
+            "text": "The device itself is rather... crude... but it gets the job done. It is created by merging a Philosopher's Stone into a mock arcane infusion setup. The table itself is fed EMC through collectors and relays."
+        },
+        {
+            "type": "spotlight",
+            "item": "projecte:item.pe_covalence_dust",
+            "text": "Covalence Dust is about as close as one can get to a physical form of EMC. One would think something like this would be extremely useful, but much of what makes EMC so powerful simply does not translate well to physical matter."
+        },
+        {
+            "type": "spotlight",
+            "item": "projecte:item.pe_covalence_dust:2",
+            "text": "Fortunately, Covalence Dust can be improved using the alchemy table to infuse EMC into it. This process is not cheap, but the final product is far more useful than its predecessor."
+        }
+    ]
+}

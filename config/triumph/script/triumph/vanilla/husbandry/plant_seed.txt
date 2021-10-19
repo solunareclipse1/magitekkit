@@ -20,3 +20,4 @@ criteria = addCriteria("nether_wart", "minecraft:placed_block")
 criteria.setBlock("minecraft:nether_wart")
 
 setRequirements("any")
+setPos(32,12)

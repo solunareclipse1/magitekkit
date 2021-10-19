@@ -1,0 +1,276 @@
+{
+    "name": "Mineable Minerals",
+    "icon": "minecraft:gold_ore",
+    "category": "patchouli:basics",
+    "pages": [
+        {
+            "type": "text",
+            "text": "This realm is known for having a rich abundance of different minerals. This entry documents all of them, their mining level (what tier ores their respective pickaxe can mine), and any special uses they may have."
+        },
+        {
+            "type": "spotlight",
+            "item": "minecraft:gold_ore",
+            "text": "Gold is often sought after for its high value, but is also conductive and malleable.$(br) $(br)Location: The Overworld$(br)Mining level: 0"
+        },
+        {
+            "type": "spotlight",
+            "item": "minecraft:iron_ore",
+            "text": "Common, versatile, reliable.$(br) $(br)Location: The Overworld$(br)Mining level: 2"
+        },
+        {
+            "type": "spotlight",
+            "item": "minecraft:coal_ore",
+            "text": "Coal is a very common burnable fuel source. Helpful!$(br) $(br)Location: The Overworld$(br)Mining level: N/A"
+        },
+        {
+            "type": "spotlight",
+            "item": "minecraft:lapis_ore",
+            "text": "Lapis lazuli is useful as a dye, and also for enchanting.$(br) $(br)Location: The Overworld$(br)Mining level: N/A"
+        },
+        {
+            "type": "spotlight",
+            "item": "minecraft:diamond_ore",
+            "text": "Diamond... Rare, strong, durable, and iconic!$(br) $(br)Location: The Overworld$(br)Mining level level: 3"
+        },
+        {
+            "type": "spotlight",
+            "item": "minecraft:redstone_ore",
+            "text": "Redstone is a curious substance. It conducts a strange form of power, which can be used for many simple mechanisms.$(br) $(br)Location: The Overworld$(br)Mining level: N/A"
+        },
+        {
+            "type": "spotlight",
+            "item": "minecraft:emerald_ore",
+            "text": "Emerald is a rare ore found in mountainous areas. It is highly valued by villagers.$(br) $(br)Location: The Overworld$(br)Mining level: N/A"
+        },
+        {
+            "type": "spotlight",
+            "item": "minecraft:quartz_ore",
+            "text": "Quartz is found abundantly in the Nether. It is useful for decoration, and can be smelted into silicon.$(br) $(br)Location: The Nether$(br)Mining level: N/A"
+        },
+        {
+            "type": "spotlight",
+            "item": "astralsorcery:blockcustomore:0",
+            "text": "Rock Crystals are found extremely rarely at very low elevation. It resonates when exposed to the night sky.$(br) $(br)Location: The Overworld$(br)Mining level: 3"
+        },
+        {
+            "type": "spotlight",
+            "item": "contenttweaker:iridium_ore",
+            "text": "Iridium is exceedingly rare in the Overworld, but can be found in larger amounts in the Beneath. Its properties make it incredibly useful for advanced machinery, armor, and tools.$(br) $(br)Location: The Overworld$(br)Mining level: 7"
+        },
+        {
+            "type": "spotlight",
+            "item": "draconicevolution:draconium_ore:2",
+            "text": "Draconium contains extreme latent energy, but harnessing this energy doesn't seem very easy...$(br) $(br)Location: The End$(br)Mining level: 7"
+        },
+        {
+            "type": "spotlight",
+            "item": "forestry:resources:0",
+            "text": "Apatite can be found higher up in the world. It is used to make fertilizer, among other things.$(br) $(br)Location: The Overworld$(br)Mining level: N/A"
+        },
+        {
+            "type": "spotlight",
+            "item": "galacticraftcore:basic_block_core:7",
+            "text": "Aluminum is a fairly common, lightweight metal.$(br) $(br)Location: The Overworld$(br)Mining level: 2"
+        },
+        {
+            "type": "spotlight",
+            "item": "ic2:resource:2",
+            "text": "Lead is an uncommon, very heavy metal. Useful for radiation protection.$(br) $(br)Location: The Overworld$(br)Mining level: 2"
+        },
+        {
+            "type": "spotlight",
+            "item": "ic2:resource:4",
+            "text": "Uranium is fairly rare, used for high end power generation.$(br) $(br)Location: The Overworld$(br)Mining level: N/A"
+        },
+        {
+            "type": "spotlight",
+            "item": "metallurgy:sulfur_ore",
+            "text": "Sulfur is somewhat rare. It is used for batteries, thermite, and ore processing$(br) $(br)Location: The Overworld$(br)Mining level: N/A"
+        },
+        {
+            "type": "spotlight",
+            "item": "metallurgy:potash_ore",
+            "text": "Potash is an uncommon ore used to make thermite.$(br) $(br)Location: The Overworld$(br)Mining level: N/A"
+        },
+        {
+            "type": "spotlight",
+            "item": "metallurgy:phosphorite_ore",
+            "text": "Phosphorite is a rare ore used to make lamps.$(br) $(br)Location: The Overworld$(br)Mining level: N/A"
+        },
+        {
+            "type": "spotlight",
+            "item": "metallurgy:alduorite_ore",
+            "text": "Alduorite is a fairly rare ore.$(br) $(br)Location: The Nether$(br)Mining level: N/A"
+        },
+        {
+            "type": "spotlight",
+            "item": "metallurgy:platinum_ore",
+            "text": "Platinum is a rare ore.$(br) $(br)Location: The Overworld$(br)Mining level: 3"
+        },
+        {
+            "type": "spotlight",
+            "item": "metallurgy:vulcanite_ore",
+            "text": "Vulcanite is a somewhat rare ore.$(br) $(br)Location: The Nether$(br)Mining level: 6"
+        },
+        {
+            "type": "spotlight",
+            "item": "metallurgy:tin_ore",
+            "text": "Tin is a rather common ore. It can be used for low-load power cables.$(br) $(br)Location: Overowlrd$(br)Mining level: N/A"
+        },
+        {
+            "type": "spotlight",
+            "item": "metallurgy:ignatius_ore",
+            "text": "Ignatius is a somewhat common ore.$(br) $(br)Location: The Nether$(br)Mining level: 2"
+        },
+        {
+            "type": "spotlight",
+            "item": "metallurgy:zinc_ore",
+            "text": "Zinc is a common ore. It is mainly used to make brass.$(br) $(br)Location: The Overworld$(br)Mining level: N/A"
+        },
+        {
+            "type": "spotlight",
+            "item": "metallurgy:astral_silver_ore",
+            "text": "Astral Silver is a very rare ore. It can be turned into starmetal using astral magic.$(br) $(br)Location: The Aether$(br)Mining level: 5"
+        },
+        {
+            "type": "spotlight",
+            "item": "metallurgy:lemurite_ore",
+            "text": "Lemurite is a common ore.$(br) $(br)Location: The Nether$(br)Mining level: N/A"
+        },
+        {
+            "type": "spotlight",
+            "item": "metallurgy:sanguinite_ore",
+            "text": "Sanguinite is a rare ore.$(br) $(br)Location: The Nether$(br)Mining level: 7"
+        },
+        {
+            "type": "spotlight",
+            "item": "metallurgy:eximite_ore",
+            "text": "Eximite is found commonly in the outer end.$(br) $(br)Location: The End$(br)Mining level: 7"
+        },
+        {
+            "type": "spotlight",
+            "item": "metallurgy:silver_ore",
+            "text": "Silver is a fairly common, and fairly valuable, metal.$(br) $(br)Location: The Overworld$(br)Mining level: 1"
+        },
+        {
+            "type": "spotlight",
+            "item": "metallurgy:shadow_iron_ore",
+            "text": "Shadow Iron is a common ore.$(br) $(br)Location: The Nether$(br)Mining level: 2"
+        },
+        {
+            "type": "spotlight",
+            "item": "metallurgy:carmot_ore",
+            "text": "Carmot is an exceedingly rare ore. It has extreme magical power, though a way of harnessing it has yet to be found.$(br) $(br)Location: The Beneath$(br)Mining level: 5"
+        },
+        {
+            "type": "spotlight",
+            "item": "metallurgy:mithril_ore",
+            "text": "Mithril is a very rare metal that has many applications in magic.$(br) $(br)Location: The Twilight Forest$(br)Mining level: 5"
+        },
+        {
+            "type": "spotlight",
+            "item": "metallurgy:ceruclase_ore",
+            "text": "Ceruclase is rather rare.$(br) $(br)Location: The Nether$(br)Mining level: 4"
+        },
+        {
+            "type": "spotlight",
+            "item": "metallurgy:deep_iron_ore",
+            "text": "Deep Iron is found commonly in watery areas of the Twilight Forest$(br) $(br)Location: The Twilight Forest$(br)Mining level: 3"
+        },
+        {
+            "type": "spotlight",
+            "item": "metallurgy:kalendrite_ore",
+            "text": "Kalendrite is somewhat rare.$(br) $(br)Location: The Nether$(br)Mining level: 5"
+        },
+        {
+            "type": "spotlight",
+            "item": "metallurgy:manganese_ore",
+            "text": "Manganese is an uncommon metal. It can be used as an alternative way to create steel, though this process is energy-intensive$(br) $(br)Location: The Overworld$(br)Mining level: N/A"
+        },
+        {
+            "type": "spotlight",
+            "item": "metallurgy:prometheum_ore",
+            "text": "Prometheum is found rarely in densely wooded areas of the Twilight Forest.$(br) $(br)Location: The Twilight Forest$(br)Mining level: 2"
+        },
+        {
+            "type": "spotlight",
+            "item": "metallurgy:copper_ore",
+            "text": "Copper is a rather common and very conductive metal, used in cabling and many other electrical devices.$(br) $(br)Location: The Overworld$(br)Mining level: 2"
+        },
+        {
+            "type": "spotlight",
+            "item": "metallurgy:adamantine_ore",
+            "text": "Adamantine is found in rare, large 'geodes' in the Aether, surrounded by permafrost.$(br) $(br)Location: The Aether$(br)Mining level: 7"
+        },
+        {
+            "type": "spotlight",
+            "item": "metallurgy:atlarus_ore",
+            "text": "Atlarus is found in rare, large 'geodes' in the Nether, surrounded by brimstone.$(br) $(br)Location: The Nether$(br)Mining level: 7"
+        },
+        {
+            "type": "spotlight",
+            "item": "metallurgy:vyroxeres_ore",
+            "text": "Vyroxeres is rather uncommon.$(br) $(br)Location: The Nether$(br)Mining level: 4"
+        },
+        {
+            "type": "spotlight",
+            "item": "metallurgy:lutetium_ore",
+            "text": "Lutetium is a rare ore.$(br) $(br)Location: The Overworld$(br)Mining level: N/A"
+        },
+        {
+            "type": "spotlight",
+            "item": "metallurgy:osmium_ore",
+            "text": "Osmium is a fairly common ore. It is strong and fairly durable, and is used in higher-end machine casings.$(br) $(br)Location: The Overworld$(br)Mining level: N/A"
+        },
+        {
+            "type": "spotlight",
+            "item": "metallurgy:oureclase_ore",
+            "text": "Oureclase is a rare ore.$(br) $(br)Location: The Twilight Forest$(br)Mining level: 3"
+        },
+        {
+            "type": "spotlight",
+            "item": "metallurgy:meutoite_ore",
+            "text": "Meutoite is found commonly on the central End island. It has mutative properties, making it useful for genetics equipment.$(br) $(br)Location: The End$(br)Mining level: N/A"
+        },
+        {
+            "type": "spotlight",
+            "item": "metallurgy:orichalcum_ore",
+            "text": "Orichalcum is very rare.$(br) $(br)Location: The Twilight Forest$(br)Mining level: 6"
+        },
+        {
+            "type": "spotlight",
+            "item": "metallurgy:infuscolium_ore",
+            "text": "Infuscolium is somewhat rare.$(br) $(br)Location: The Twilight Forest$(br)Mining level: N/A"
+        },
+        {
+            "type": "spotlight",
+            "item": "metallurgy:midasium_ore",
+            "text": "Midasium is an extremely rare ore. It has mild transmutative properties, able to turn most metals into gold by combining dusts.$(br) $(br)Location: The Nether$(br)Mining level: 4"
+        },
+        {
+            "type": "spotlight",
+            "item": "metallurgy:rubracium_ore",
+            "text": "Rubracium is fairly uncommon. It can be used to make gauntlets, which can be dual-wielded. These gauntlets will stun enemies hit while attacking, and will launch them a distance based on how long they were stunned when you stop attacking!$(br) $(br)Location: The Twilight Forest$(br)Mining level: N/A"
+        },
+        {
+            "type": "spotlight",
+            "item": "thaumcraft:ore_cinnabar",
+            "text": "Cinnabar is an uncommon ore. It has many applications in thaumaturgy.$(br) $(br)Location: The Overworld$(br)Mining level: N/A"
+        },
+        {
+            "type": "spotlight",
+            "item": "aether_legacy:ambrosium_ore",
+            "text": "Ambrosium is found commonly in the Aether. It can be used to heal, and serves as fuel for the enchanter.$(br) $(br)Location: The Aether$(br)Mining level: N/A"
+        },
+        {
+            "type": "spotlight",
+            "item": "aether_legacy:zanite_ore",
+            "text": "Zanite is a curious, uncommon gemstone. Tools and armor constructed from it become faster and stronger as they wear out. Wearing a ring made from it grants faster mining, but it will wear out over time.$(br) $(br)Location: The Aether$(br)Mining level: 2"
+        },
+        {
+            "type": "spotlight",
+            "item": "aether_legacy:gravitite_ore",
+            "text": "Gravitite is rarely found in the Aether. It floats up when there is no block above it. Tools constructed from it can make certain blocks float, and when wearing a full set of the armor (gloves included), you can jump higher.$(br) $(br)Location: The Aether$(br)Mining level: 2"
+        }
+    ]
+}

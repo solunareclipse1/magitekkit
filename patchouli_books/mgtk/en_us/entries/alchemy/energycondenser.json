@@ -1,0 +1,25 @@
+{
+    "name": "Energy Condenser",
+    "icon": "projecte:condenser_mk1",
+    "category": "patchouli:alchemy",
+    "pages": [
+        {
+            "type": "text",
+            "text": "A budding alchemist may find they want to automate something, but find that one of the inputs isnt easy to gather automatically. This is the perfect situation for an Energy Condenser!"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:condenser",
+            "text": "The Energy Condenser, when provided with EMC, will create copies of any item you put into its focus slot. EMC can be provided via conduits, collectors, or relays, or by simply pushing items into the condenser itself."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:portableCondenser",
+            "text": "The Gem of Eternal Density acts like a portable Energy Condenser, but with a couple limitations. The selection of items it can produce is very limited, and it will attempt to consume all items with an EMC value currently in your inventory."
+        },
+        {
+            "type": "text",
+            "text": "There is a blacklist/whitelist, but there are only 9 slots. Deactivating the item while it has EMC stored will cause it to dump all items it has stored inside it into your inventory or on the ground."
+        }
+    ]
+}

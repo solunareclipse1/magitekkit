@@ -1,0 +1,30 @@
+{
+    "name": "Catching the Intangible",
+    "icon": "zensummoning:altar",
+    "category": "patchouli:bloodaddendum",
+    "pages": [
+        {
+            "type": "text",
+            "text": "It is unknown what happens to a soul when it dies. What is known is that they dont vanish completely. They go somewhere, and theoretically, can maybe even be brought back."
+        },
+        {
+            "type": "spotlight",
+            "item": "zensummoning:altar",
+            "text": "Created by sprinkling salis mundus on an Ethereal Capturing Matrix, this device, when supplied with a phial of victus, spiritus, and vinculum essentia, and jumpstarted using Soulic Compound, will try and pull something from... somewhere."
+        },
+        {
+            "type": "text",
+            "text": "Upon inserting all 3 phials using right click, and then activating the device (by either shift right clicking it while holding Soulic Compound, or dropping Soulic Compound on top and powering it with redstone), the phials will rise into the sky, vanishing into nothingness. In their place, something of ethereal nature will appear. The entity that appears seems to be somewhat random, though it should be noted certain things are more common than others."
+        },
+        {
+            "type": "spotlight",
+            "item": "draconicevolution:mob_soul{EntityName: 'randomthings:spirit'}",
+            "text": "One of the more curious beings that can be summoned is known as a Lost Soul. When summoned, they will be perfectly still for a moment, then begin floating aimlessly in random directions. After some time, they will return to their place of origin. They are completely ethereal, unable to be touched by physical matter, so one must use magic to harm them."
+        },
+        {
+            "type": "spotlight",
+            "item": "randomthings:ingredient:2",
+            "text": "Once slain, Lost Souls will drop a small amount of raw souls, usually just one, though if you are lucky you may get 2. As of right now, these seem fairly useless, though it does seem they react with plantlife in a strange way."
+        }
+    ]
+}

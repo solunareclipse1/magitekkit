@@ -1,0 +1,17 @@
+{
+    "name": "Alloys",
+    "icon": "minecraft:skull",
+    "category": "patchouli:basics",
+    "advancement": "triumph:patchouli-backend/graves",
+    "pages": [
+        {
+            "type": "text",
+            "text": "There are some materials in this world that can be combined with others to create alloys. This entry documents some basic information on all of them."
+        },
+        {
+            "type": "spotlight",
+            "item": "minecraft:skull",
+            "text": "Should you take fatal damage and be forced to respawn, all of your items will be stored safely within a totem. To retrieve them, simply attack the totem It is unknown where these strange totems come from, some believe it to be divine intervention, others blame it on something they call 'game design', whatever that means."
+        }
+    ]
+}

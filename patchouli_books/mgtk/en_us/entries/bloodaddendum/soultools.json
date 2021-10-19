@@ -1,0 +1,17 @@
+{
+    "name": "Sharpy",
+    "icon": "randomthings:spectresword{ench: [{lvl: 32767, id: 11}], 'TC.WARP': 10}",
+    "category": "patchouli:bloodaddendum",
+    "advancement": "projecte:dark_matter",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Fasioning tools and weaponry out of the souls of the dead seems rather cruel, unethical, and downright depraved at first, but if you think about it, you are giving these beings a purpose beyond death. That can't be a bad thing, now can it?"
+        },
+        {
+            "type": "spotlight",
+            "item": "randomthings:spectresword{ench: [{lvl: 32767, id: 11}], 'TC.WARP': 10}",
+            "text": "Fashioning a blade from Soulium, with a hilt made from Dark Matter, allows it to easily sever the souls of slain beings from their body with a 100% chance."
+        }
+    ]
+}
