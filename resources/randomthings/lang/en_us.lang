@@ -1,0 +1,37 @@
+tile.spectreBlock.name=Soulspace Wall
+
+tile.spectreCore.name=Soulspace Stabilizer Core
+
+tile.spectreLens.name=Soulforged Beacon Link
+
+item.spectreKey.name=Soulspace Access Key
+
+item.spectreAnchor.name=Soulforged Lock
+
+item.spectreSword.name=Soulforged Blade
+
+item.ingredient.ectoPlasm.name=Raw Soul
+
+item.ingredient.spectreIngot.name=Soulforged Ingot
+
+tooltip.spectreAnchor.item=Soulbound
+
+entity.randomthings.spirit.name=Lost Soul
+
+entity.spirit.name=Lost Soul
+
+tile.spectreBlock.info=This block makes up the edges of Soulspace. It is as strong as bedrock, so trying to get through it will prove futile. Even if you could theoretically go beyond, what would happen to you would likely be unpleasant, to say the least.
+
+tile.spectreCore.info=The Soulspace Stabilizer Core is the sole thing responsible for keeping Soulspace from collapsing in on itself. You can feed it Raw Souls to expand its range of influence upwards.
+
+tile.spectreSapling.info=Created by right clicking a sapling with a Raw Soul. Grows transparent wood, and may drop soul shard, or more rarely, Raw Souls, from it's leaves. The saplings themselves are rather unstable, and will convert into soul shards upon being broken.
+
+tile.spectreLens.info=Using the soul magic of the Soulforged Ingots, this lens, when placed on top of an active beacon, transfer all of its effects to the one who placed it, no matter where they might be, so long as the lens itself is within loaded chunks.
+
+item.spectreKey.info=Combining the unfiltered soul power of Raw Souls with the immense spatial energies within a Spatial Crystal allows you to create an item that can, to put it simply, create a room within your own soul. Holding down right-click while holding this key will transfer your physical body and consciousness into the room. This room, known as Soulspace, is yours and yours alone. Nobody else can access it. It isnt too big, but can be expanded by feeding Raw Souls to the Core.
+
+item.spectreAnchor.info=Items combined with a Soulforged Lock in a Crafting Table don't leave your inventory when you die.
+
+item.spectreSword.info=Due to this weapons ethereal construction, it can easily sever souls from slain enemies, preventing them from escaping. It is somewhat more durable than a diamond blade, and can harm Lost Souls.
+
+item.ingredient.ectoPlasm.info=The most pure form a soul can take. Can be used to make untamed soulium far more efficiently than any other kind of soul, given its power.

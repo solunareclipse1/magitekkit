@@ -1,0 +1,22 @@
+tile.ec.table_ultimate.name=Hypercrafter
+jei.ec.table_crafting_9x9=Hypercrafting
+tile.ec.ender_alternator.name=Temporal Energy Collector
+tile.ec.ender_crafter.name=Temporal Energy Condenser
+tooltip.ec.tier=UNLIIIIIMITED POWERRRRRR!
+tooltip.ec.requires_table=Requires Hypercrafter
+jei.ec.ender_crafting=Temporal Crafting
+
+item.ec.material_ultimate_nugget.name=Fragmented Truth
+tooltip.ec.ultimate_nugget=Thou shalt not reach it...
+
+item.ec.material_ultimate_ingot.name=Agonized Inanimate
+tooltip.ec.ultimate_ingot=...least not without great cost...
+
+tile.ec.storage_ultimate.name=Fading Reality
+tooltip.ec.ultimate_block=...it is unwise to look back...
+
+item.ec.material_ultimater_component.name=Complete Nothingness
+tooltip.ec.ultimate_component=...for it shall drive you mad...
+
+item.ec.material_ultimater_catalyst.name=Miracle Material
+tooltip.ec.ultimate_catalyst=...to know what you did to get here.

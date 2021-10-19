@@ -1,0 +1,12 @@
+item.resource.infinity_catalyst.name=Fragment of the Heavens
+item.resource.record_fragment.name=Strange Matter
+item.avaritia:endest_pearl.name=Miniature Black Hole
+tile.avaritia:block_resource.infinity.name.name=Block of Infinity Metal
+tooltip.item.resource.record_fragment.desc=A mishmash of powerful relics.
+tip.infinity=Infinity
+death.attack.infinity=%1$s was obliterated by %2$s
+death.attack.infinity.item=%1$s was obliterated by %2$s
+death.attack.infinity.1=%1$s instantly died due to %2$s
+death.attack.infinity.2=%1$s was excised from existence by %2$s
+death.attack.infinity.3=%1$s was overkilled by %2$s
+death.attack.infinity.4=%1$s stopped existing because of %2$s
