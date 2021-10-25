@@ -1,0 +1,16 @@
+{
+    "name": "Soulium Block",
+    "icon": "contenttweaker:soul_block",
+    "category": "patchouli:bloodaddendum",
+    "advancement": "triumph:patchouli-backend/bloodaddendum/soulium",
+    "pages": [
+        {
+            "type": "text",
+            "text": "A cubic meter of soulium might be a little bit expensive, but its properties are rather interesting. It is intangible when placed in the world, and only visible from a distance. Placing it in a crafting grid seems to invert this behavior, and its appearance can be changed by crafting it with any block. I have also noticed that it seems to react to vis in the aura in some way. I should experiment more with it."
+        },
+        {
+            "type": "text",
+            "text": "My results thus far have been unsuccessful, but not fruitless. The block is extremely light, its density being barely greater than that of air, so I believe increasing the density could give interesting results. I have so far failed in compressing it with force, but perhaps that is the wrong approach. Its strange reaction with vis may be a clue, though I am currently a bit stumped.$(br2)$(d)Perhaps I should look for a way to transform things with thaumaturgy?"
+        }
+    ]
+}

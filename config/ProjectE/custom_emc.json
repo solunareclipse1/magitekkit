@@ -1,4 +1,48 @@
 {
-  "entries": [],
-  "__comment": "Use the in-game commands to edit this file"
+  "entries": [
+    {
+      "item": "patchouli:guide_book|0",
+      "emc": 0
+    },
+    {
+      "item": "akashictome:tome|0",
+      "emc": 0
+    },
+    {
+      "item": "astralsorcery:itemjournal|0",
+      "emc": 0
+    },
+    {
+      "item": "aether_legacy:lore_book|0",
+      "emc": 0
+    },
+    {
+      "item": "guideapi:bloodmagic-guide|0",
+      "emc": 0
+    },
+    {
+      "item": "botania:lexicon|0",
+      "emc": 0
+    },
+    {
+      "item": "buildcraftlib:guide|0",
+      "emc": 0
+    },
+    {
+      "item": "draconicevolution:info_tablet|0",
+      "emc": 0
+    },
+    {
+      "item": "embers:codex|0",
+      "emc": 0
+    },
+    {
+      "item": "forestry:book_forester|0",
+      "emc": 0
+    },
+    {
+      "item": "metallurgy:wiki|0",
+      "emc": 0
+    }
+  ]
 }

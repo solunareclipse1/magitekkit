@@ -1,6 +1,6 @@
 {
 	"name": "MagiTekkit Guide Book",
-	"landing_text": "Welcome to the wonderful world of MagiTekkit! This book will be your guide to any information pertinent to your journey in this realm.",
+	"landing_text": "Welcome to the wonderful world of MagiTekkit! This book will be your guide to any information pertinent to your journey in this realm.$(br2)More entries will unlock as you progress, so make sure to check back here every once in a while!",
 	"version": 1,
-	"show_toasts": false
+	"show_toasts": true
 }

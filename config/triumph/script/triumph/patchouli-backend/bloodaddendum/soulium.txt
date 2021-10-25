@@ -1,0 +1,4 @@
+setAnnounceToChat(false)
+setShowToast(false)
+criteria = addCriteria("get_soulium_ingot", "minecraft:inventory_changed")
+criteria.setItem(<randomthings:ingredient:3>)

@@ -1,0 +1,4 @@
+setAnnounceToChat(false)
+setShowToast(false)
+criteria = addCriteria("get_soul", "minecraft:inventory_changed")
+criteria.setItem(<draconicevolution:mob_soul>)

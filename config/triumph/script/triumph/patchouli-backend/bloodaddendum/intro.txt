@@ -1,0 +1,4 @@
+setAnnounceToChat(false)
+setShowToast(false)
+criteria = addCriteria("get_t5_slate", "minecraft:inventory_changed")
+criteria.setItem(<bloodmagic:slate:4>)

@@ -1,0 +1,26 @@
+{
+    "name": "An Introduction",
+    "icon": "draconicevolution:mob_soul{EntityName: 'thaumcraft:cultistknight', display: {Name: 'Human Soul'}}",
+    "category": "patchouli:bloodaddendum",
+    "advancement": "triumph:patchouli-backend/bloodaddendum/intro",
+    "priority": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "My name is Ketu Chorus, and I am a blood mage. I work on progressing the field, farther than any other has done before, using the power of the soul.$(br2)Very few are aware of what I do, as I keep it secret. The laymen would fear it, moreso than even the current study of blood magic."
+        },
+        {
+            "type": "text",
+            "text": "I started my research after a spark of inspiration. While experimenting with enchanting my sword, I dropped it, the blade landing on my foot. At first there was only pain, but then I noticed a faint blue smoke coming off of the wound. I was fascinated, so I began testing the blade on objects, none giving the same results. Frustrated, I used the blade on a mouse. Upon death, the mouse expelled a seemingly perfect copy of itself."
+        },
+        {
+            "type": "text",
+            "text": "Upon closer inspection however, this 'copy' was not actually a copy at all, instead seeming to be the very soul of the rodent I had slain, but I hit a wall. Not only were these souls inconsistent when trying to obtain them, they seemed completely useless! Every attempt I made at manipulating it simply caused it to vanish. But, I had an idea: perhaps the souls of mice were simply too weak. I began killing my human test subjects, and with the death of the final one, I was successful."
+        },
+        {
+            "type": "spotlight",
+            "item": "draconicevolution:mob_soul{EntityName: 'thaumcraft:cultistknight', display: {Name: 'Human Soul'}}",
+            "text": "This soul gave me far more results. Attempts to manipulate it did not immediately pop it out of existence. The soul has some very odd properties, it is nearly weightless (as it is mostly incorporeal) and reacts in strange ways with living things, appearing to distort its otherwise rigid shape. I wonder how it will react to life essence..."
+        }
+    ]
+}

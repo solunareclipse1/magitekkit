@@ -1,0 +1,17 @@
+{
+    "name": "Soulcatcher",
+    "icon": "zensummoning:altar",
+    "category": "patchouli:bloodaddendum",
+    "advancement": "triumph:patchouli-backend/bloodaddendum/soulcatcher",
+    "pages": [
+        {
+            "type": "text",
+            "text": "I'm not sure how I overlooked such an obvious thing to try, but sprinkling salis mundus onto a block of soulium causes it to collapse. What remains is... I don't even know where to start with describing... 'them'. However, experimenting with them has shown that they will be incredibly useful in progressing my research."
+        },
+        {
+            "type": "spotlight",
+            "item": "zensummoning:altar",
+            "text": "To make use of their power, one must offer up specific items to them, then initiate the deal by feeding them a soul. If they accept the offering, they will summon a being of ethereal nature for you. I have not yet documented all of them, but there is one exchange that is of great interest to me."
+        }
+    ]
+}

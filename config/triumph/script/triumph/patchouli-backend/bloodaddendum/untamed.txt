@@ -1,0 +1,4 @@
+setAnnounceToChat(false)
+setShowToast(false)
+criteria = addCriteria("get_untamed_soul", "minecraft:inventory_changed")
+criteria.setItem(<easypickings:unstable_goo>)

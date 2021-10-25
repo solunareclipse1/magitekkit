@@ -1,0 +1,21 @@
+{
+    "name": "Soul Molding",
+    "icon": "randomthings:ingredient:3",
+    "category": "patchouli:bloodaddendum",
+    "advancement": "triumph:patchouli-backend/bloodaddendum/untamed",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Sucess! Soaking the soul in a blood altar, it quickly began absorbing the life essence stored within. After consuming a large amount of it, the soul lost its shape, turning into a strange purple substance.$(br2)Unfortunately, this substance is not exactly... stable. For this reason, I am calling it an 'untamed' soul."
+        },
+        {
+            "type": "spotlight",
+            "item": "easypickings:unstable_goo",
+            "text": "An untamed soul is already a massive improvement. It is soft and squishy, making it easy to mold into any shape, but it seems almost impossible to break it apart, which limits its use. Something to note is that it seems to rapidly decay when in contact with something alive. I know not what happens when it entirely decays, but I do not think it will be pretty."
+        },
+        {
+            "type": "text",
+            "text": "Improving upon this substance is proving tricky though. Its instability makes working with it a hassle, and people are starting to notice the increased rate of disappearances.$(br2)I have a few theories, but none of them have borne any fruit thus far. I believe there may be a way to bind this substance to an object, but as to how I would do this I have no clue. $(5)Perhaps I should look into another branch of magic for a solution?"
+        }
+    ]
+}

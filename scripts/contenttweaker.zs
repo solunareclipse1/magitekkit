@@ -37,10 +37,6 @@ iridiumOre.setToolLevel(7);
 iridiumOre.register();
 
 #Items
-var souliumRaw = VanillaFactory.createItem("untamed_soulium");
-souliumRaw.maxStackSize = 64;
-souliumRaw.register();
-
 var iridiumCrushed = VanillaFactory.createItem("crushed_iridium");
 iridiumCrushed.maxStackSize = 64;
 iridiumCrushed.register();
