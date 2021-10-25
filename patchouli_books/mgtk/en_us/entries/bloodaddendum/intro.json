@@ -20,7 +20,7 @@
         {
             "type": "spotlight",
             "item": "draconicevolution:mob_soul{EntityName: 'thaumcraft:cultistknight', display: {Name: 'Human Soul'}}",
-            "text": "This soul gave me far more results. Attempts to manipulate it did not immediately pop it out of existence. The soul has some very odd properties, it is nearly weightless (as it is mostly incorporeal) and reacts in strange ways with living things, appearing to distort its otherwise rigid shape. I wonder how it will react to life essence..."
+            "text": "This soul gave me far more results. Attempts to manipulate it did not immediately pop it out of existence. The soul has some very odd properties, it is nearly weightless (as it is mostly incorporeal) and reacts in strange ways with living things, appearing to distort its otherwise rigid shape. $(4)I wonder how it will react to life essence..."
         }
     ]
 }

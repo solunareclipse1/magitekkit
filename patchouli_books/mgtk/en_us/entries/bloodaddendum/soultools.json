@@ -6,12 +6,12 @@
     "pages": [
         {
             "type": "text",
-            "text": "I have managed to fashion tools and weaponry out of the souls of the dead. Before I had told myself that this is wrong. And while it seems rather cruel, unethical, and downright depraved at first, but if you think about it, you are giving these beings a purpose beyond death. That can't be a bad thing, now can it? In any case, all of these tools are indestructible, so they should prove useful."
+            "text": "I have managed to fashion tools and weaponry out of the souls of the dead... Before I had told myself that this is wrong. And while it seems rather cruel, unethical, and downright depraved at first, but if you think about it, you are giving these beings a purpose beyond death. That can't be a bad thing, now can it? In any case, all of these tools are indestructible, so they should prove useful."
         },
         {
             "type": "spotlight",
             "item": "randomthings:spectresword{'Quark:RuneColor': 15, ench: [{lvl: 666, id: 11}], Unbreakable: 1, 'TC.WARP': 10, 'Quark:RuneAttached': 1, AttributeModifiers: [{UUIDMost: 589810, UUIDLeast: 412019, Amount: 12, Slot: 'mainhand', AttributeName: 'generic.attackDamage', Operation: 0, Name: 'generic.attackDamage'}, {UUIDMost: 613154, UUIDLeast: 225924, Amount: -2, Slot: 'mainhand', AttributeName: 'generic.attackSpeed', Operation: 0, Name: 'generic.attackSpeed'}]}",
-            "text": "A blade forged from Soulium is able to sever the link between the body and soul of anything slain by it, effectively making it drop one on every kill."
+            "text": "A blade forged from Soulium is able to sever the link between the body and soul of anything slain by it, effectively making it drop one on every kill. $(4)I believe it may have another use, however..."
         },
         {
             "type": "spotlight",

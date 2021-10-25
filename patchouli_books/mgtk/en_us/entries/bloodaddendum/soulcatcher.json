@@ -11,7 +11,16 @@
         {
             "type": "spotlight",
             "item": "zensummoning:altar",
-            "text": "To make use of their power, one must offer up specific items to them, then initiate the deal by feeding them a soul. If they accept the offering, they will summon a being of ethereal nature for you. I have not yet documented all of them, but there is one exchange that is of great interest to me."
+            "text": "To make use of their power, one must offer up specific items to them, then initiate the 'deal' by feeding them a soul. If they accept the offering, they will summon a being of ethereal nature for you. I have not yet documented all of them, but there is one quirk of these deals that is of great interest to me."
+        },
+        {
+            "type": "text",
+            "text": "It seems that they are not completely consistent in what entity they provide for a specific set of items, though items provided do seem to influence their decisions. What is most curious however is the occasional small blue spirit they provide, which I am calling Lost Souls. They do not seem very keen on staying though, as they vanish after only a few seconds. This makes experimenting with them very frustrating."
+        },
+        {
+            "type": "entity",
+            "entity": "randomthings:spirit",
+            "text": "$(4)If they don't decide to cooperate soon I'll just start trying to kill them."
         }
     ]
 }
