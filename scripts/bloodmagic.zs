@@ -1,0 +1,1 @@
+mods.thaumcraft.Warp.setWarp(<randomthings:spectresword>, 500);

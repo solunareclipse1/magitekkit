@@ -1,6 +1,6 @@
 {
     "name": "Soul Molding",
-    "icon": "randomthings:ingredient:3",
+    "icon": "easypickings:unstable_goo",
     "category": "patchouli:bloodaddendum",
     "advancement": "triumph:patchouli-backend/bloodaddendum/untamed",
     "pages": [

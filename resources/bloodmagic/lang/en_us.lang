@@ -1,1 +1,4 @@
-item.bloodmagic.blood_shard.demonic.name=Soul Shard
+item.bloodmagic.blood_shard.demonic.name=Purified Soul
+
+tile.bloodmagic.crystal_tile.name=Soul Matrix
+tile.bloodmagic.crystal_brick.name=Complex Soul Matrix

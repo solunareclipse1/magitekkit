@@ -1,0 +1,17 @@
+{
+    "name": "Soul Link",
+    "icon": "randomthings:playerinterface",
+    "category": "patchouli:bloodaddendum",
+    "advancement": "triumph:patchouli-backend/bloodaddendum/soulium",
+    "pages": [
+        {
+            "type": "text",
+            "text": "By using alchemy to bind a soul checker with an ender chest, I have managed to fashion a device that exposes the inventory of the one who placed it as a container. I'm sure that I can come up with some creative uses for this.$(br2)It seems that each side exposes a different part of the inventory, each indicated by a symbol."
+        },
+        {
+            "type": "spotlight",
+            "item": "randomthings:playerinterface",
+            "text": "I should make sure I keep this device in a secure location, for if someone were to find it, there would be nothing stopping them from siphoning all of my belongings."
+        }
+    ]
+}

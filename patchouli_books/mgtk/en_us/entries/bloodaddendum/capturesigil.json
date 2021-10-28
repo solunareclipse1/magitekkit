@@ -1,0 +1,25 @@
+{
+    "name": "Sigil of Capture",
+    "icon": "randomthings:summoningpendulum",
+    "category": "patchouli:bloodaddendum",
+    "advancement": "triumph:patchouli-backend/bloodaddendum/puresoul",
+    "pages": [
+        {
+            "type": "text",
+            "text": "When I set out to create a sigil that could extract the souls from creatures without harming them, I should have considered what would happen to their soulless body. Maybe then I wouldnt have had to see... that.$(br2)On a more positive note, I managed to modify the sigil to move creatures around easily instead."
+        },
+        {
+            "type": "spotlight",
+            "item": "randomthings:summoningpendulum",
+            "text": "Using the sigil on an entity will cause it to be absorbed into the sigil. Up to 5 creatures can be absorbed, and they can be released one at a time by using the sigil on a block.$(br2)It should be noted that hostile creatures seem to be immune the effect of this sigil."
+        },
+        {
+            "type": "text",
+            "text": "It does bother me that I cannot see what happens to the creatures when they are absorbed into the sigil. I have a theory, that there is a sort of 'space' within every soul. Accessing this space could prove beneficial, as my time here grows thin. The townspeople, I don't know how they know, but they do. I have been questioned more and more in recent weeks, and I fear they will force their way in here soon. $(4)I should look into improving this sigil to let me access the space within,"
+        },
+        {
+            "type": "text",
+            "text": "$(4)lest I face execution for all the things I have done..."
+        }
+    ]
+}

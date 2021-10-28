@@ -1,0 +1,21 @@
+{
+    "name": "Sigil of the Lonely Soul",
+    "icon": "randomthings:spectrekey",
+    "category": "patchouli:bloodaddendum",
+    "advancement": "triumph:patchouli-backend/bloodaddendum/puresoul",
+    "pages": [
+        {
+            "type": "text",
+            "text": "This may be my last entry in this journal. They have found out about what I am doing. But! I have a plan, to send them all to oblivion, turn them all into my test subects for further research. I sent my arm into the 'soulspace' with an experimental sigil, so I simply need to improve it. It should be as simple as scaling it up, but I won't have a chance to test beforehand."
+        },
+        {
+            "type": "spotlight",
+            "item": "randomthings:spectrekey",
+            "text": "Holding right click while holding this sigil will begin to... 'etherealize' the holder. Releasing right click will immediately cancel the process. If held for long enough, the holder is transported to... Somewhere? I have no idea where this is, but the space is cramped. Very cramped."
+        },
+        {
+            "type": "text",
+            "text": "It seems that the only way out is by using the sigil again, or by interacting with the apparatus at the center of the floor (more on this later). The floor, walls, and ceiling of this space are all indestructible, and from my testing I am the only one who is able to access this space.$(br2)."
+        }
+    ]
+}

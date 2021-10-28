@@ -1,0 +1,17 @@
+{
+    "name": "Uses of Raw Soul",
+    "icon": "bloodmagic:monster_soul",
+    "category": "patchouli:bloodaddendum",
+    "advancement": "triumph:patchouli-backend/bloodaddendum/soulium",
+    "pages": [
+        {
+            "type": "text",
+            "text": "This... No, this cannot be right. Is this all that this can be used for? An alternative source of demon will? I refuse to believe that, but... Nothing else I have tried over the past two months has worked thus far! This is not a dead end, there is more to this! There must be! For all the effort I have put in, there must be more! Not to mention the suspicious townsfolk, they are starting to wise up..."
+        },
+        {
+            "type": "spotlight",
+            "item": "bloodmagic:soul_gem:4{souls: 16384.0}",
+            "text": "I suppose I should actually document how to use these raw souls to make demon will, for future reference... Simply placing a grand tartaric gem with a raw soul in any crafting grid will fill the gem up completely. Additionally, it seems that the stored wills type can be cycled using a hellfire forge, though at a high cost."
+        }
+    ]
+}

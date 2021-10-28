@@ -1,0 +1,26 @@
+{
+    "name": "Altar Upgrade",
+    "icon": "bloodmagic:decorative_brick:2",
+    "category": "patchouli:bloodaddendum",
+    "advancement": "triumph:patchouli-backend/bloodaddendum/t6altar",
+    "pages": [
+        {
+            "type": "text",
+            "text": "After giving myself some time to clear my head, I managed to figure out a considerably better use for raw souls. They can be fused with a blood shard, ancient stone, and a shulker shell to create what I have decided to call a soul matrix.$(br2)They are very intricate, and seem to be... intelligent? No, that can't be right."
+        },
+        {
+            "type": "spotlight",
+            "item": "bloodmagic:decorative_brick:2",
+            "text": "This matrix is... odd. It's unlike anything else I have ever seen. It pulsates with the energy of the soul built into its construction, and seems to use this energy to... no, that is madness.$(br2)In any case, it should prove at least somewhat useful, as it can be used to construct a tier 6 blood altar."
+        },
+        {
+            "type": "spotlight",
+            "item": "easypickings:unstable_goo",
+            "text": "The tier 6 altar is absolute in its power, being able to transform raw souls into untamed soulium considerably more efficiently than simply using the severed souls of mobs. Additionally, if I can time it perfectly, I can convert extremely decayed untamed soulium into multiple raw souls, based on the amount of decay."
+        },
+        {
+            "type": "text",
+            "text": "I feel as if I am on the brink of a massive breakthrough, but infuriatingly I have yet to figure much out. I have attempted making a tier 6 blood orb, but I have not yet been successful, and I'm out of ideas. The more I research raw souls, the more it seems like I was wrong about how powerful they are. A failure now would prove disastrous, as I am running out of time, $(4)so I must find a way to unleash the power within these soon."
+        }
+    ]
+}

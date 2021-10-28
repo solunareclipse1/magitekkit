@@ -4,7 +4,7 @@ tile.spectreCore.name=Soulspace Stabilizer Core
 
 tile.spectreLens.name=Soulforged Beacon Link
 
-item.spectreKey.name=Soulspace Access Key
+item.spectreKey.name=Sigil of the Lonely Soul
 
 item.spectreAnchor.name=Soulforged Lock
 
@@ -24,14 +24,14 @@ entity.spirit.name=Lost Soul
 
 tile.playerInterface.name=Soul Link
 tile.lapisGlass.name=Inverted Soulium Glass
-tile.lapisLamp.name=Inverted Soul Lamp
+tile.lapisLamp.name=Soul Lamp
 tile.onlineDetector.name=Soul Checker
 tile.quartzGlass.name=Soulium Glass
-tile.quartzLamp.name=Soul Lamp
+tile.quartzLamp.name=Inverted Soul Lamp
 tile.advancedItemCollector.name=Soulforged Item Collector
 tile.diaphanousBlock.name=Block of Soulium
 tile.diaphanousBlock_inverted.name=Inverted Block of Soulium
-item.summoningPendulum.name=Soul Dislocator
+item.summoningPendulum.name=Sigil of Capture
 
 tile.spectreBlock.info=Please refer to the MagiTekkit Guide Book for information on this item.
 tile.spectreCore.info=Please refer to the MagiTekkit Guide Book for information on this item.

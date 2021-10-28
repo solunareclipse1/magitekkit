@@ -1,0 +1,17 @@
+{
+    "name": "Soul Checker",
+    "icon": "randomthings:onlinedetector",
+    "category": "patchouli:bloodaddendum",
+    "advancement": "triumph:patchouli-backend/bloodaddendum/soulium",
+    "pages": [
+        {
+            "type": "text",
+            "text": "In my experimenting I have made an interesting discovery. Wrapping some redstone inlay around a block of soulium creates a rather simple mechanism called a soul checker.$(br2)This block, when placed, can be given someones name. Upon doing so, it will output a redstone signal if they are online."
+        },
+        {
+            "type": "spotlight",
+            "item": "randomthings:onlinedetector",
+            "text": "I have yet to come up with any uses for this yet, but I'm sure something will come to mind eventually."
+        }
+    ]
+}
