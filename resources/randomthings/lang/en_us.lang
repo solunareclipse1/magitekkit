@@ -32,6 +32,8 @@ tile.advancedItemCollector.name=Soulforged Item Collector
 tile.diaphanousBlock.name=Block of Soulium
 tile.diaphanousBlock_inverted.name=Inverted Block of Soulium
 item.summoningPendulum.name=Sigil of Capture
+item.itemFilter.name=Soulforged Filter
+item.timeInABottle.name=Sigil of the Ticking Clock
 
 tile.spectreBlock.info=Please refer to the MagiTekkit Guide Book for information on this item.
 tile.spectreCore.info=Please refer to the MagiTekkit Guide Book for information on this item.
@@ -53,6 +55,8 @@ item.summoningPendulum.info=Please refer to the MagiTekkit Guide Book for inform
 item.spectrePickaxe.info=Please refer to the MagiTekkit Guide Book for information on this item.
 item.spectreAxe.info=Please refer to the MagiTekkit Guide Book for information on this item.
 item.spectreShovel.info=Please refer to the MagiTekkit Guide Book for information on this item.
+item.itemFilter.info=Please refer to the MagiTekkit Guide Book for information on this item.
+item.timeInABottle.info=Please refer to the MagiTekkit Guide Book for information on this item.
 
 tile.fertilizedDirt.info=This item is disabled.
 tile.creativePlayerInterface.info=This item is disabled.
@@ -143,7 +147,6 @@ item.magicHood.info=This item is disabled.
 item.bottleOfAir.info=This item is disabled.
 item.enderLetter.info=This item is disabled.
 item.entityFilter.info=This item is disabled.
-item.itemFilter.info=This item is disabled.
 item.redstoneActivator.info=This item is disabled.
 item.redstoneRemote.info=This item is disabled.
 item.goldenCompass.info=This item is disabled.

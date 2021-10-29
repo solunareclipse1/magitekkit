@@ -1,0 +1,17 @@
+{
+    "name": "Sigil of the Ticking Clock",
+    "icon": "randomthings:timeinabottle",
+    "category": "patchouli:bloodaddendum",
+    "advancement": "triumph:patchouli-backend/bloodaddendum/puresoul",
+    "pages": [
+        {
+            "type": "text",
+            "text": "In an experiment to try controlling time, I managed to create a sigil that instead locally speeds up time for a single block. This is incredibly powerful, but comes at a cost. The sigil must charge up first, gaining charge slowly while in contact with a living being. There does not seem to be a limit to how much temporal energy the sigil can store, but my testing has been limited."
+        },
+        {
+            "type": "spotlight",
+            "item": "randomthings:timeinabottle",
+            "text": "I should take care to not speed up anything that could cause catastrophic failures, as I would rather not be blown up."
+        }
+    ]
+}

@@ -2,7 +2,7 @@
     "name": "Sigil of the Lonely Soul",
     "icon": "randomthings:spectrekey",
     "category": "patchouli:bloodaddendum",
-    "advancement": "triumph:patchouli-backend/bloodaddendum/puresoul",
+    "advancement": "triumph:patchouli-backend/bloodaddendum/soulsigil",
     "pages": [
         {
             "type": "text",
@@ -11,11 +11,7 @@
         {
             "type": "spotlight",
             "item": "randomthings:spectrekey",
-            "text": "Holding right click while holding this sigil will begin to... 'etherealize' the holder. Releasing right click will immediately cancel the process. If held for long enough, the holder is transported to... Somewhere? I have no idea where this is, but the space is cramped. Very cramped."
-        },
-        {
-            "type": "text",
-            "text": "It seems that the only way out is by using the sigil again, or by interacting with the apparatus at the center of the floor (more on this later). The floor, walls, and ceiling of this space are all indestructible, and from my testing I am the only one who is able to access this space.$(br2)."
+            "text": "I simply need to channel the sigil for a short time, and I should be theoretically able to send them all into soulspace with one fell swoop. I wish I had more time to test it, but I just heard my door give way. They are inside, I hear footsteps coming down the stairs...$(br)$(4)I pray to the gods that luck be on my side."
         }
     ]
 }

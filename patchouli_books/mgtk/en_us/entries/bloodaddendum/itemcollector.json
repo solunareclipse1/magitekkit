@@ -1,0 +1,17 @@
+{
+    "name": "Soulium Item Collector",
+    "icon": "bloodmagic:blood_shard:1",
+    "category": "patchouli:bloodaddendum",
+    "advancement": "triumph:patchouli-backend/bloodaddendum/soulium",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Using hoppers to pick up items from the world is proving tiresome, so I have devised a small device that, when connected to a block that has an inventory, will pick up items in a configurable area.$(br2)Using this device is rather simple, simply interacting with it will open up a rather self-explanatory GUI, with options for X, Y, and Z range, as well as a filter slot."
+        },
+        {
+            "type": "spotlight",
+            "item": "randomthings:itemfilter",
+            "text": "This filter slot will only accept soulforeged filters. These filters can be configured by using one while holding it. These filters are very complex and only work in the item collector, which is rather bothersome."
+        }
+    ]
+}
