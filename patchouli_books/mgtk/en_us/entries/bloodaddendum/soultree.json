@@ -1,0 +1,18 @@
+{
+    "name": "Spectre Sapling",
+    "icon": "randomthings:spectresapling",
+    "category": "patchouli:bloodaddendum",
+    "advancement": "patchouli:bloodaddendum/soultree",
+    "secret": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "I have found a curious use for raw souls. It appears that forcing it to touch a planted sapling will make it merge with the young tree, creating a spectre sapling.$(br)These ethereal plants will absorb tiny amounts of soul energy from creatures in the soil it is planted on to feed itself, eventually growing into a tree that has transparent wood and leaves."
+        },
+        {
+            "type": "spotlight",
+            "item": "randomthings:spectresapling",
+            "text": "Additionally, it seems to trap souls in a similar way to the soulcatcher, and will occasionally drop (extremely weak) demon will, and rarely even a raw soul or two."
+        }
+    ]
+}

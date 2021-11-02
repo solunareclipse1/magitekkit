@@ -1,4 +1,0 @@
-setAnnounceToChat(false)
-setShowToast(false)
-criteria2 = addCriteria("get_pure_soul", "minecraft:inventory_changed")
-criteria2.setItem(<bloodmagic:blood_shard:1>)

@@ -1,4 +1,0 @@
-setAnnounceToChat(false)
-setShowToast(false)
-criteria = addCriteria("get_soulcatcher", "triumph:player_crafted_item")
-criteria.setItem(<randomthings:ingredient:3>)

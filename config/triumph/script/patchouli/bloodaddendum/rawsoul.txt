@@ -1,0 +1,2 @@
+criteria = addCriteria("get_raw_soul", "minecraft:inventory_changed")
+criteria.addItem(<randomthings:ingredient, meta:2>)

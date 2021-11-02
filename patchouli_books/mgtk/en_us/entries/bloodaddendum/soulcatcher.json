@@ -2,7 +2,7 @@
     "name": "Soulcatcher",
     "icon": "zensummoning:altar",
     "category": "patchouli:bloodaddendum",
-    "advancement": "triumph:patchouli-backend/bloodaddendum/soulcatcher",
+    "advancement": "patchouli:bloodaddendum/soulcatcher",
     "pages": [
         {
             "type": "text",

@@ -2,7 +2,7 @@
     "name": "Altar Upgrade",
     "icon": "bloodmagic:decorative_brick:2",
     "category": "patchouli:bloodaddendum",
-    "advancement": "triumph:patchouli-backend/bloodaddendum/t6altar",
+    "advancement": "patchouli:bloodaddendum/t6altar",
     "pages": [
         {
             "type": "text",

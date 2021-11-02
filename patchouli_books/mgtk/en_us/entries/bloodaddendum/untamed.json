@@ -2,11 +2,11 @@
     "name": "Soul Molding",
     "icon": "easypickings:unstable_goo",
     "category": "patchouli:bloodaddendum",
-    "advancement": "triumph:patchouli-backend/bloodaddendum/untamed",
+    "advancement": "patchouli:bloodaddendum/untamed",
     "pages": [
         {
             "type": "text",
-            "text": "Sucess! Soaking the soul in a blood altar, it quickly began absorbing the life essence stored within. After consuming a large amount of it, the soul lost its shape, turning into a strange purple substance.$(br2)Unfortunately, this substance is not exactly... stable. For this reason, I am calling it an 'untamed' soul."
+            "text": "Success! Soaking the soul in a blood altar, it quickly began absorbing the life essence stored within. After consuming a large amount of it, the soul lost its shape, turning into a strange purple substance.$(br2)Unfortunately, this substance is not exactly... stable. For this reason, I am calling it an 'untamed' soul."
         },
         {
             "type": "spotlight",

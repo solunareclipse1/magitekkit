@@ -2,7 +2,7 @@
     "name": "Purified Soul",
     "icon": "bloodmagic:blood_shard:1",
     "category": "patchouli:bloodaddendum",
-    "advancement": "triumph:patchouli-backend/bloodaddendum/puresoul",
+    "advancement": "patchouli:bloodaddendum/puresoul",
     "pages": [
         {
             "type": "text",

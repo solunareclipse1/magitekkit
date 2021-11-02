@@ -1,0 +1,2 @@
+criteria = addCriteria("get_soul_sigil", "minecraft:inventory_changed")
+criteria.addItem(<randomthings:spectrekey>)

@@ -2,7 +2,7 @@
     "name": "Soul Checker",
     "icon": "randomthings:onlinedetector",
     "category": "patchouli:bloodaddendum",
-    "advancement": "triumph:patchouli-backend/bloodaddendum/soulium",
+    "advancement": "patchouli:bloodaddendum/soulium",
     "pages": [
         {
             "type": "text",

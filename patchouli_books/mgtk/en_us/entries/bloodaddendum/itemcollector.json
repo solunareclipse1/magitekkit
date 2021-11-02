@@ -1,8 +1,8 @@
 {
     "name": "Soulium Item Collector",
-    "icon": "bloodmagic:blood_shard:1",
+    "icon": "randomthings:advanceditemcollector",
     "category": "patchouli:bloodaddendum",
-    "advancement": "triumph:patchouli-backend/bloodaddendum/soulium",
+    "advancement": "patchouli:bloodaddendum/soulium",
     "pages": [
         {
             "type": "text",
@@ -11,7 +11,7 @@
         {
             "type": "spotlight",
             "item": "randomthings:itemfilter",
-            "text": "This filter slot will only accept soulforeged filters. These filters can be configured by using one while holding it. These filters are very complex and only work in the item collector, which is rather bothersome."
+            "text": "This filter slot will only accept soulforged filters. These filters can be configured by using one while holding it. These filters are very complex and only work in the item collector, which is rather bothersome."
         }
     ]
 }

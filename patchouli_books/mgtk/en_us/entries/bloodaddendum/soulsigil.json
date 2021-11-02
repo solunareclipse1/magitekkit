@@ -2,7 +2,7 @@
     "name": "Sigil of the Lonely Soul",
     "icon": "randomthings:spectrekey",
     "category": "patchouli:bloodaddendum",
-    "advancement": "triumph:patchouli-backend/bloodaddendum/soulsigil",
+    "advancement": "patchouli:bloodaddendum/soulsigil",
     "pages": [
         {
             "type": "text",

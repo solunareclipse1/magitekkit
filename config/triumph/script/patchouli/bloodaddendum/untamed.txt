@@ -1,0 +1,2 @@
+criteria = addCriteria("get_untamed_soul", "minecraft:inventory_changed")
+criteria.addItem(<easypickings:unstable_goo>)

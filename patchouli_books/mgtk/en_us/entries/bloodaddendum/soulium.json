@@ -2,7 +2,7 @@
     "name": "Soulium",
     "icon": "randomthings:ingredient:3",
     "category": "patchouli:bloodaddendum",
-    "advancement": "triumph:patchouli-backend/bloodaddendum/soulium",
+    "advancement": "patchouli:bloodaddendum/soulium",
     "pages": [
         {
             "type": "text",

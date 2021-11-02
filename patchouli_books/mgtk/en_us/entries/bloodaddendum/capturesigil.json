@@ -2,7 +2,7 @@
     "name": "Sigil of Capture",
     "icon": "randomthings:summoningpendulum",
     "category": "patchouli:bloodaddendum",
-    "advancement": "triumph:patchouli-backend/bloodaddendum/puresoul",
+    "advancement": "patchouli:bloodaddendum/puresoul",
     "pages": [
         {
             "type": "text",

@@ -2,7 +2,7 @@
     "name": "'Til Death Do Us Part",
     "icon": "minecraft:skull",
     "category": "patchouli:basics",
-    "advancement": "triumph:patchouli-backend/basics/graves",
+    "advancement": "patchouli:basics/graves",
     "pages": [
         {
             "type": "text",

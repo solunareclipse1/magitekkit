@@ -1,0 +1,2 @@
+criteria = addCriteria("get_soul", "minecraft:inventory_changed")
+criteria.addItem(<draconicevolution:mob_soul, meta:0>)

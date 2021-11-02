@@ -2,7 +2,7 @@
     "name": "Raw Soul",
     "icon": "randomthings:ingredient:2",
     "category": "patchouli:bloodaddendum",
-    "advancement": "triumph:patchouli-backend/bloodaddendum/rawsoul",
+    "advancement": "patchouli:bloodaddendum/rawsoul",
     "pages": [
         {
             "type": "text",

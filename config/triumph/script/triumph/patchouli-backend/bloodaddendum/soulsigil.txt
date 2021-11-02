@@ -1,4 +1,0 @@
-setAnnounceToChat(false)
-setShowToast(false)
-criteria = addCriteria("get_soul", "minecraft:inventory_changed")
-criteria.setItem(<randomthings:spectrekey>)

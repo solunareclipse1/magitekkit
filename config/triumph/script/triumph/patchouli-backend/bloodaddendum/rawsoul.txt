@@ -1,6 +1,0 @@
-setAnnounceToChat(false)
-setShowToast(false)
-criteria1 = addCriteria("kill_lost_soul", "minecraft:player_killed_entity")
-criteria1.setEntityType("randomthings:spirit")
-criteria2 = addCriteria("get_raw_soul", "minecraft:inventory_changed")
-criteria2.setItem(<randomthings:ingredient:2>)

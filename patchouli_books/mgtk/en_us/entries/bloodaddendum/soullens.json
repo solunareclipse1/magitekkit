@@ -1,0 +1,17 @@
+{
+    "name": "Beacon Link",
+    "icon": "randomthings:spectrelens",
+    "category": "patchouli:bloodaddendum",
+    "advancement": "patchouli:bloodaddendum/puresoul",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Beacons are curious things. They give powerful effects across a large area, which is useful, but I can improve it. By putting a lens constructed from purified souls, soulium glass, and a bit of tartarite on top of the beacon, I can recieve its effect no matter where I am."
+        },
+        {
+            "type": "spotlight",
+            "item": "randomthings:spectrelens",
+            "text": "I should note that the lens will only provide the effect to the one who placed it, and that the lens must be 'chunkloaded', whatever that means."
+        }
+    ]
+}

@@ -2,7 +2,7 @@
     "name": "Soulium Glass",
     "icon": "randomthings:quartzglass",
     "category": "patchouli:bloodaddendum",
-    "advancement": "triumph:patchouli-backend/bloodaddendum/soulium",
+    "advancement": "patchouli:bloodaddendum/soulium",
     "pages": [
         {
             "type": "text",

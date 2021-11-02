@@ -2,7 +2,7 @@
     "name": "Uses of Raw Soul",
     "icon": "bloodmagic:monster_soul",
     "category": "patchouli:bloodaddendum",
-    "advancement": "triumph:patchouli-backend/bloodaddendum/soulium",
+    "advancement": "patchouli:bloodaddendum/rawsoul",
     "pages": [
         {
             "type": "text",

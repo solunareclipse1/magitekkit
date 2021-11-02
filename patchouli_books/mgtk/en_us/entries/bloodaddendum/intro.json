@@ -2,7 +2,7 @@
     "name": "An Introduction",
     "icon": "draconicevolution:mob_soul{EntityName: 'thaumcraft:cultistknight', display: {Name: 'Human Soul'}}",
     "category": "patchouli:bloodaddendum",
-    "advancement": "triumph:patchouli-backend/bloodaddendum/intro",
+    "advancement": "patchouli:bloodaddendum/intro",
     "priority": true,
     "pages": [
         {

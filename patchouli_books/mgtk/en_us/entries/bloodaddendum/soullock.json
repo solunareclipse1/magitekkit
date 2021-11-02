@@ -1,0 +1,17 @@
+{
+    "name": "Soulbinding",
+    "icon": "randomthings:spectreanchor",
+    "category": "patchouli:bloodaddendum",
+    "advancement": "patchouli:bloodaddendum/puresoul",
+    "pages": [
+        {
+            "type": "text",
+            "text": "By combining sanguinite with some purified souls, and a large amount of LP from a tier 6 blood orb, I have managed to create a powerful lock, able to bind nearly any item to the soul of the holder.$(br2)Using it is rather simple, just putting both the item I want to soulbind and the lock itself into a crafting grid will suffice."
+        },
+        {
+            "type": "spotlight",
+            "item": "randomthings:spectreanchor",
+            "text": "I am not totally sure what this soulbinding does however. Some say that it 'lets you keep the item through death', but that doesnt make sense. Isn't death a permanent thing?"
+        }
+    ]
+}
