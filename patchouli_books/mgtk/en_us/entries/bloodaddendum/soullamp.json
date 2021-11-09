@@ -9,9 +9,9 @@
             "text": "I have managed to combine the effects of the sigil of the blood lamp with the ethereal nature of soulium to create a 'fake' light source. The soul lamp will provide the same amount of light as a mundane redstone lamp, but will not block monster spawning."
         },
         {
-            "type": "spotlight",
-            "item": "randomthings:quartzlamp",
-            "text": "Much like the soulium block used in its construction, the soul lamps effects can be inverted by simply placing it in a crafting grid."
+            "type": "crafting",
+            "recipe": "crafttweaker:soullamp",
+            "text": "Much like the soulium glass used in its construction, the soul lamps effects can be inverted by simply placing it in a crafting grid."
         }
     ]
 }

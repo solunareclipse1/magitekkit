@@ -70,7 +70,7 @@ BloodAltar.addRecipe(<easypickings:unstable_goo>, <draconicevolution:mob_soul>.w
 BloodAltar.addRecipe(<easypickings:unstable_goo>, <draconicevolution:mob_soul>.withTag({EntityName: "thaumcraft:wisp"}), 4, 99000,666,666);
 BloodAltar.addRecipe(<easypickings:unstable_goo>, <draconicevolution:mob_soul>.withTag({EntityName: "thaumcraft:firebat"}), 4, 666660,666,666);
 BloodAltar.addRecipe(<easypickings:unstable_goo>, <draconicevolution:mob_soul>.withTag({EntityName: "thaumcraft:pech"}), 4, 90000,666,666);
-BloodAltar.addRecipe(<easypickings:unstable_goo>.withTag({easypickings: 1}), <draconicevolution:mob_soul>.withTag({EntityName: "thaumcraft:mindspider"}), 4, 160000,666,666);
+BloodAltar.addRecipe(<easypickings:unstable_goo>, <draconicevolution:mob_soul>.withTag({EntityName: "thaumcraft:mindspider"}), 4, 160000,666,666);
 BloodAltar.addRecipe(<easypickings:unstable_goo>, <draconicevolution:mob_soul>.withTag({EntityName: "thaumcraft:eldritchguardian"}), 4, 50000,666,666);
 BloodAltar.addRecipe(<easypickings:unstable_goo>, <draconicevolution:mob_soul>.withTag({EntityName: "thaumcraft:cultistknight"}), 4, 300000,666,666);
 BloodAltar.addRecipe(<easypickings:unstable_goo>, <draconicevolution:mob_soul>.withTag({EntityName: "thaumcraft:cultistcleric"}), 4, 85000,666,666);
