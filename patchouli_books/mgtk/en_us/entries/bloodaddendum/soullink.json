@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "By using alchemy to bind a soul checker with an ender chest, I have managed to fashion a device that exposes the inventory of the one who placed it as a container. I'm sure that I can come up with some creative uses for this.$(br2)It seems that each side exposes a different part of the inventory, each indicated by a symbol."
+            "text": "By using an alchemy table to bind a soul checker to some ender artifacts, I have managed to fashion a device that exposes the inventory of the one who placed it as a container. I'm sure that I can come up with some creative uses for this.$(br2)It seems that each side exposes a different part of the inventory, each indicated by a symbol."
         },
         {
             "type": "spotlight",
