@@ -6,12 +6,12 @@
     "pages": [
         {
             "type": "text",
-            "text": "It seems that smelting a soulium block changes its properties somewhat, along with making it considerably more transparent. This soulium 'glass' allows players to move through it, as if it is not even there. However, nothing else may move through it."
+            "text": "It seems that smelting a soulium block changes its properties somewhat, along with making it considerably more transparent. This soulium 'glass' allows players to move through it, as if it is not even there. However, nothing else may move through it. The effects of soulium glass can be inverted by simply smelting it again."
         },
         {
-            "type": "crafting",
-            "recipe": "crafttweaker:soulglass",
-            "text": "The effects of soulium glass can be inverted by simply placing it in a crafting grid."
+            "type": "smelting",
+            "recipe": "randomthings:quartzglass",
+            "recipe2": "randomthings:lapisglass"
         }
     ]
 }

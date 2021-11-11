@@ -1,3 +1,3 @@
 import mods.thaumcraft.SalisMundus;
 
-SalisMundus.addSingleConversion(<blockstate:randomthings:diaphanousblock>.block, <minecraft:bedrock>);
+SalisMundus.addSingleConversion(<blockstate:randomthings:diaphanousblock>.block, <zensummoning:altar>);
