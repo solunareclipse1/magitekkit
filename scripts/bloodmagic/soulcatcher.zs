@@ -1,0 +1,935 @@
+import crafttweaker.item.IItemStack;
+import mods.zensummoning.SummoningDirector;
+import mods.zensummoning.SummoningInfo;
+import mods.zensummoning.MobInfo;
+/*
+Each section defines recipes that have increased chances for a specific 'mob type'.
+Mob weights add up to 100,000 so weight = chance out of 10,000
+*/
+val catalyst = <easypickings:unstable_goo>;
+val reagentsUnfocused = [<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "vinculum"}]}), <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "spiritus"}]}), <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "permutatio"}]}), <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "desiderium"}]}), <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "vacuos"}]})] as IItemStack[];
+val reagentsGhast = [<twilightforest:carminite>, <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "vinculum"}]}), <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "spiritus"}]}), <thaumcraft:alumentum>, <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "alkimia"}]})] as IItemStack[];
+val reagentsChallenge = [<thaumcraft:curio:6>, <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "aversio"}]}), <thaumcraft:jar_normal>.withTag({Aspects: [{amount: 250, key: "vinculum"}]}), <minecraft:dragon_egg>, <minecraft:nether_star>] as IItemStack[];
+val reagentsWraith = [<quark:soul_powder>, <minecraft:totem_of_undying>, <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "vinculum"}]}), <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "spiritus"}]}), <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "vacuos"}]})] as IItemStack[];
+val reagentsEthereal = [<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "vinculum"}]}), <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "spiritus"}]}), <minecraft:spectral_arrow>, <bloodmagic:component:15>, <bloodmagic:item_demon_crystal>] as IItemStack[];
+val reagentsPortal = [<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "vacuos"}]}), <minecraft:ender_pearl>, <minecraft:obsidian>, <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "alienis"}]}), <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "tenebrae"}]})] as IItemStack[];
+val reagentsPossessed = [<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "vinculum"}]}), <minecraft:chainmail_chestplate>, <minecraft:prismarine_shard>, <minecraft:enchanted_book>, <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "spiritus"}]})] as IItemStack[];
+val reagentsTainted = [<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "vinculum"}]}), <thaumcraft:bottle_taint>, <thaumcraft:stone_porous>, <thaumicaugmentation:rift_seed:1>.withTag({flux: 1000, grown: 1 as byte}), <thaumcraft:ingot:1>] as IItemStack[];
+//Unfocused
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsUnfocused)
+        .addMob(MobInfo.create()
+            .setMob("randomthings:spirit")
+            .setOffset(0,1,0)
+        )
+        .setWeight(625)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsUnfocused)
+        .addMob(MobInfo.create()
+            .setMob("minecraft:ghast")
+            .setOffset(0,10,0)
+        )
+        .setWeight(625)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsUnfocused)
+        .addMob(MobInfo.create()
+            .setMob("minecraft:vex")
+            .setOffset(0,1,0)
+        )
+        .setWeight(625)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsUnfocused)
+        .addMob(MobInfo.create()
+            .setMob("grue:entitygrue")
+            .setOffset(0,1,0)
+        )
+        .setWeight(625)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsUnfocused)
+        .addMob(MobInfo.create()
+            .setMob("quark:wraith")
+            .setOffset(0,1,0)
+        )
+        .setWeight(625)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsUnfocused)
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:cultistportallesser")
+        )
+        .setWeight(625)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsUnfocused)
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:wisp")
+            .setOffset(0,2,0)
+        )
+        .setWeight(625)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsUnfocused)
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:mindspider")
+            .setOffset(0,1,0)
+        )
+        .setWeight(625)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsUnfocused)
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:eldritchguardian")
+            .setOffset(0,1,0)
+        )
+        .setWeight(625)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsUnfocused)
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:fluxrift")
+            .setOffset(0,1,0)
+        )
+        .setWeight(625)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsUnfocused)
+        .addMob(MobInfo.create()
+            .setMob("twilightforest:wraith")
+            .setOffset(0,1,0)
+        )
+        .setWeight(625)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsUnfocused)
+        .addMob(MobInfo.create()
+            .setMob("twilightforest:death_tome")
+            .setOffset(0,1,0)
+        )
+        .setWeight(625)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsUnfocused)
+        .addMob(MobInfo.create()
+            .setMob("twilightforest:mist_wolf")
+            .setOffset(0,1,0)
+        )
+        .setWeight(625)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsUnfocused)
+        .addMob(MobInfo.create()
+            .setMob("twilightforest:mini_ghast")
+            .setOffset(0,2,0)
+        )
+        .setWeight(625)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsUnfocused)
+        .addMob(MobInfo.create()
+            .setMob("twilightforest:tower_ghast")
+            .setOffset(0,10,0)
+        )
+        .setWeight(625)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsUnfocused)
+        .addMob(MobInfo.create()
+            .setMob("twilightforest:snow_guardian")
+            .setOffset(0,1,0)
+            .setData(
+                {
+                    HandItems:[
+                        {
+                            id:"randomthings:spectreaxe",
+                            Count:1,
+                            tag:{
+                                Unbreakable:true,
+                                AttributeModifiers:[
+                                    {
+                                        AttributeName:"generic.attackDamage",
+                                        Name:"generic.attackDamage",
+                                        Amount:32.5,
+                                        Operation:0,
+                                        UUIDLeast:918851,
+                                        UUIDMost:352607,
+                                        Slot:"mainhand"
+                                    },
+                                    {
+                                        AttributeName:"generic.attackSpeed",
+                                        Name:"generic.attackSpeed",
+                                        Amount:-2.8,
+                                        Operation:0,
+                                        UUIDLeast:401696,
+                                        UUIDMost:249828,
+                                        Slot:"mainhand"
+                                    }
+                                ]
+                            }
+                        },
+                        {}
+                    ],
+                    HandDropChances:[
+                        0.0F,
+                        0.85F
+                    ],
+                    ArmorItems:[
+                        {},
+                        {},
+                        {
+                            id:"bloodmagic:sentient_armour_chest",
+                            Count:1,
+                            tag:{
+                                Unbreakable:true,
+                                ench:[
+                                    {id:0,lvl:4},
+                                    {id:1,lvl:4},
+                                    {id:3,lvl:4},
+                                    {id:4,lvl:4}
+                                ]
+                            }
+                        },
+                        {
+                            id:"bloodmagic:sentient_armour_helmet",
+                            Count:1,
+                            tag:{
+                                Unbreakable:true,
+                                ench:[
+                                    {id:0,lvl:4},
+                                    {id:1,lvl:4},
+                                    {id:3,lvl:4},
+                                    {id:4,lvl:4}
+                                ]
+                            }
+                        }
+                    ],
+                    ArmorDropChances:[
+                        0.85F,
+                        0.85F,
+                        0.0F,
+                        0.0F
+                    ]
+                }
+            )
+        )
+        .setWeight(99999)
+);
+////////////////////////////////////////////////////THIS IS A MARKER FOR SECTION VISIBILITY/////////////////////////////////////////////////////////////////////////
+//Ghast Type (Ghast, Ghastling, Ghastguard, Ur-Ghast)
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsGhast)
+        .addMob(MobInfo.create()
+            .setMob("randomthings:spirit")
+            .setOffset(0,1,0)
+        )
+        .setWeight(500)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsGhast)
+        .addMob(MobInfo.create()
+            .setMob("minecraft:ghast")
+            .setOffset(0,10,0)
+        )
+        .setWeight(1300)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsGhast)
+        .addMob(MobInfo.create()
+            .setMob("minecraft:vex")
+            .setOffset(0,1,0)
+        )
+        .setWeight(500)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsGhast)
+        .addMob(MobInfo.create()
+            .setMob("grue:entitygrue")
+            .setOffset(0,1,0)
+        )
+        .setWeight(500)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsGhast)
+        .addMob(MobInfo.create()
+            .setMob("quark:wraith")
+            .setOffset(0,1,0)
+        )
+        .setWeight(500)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsGhast)
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:cultistportallesser")
+        )
+        .setWeight(500)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsGhast)
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:wisp")
+            .setOffset(0,1,0)
+        )
+        .setWeight(500)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsGhast)
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:mindspider")
+            .setOffset(0,1,0)
+        )
+        .setWeight(500)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsGhast)
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:eldritchguardian")
+            .setOffset(0,1,0)
+        )
+        .setWeight(500)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsGhast)
+        .addMob(MobInfo.create()
+            .setMob("twilightforest:ur_ghast")
+            .setOffset(0,25,0)
+        )
+        .setWeight(100)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsGhast)
+        .addMob(MobInfo.create()
+            .setMob("twilightforest:wraith")
+            .setOffset(0,1,0)
+        )
+        .setWeight(500)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsGhast)
+        .addMob(MobInfo.create()
+            .setMob("twilightforest:death_tome")
+            .setOffset(0,1,0)
+        )
+        .setWeight(500)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsGhast)
+        .addMob(MobInfo.create()
+            .setMob("twilightforest:mist_wolf")
+            .setOffset(0,1,0)
+        )
+        .setWeight(500)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsGhast)
+        .addMob(MobInfo.create()
+            .setMob("twilightforest:mini_ghast")
+            .setOffset(0,1,0)
+            .setCount(6)
+            .setSpread(6,1,6)
+        )
+        .setWeight(1300)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsGhast)
+        .addMob(MobInfo.create()
+            .setMob("twilightforest:tower_ghast")
+            .setOffset(0,10,0)
+        )
+        .setWeight(1300)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsGhast)
+        .addMob(MobInfo.create()
+            .setMob("twilightforest:snow_guardian")
+            .setOffset(0,1,0)
+        )
+        .setWeight(500)
+);
+////////////////////////////////////////////////////THIS IS A MARKER FOR SECTION VISIBILITY/////////////////////////////////////////////////////////////////////////
+//Challenge Type (Grue, Eldritch Warden/Construct, Primordial Wisp, Greater Crimson Portal, Knight Phantoms, Ur-Ghast, Most others become swarm)
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsChallenge)
+        .addMob(MobInfo.create()
+            .setMob("randomthings:spirit")
+            .setOffset(0,1,0)
+            .setCount(2)
+            .setSpread(6,1,6)
+        )
+        .setWeight(625)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsChallenge)
+        .addMob(MobInfo.create()
+            .setMob("twilightforest:ur_ghast")
+            .setOffset(0,25,0)
+        )
+        .setWeight(625)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsChallenge)
+        .addMob(MobInfo.create()
+            .setMob("minecraft:vex")
+            .setOffset(0,1,0)
+            .setCount(8)
+            .setSpread(6,6,6)
+        )
+        .setWeight(625)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsChallenge)
+        .addMob(MobInfo.create()
+            .setMob("grue:entitygrue")
+            .setOffset(0,1,0)
+            .setCount(13)
+            .setSpread(6,6,6)
+        )
+        .setWeight(625)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsChallenge)
+        .addMob(MobInfo.create()
+            .setMob("quark:wraith")
+            .setOffset(0,1,0)
+            .setCount(4)
+            .setSpread(6,1,6)
+        )
+        .setWeight(625)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsChallenge)
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:cultistportalgreater")
+        )
+        .setWeight(625)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsChallenge)
+        .addMob(MobInfo.create()
+            .setMob("thaumicaugmentation:primal_wisp")
+            .setOffset(0,1,0)
+        )
+        .setWeight(625)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsChallenge)
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:mindspider")
+            .setOffset(0,1,0)
+            .setCount(25)
+            .setSpread(6,1,6)
+        )
+        .setWeight(625)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsChallenge)
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:eldritchwarden")
+            .setOffset(0,1,0)
+        )
+        .setWeight(625)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsChallenge)
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:eldritchgolem")
+            .setOffset(0,1,0)
+        )
+        .setWeight(625)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsChallenge)
+        .addMob(MobInfo.create()
+            .setMob("twilightforest:wraith")
+            .setOffset(0,1,0)
+            .setCount(5)
+            .setSpread(6,6,6)
+        )
+        .setWeight(625)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsChallenge)
+        .addMob(MobInfo.create()
+            .setMob("twilightforest:death_tome")
+            .setOffset(0,1,0)
+            .setCount(3)
+            .setSpread(6,1,6)
+        )
+        .setWeight(625)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsChallenge)
+        .addMob(MobInfo.create()
+            .setMob("twilightforest:mist_wolf")
+            .setOffset(0,1,0)
+            .setCount(3)
+            .setSpread(6,1,6)
+        )
+        .setWeight(625)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsChallenge)
+        .addMob(MobInfo.create()
+            .setMob("twilightforest:mini_ghast")
+            .setOffset(0,2,0)
+            .setCount(11)
+            .setSpread(6,1,6)
+        )
+        .setWeight(625)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsChallenge)
+        .addMob(MobInfo.create()
+            .setMob("twilightforest:tower_ghast")
+            .setOffset(0,10,0)
+        )
+        .setWeight(625)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsChallenge)
+        .addMob(MobInfo.create()
+            .setMob("twilightforest:knight_phantom")
+            .setOffset(0,1,0)
+            .setCount(6)
+            .setSpread(1,0,1)
+        )
+        .setWeight(625)
+);
+////////////////////////////////////////////////////THIS IS A MARKER FOR SECTION VISIBILITY/////////////////////////////////////////////////////////////////////////
+//Wraith Type (Wraith, Twilight Wraith, Eldritch Guardian, Evoker, Snow Guardian, Knight Phantoms)
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsWraith)
+        .addMob(MobInfo.create()
+            .setMob("randomthings:spirit")
+            .setOffset(0,1,0)
+        )
+        .setWeight(550)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsWraith)
+        .addMob(MobInfo.create()
+            .setMob("minecraft:ghast")
+            .setOffset(0,10,0)
+        )
+        .setWeight(550)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsWraith)
+        .addMob(MobInfo.create()
+            .setMob("minecraft:evocation_illager")
+            .setOffset(0,1,0)
+        )
+        .setWeight(750)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsWraith)
+        .addMob(MobInfo.create()
+            .setMob("grue:entitygrue")
+            .setOffset(0,1,0)
+        )
+        .setWeight(550)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsWraith)
+        .addMob(MobInfo.create()
+            .setMob("quark:wraith")
+            .setOffset(0,1,0)
+        )
+        .setWeight(750)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsWraith)
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:cultistportallesser")
+        )
+        .setWeight(550)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsWraith)
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:wisp")
+            .setOffset(0,2,0)
+        )
+        .setWeight(550)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsWraith)
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:mindspider")
+            .setOffset(0,1,0)
+        )
+        .setWeight(550)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsWraith)
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:eldritchguardian")
+            .setOffset(0,1,0)
+        )
+        .setWeight(750)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsWraith)
+        .addMob(MobInfo.create()
+            .setMob("twilightforest:knight_phantom")
+            .setOffset(0,1,0)
+            .setCount(6)
+            .setSpread(1,0,1)
+        )
+        .setWeight(750)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsWraith)
+        .addMob(MobInfo.create()
+            .setMob("twilightforest:wraith")
+            .setOffset(0,1,0)
+        )
+        .setWeight(750)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsWraith)
+        .addMob(MobInfo.create()
+            .setMob("twilightforest:death_tome")
+            .setOffset(0,1,0)
+        )
+        .setWeight(550)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsWraith)
+        .addMob(MobInfo.create()
+            .setMob("twilightforest:mist_wolf")
+            .setOffset(0,1,0)
+        )
+        .setWeight(550)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsWraith)
+        .addMob(MobInfo.create()
+            .setMob("twilightforest:mini_ghast")
+            .setOffset(0,2,0)
+        )
+        .setWeight(550)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsWraith)
+        .addMob(MobInfo.create()
+            .setMob("twilightforest:tower_ghast")
+            .setOffset(0,10,0)
+        )
+        .setWeight(550)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsWraith)
+        .addMob(MobInfo.create()
+            .setMob("twilightforest:snow_guardian")
+            .setOffset(0,1,0)
+        )
+        .setWeight(750)
+);
+////////////////////////////////////////////////////THIS IS A MARKER FOR SECTION VISIBILITY/////////////////////////////////////////////////////////////////////////
+//Ethereal Type (Vex, Grue, Lost Soul, Wisp, Mind Spider, Lost Soul Swarm, Mist Wolf)
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsEthereal)
+        .addMob(MobInfo.create()
+            .setMob("randomthings:spirit")
+            .setOffset(0,1,0)
+        )
+        .setWeight(393)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsEthereal)
+        .addMob(MobInfo.create()
+            .setMob("minecraft:ghast")
+            .setOffset(0,10,0)
+        )
+        .setWeight(499)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsEthereal)
+        .addMob(MobInfo.create()
+            .setMob("minecraft:vex")
+            .setOffset(0,1,0)
+            .setCount(24)
+            .setSpread(6,6,6)
+        )
+        .setWeight(927)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsEthereal)
+        .addMob(MobInfo.create()
+            .setMob("grue:entitygrue")
+            .setOffset(0,1,0)
+        )
+        .setWeight(927)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsEthereal)
+        .addMob(MobInfo.create()
+            .setMob("quark:wraith")
+            .setOffset(0,1,0)
+        )
+        .setWeight(499)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsEthereal)
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:cultistportallesser")
+        )
+        .setWeight(587)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsEthereal)
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:wisp")
+            .setOffset(0,2,0)
+            .setCount(5)
+            .setSpread(6,1,6)
+        )
+        .setWeight(927)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsEthereal)
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:mindspider")
+            .setOffset(0,1,0)
+            .setCount(30)
+            .setSpread(6,1,6)
+        )
+        .setWeight(927)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsEthereal)
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:eldritchguardian")
+            .setOffset(0,1,0)
+        )
+        .setWeight(499)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsEthereal)
+        .addMob(MobInfo.create()
+            .setMob("randomthings:spirit")
+            .setOffset(0,1,0)
+            .setCount(4)
+            .setSpread(6,1,6)
+        )
+        .setWeight(393)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsEthereal)
+        .addMob(MobInfo.create()
+            .setMob("twilightforest:wraith")
+            .setOffset(0,1,0)
+        )
+        .setWeight(499)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsEthereal)
+        .addMob(MobInfo.create()
+            .setMob("twilightforest:death_tome")
+            .setOffset(0,1,0)
+        )
+        .setWeight(499)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsEthereal)
+        .addMob(MobInfo.create()
+            .setMob("twilightforest:mist_wolf")
+            .setOffset(0,1,0)
+            .setCount(2)
+            .setSpread(6,1,6)
+        )
+        .setWeight(927)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsEthereal)
+        .addMob(MobInfo.create()
+            .setMob("twilightforest:mini_ghast")
+            .setOffset(0,2,0)
+        )
+        .setWeight(499)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsEthereal)
+        .addMob(MobInfo.create()
+            .setMob("twilightforest:tower_ghast")
+            .setOffset(0,10,0)
+        )
+        .setWeight(499)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsEthereal)
+        .addMob(MobInfo.create()
+            .setMob("twilightforest:snow_guardian")
+            .setOffset(0,1,0)
+        )
+        .setWeight(499)
+);
+////////////////////////////////////////////////////THIS IS A MARKER FOR SECTION VISIBILITY/////////////////////////////////////////////////////////////////////////
+//Portal Type (Lesser/Greater Crimson Portal, Endest Pearl, Small Flux Rift (25), Medium Flux Rift (50), Large Flux Rift (100), Huge Flux Rift (250), Giant Flux Rift(500), Titanic Flux Rift(1000))
+////////////////////////////////////////////////////THIS IS A MARKER FOR SECTION VISIBILITY/////////////////////////////////////////////////////////////////////////
+//Possessed Type (Snow Guardian, Death Tome)
+////////////////////////////////////////////////////THIS IS A MARKER FOR SECTION VISIBILITY/////////////////////////////////////////////////////////////////////////
+//Tainted Type (Taint Seeds, Flux Rifts, Taint Enemies, Giant Taintacle (with multiple taint seeds along with it))

@@ -10,8 +10,8 @@
         },
         {
             "type": "smelting",
-            "recipe": "randomthings:quartzglass",
-            "recipe2": "randomthings:lapisglass"
+            "recipe": "contenttweaker:soul_block",
+            "recipe2": "randomthings:quartzglass"
         }
     ]
 }

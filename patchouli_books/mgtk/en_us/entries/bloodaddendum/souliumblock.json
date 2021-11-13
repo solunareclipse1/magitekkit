@@ -6,11 +6,20 @@
     "pages": [
         {
             "type": "text",
-            "text": "A cubic meter of soulium might be a little bit expensive, but its properties are rather interesting. It is intangible when placed in the world, and only visible from a distance. Placing it in a crafting grid seems to invert this behavior, and its appearance can be changed by crafting it with any block. I have also noticed that it seems to react to vis in the aura in some way. I should experiment more with it."
+            "text": "A cubic meter of soulium might be a little bit expensive, but its properties are rather interesting. It appears to interact with vis in very subtle ways that I cannot quite describe. Additionally, it can be 'destabilized' by simply soaking it in a blood altar, transforming instantly on contact."
+        },
+        {
+            "type": "spotlight",
+            "item": "randomthings:diaphanousblock{meta: 0, display: {Name: 'Destabilized Soulium'}, block: 'contenttweaker:soul_block', inverted: 0}",
+            "text": "This destabilized form seems useful for decoration, but not much else. It is intangible when placed, and visible only from a distance. It can have its appearance changed by crafting it with any simple block, or have its behavior inverted when put into a grid by itself."
         },
         {
             "type": "text",
-            "text": "My results thus far have been unsuccessful, but not fruitless. The block is extremely light, its density being barely greater than that of air, so I believe increasing the density could give interesting results. I have so far failed in compressing it with force, but perhaps that is the wrong approach. Its strange reaction with vis may be a clue, though I am currently a bit stumped.$(br2)$(4)Perhaps I should look for a way to transform things with thaumaturgy?"
+            "text": "As for the normal form, it appears incomplete. It is barely more dense than air, and I believe that if I can manage to increase this density it may prove more useful. However, the block refused to be compressed down by any method that I could think of. I tried simply using my hands, using a vice, pistons, I even dropped an anvil on it, but nothing has worked thus far.$(br)Brute force does not seem to be the solution."
+        },
+        {
+            "type": "text",
+            "text": "I do have a different lead though: its interaction with the local aura intrigues me, and might be the solution I am looking for. I tried infusing various types of essentia into it, but these always ended in very unpredictable results, ranging from giving me a migraine to $(k)when$() $(k)the$() $(k)imposter$() $(k)is$() $(k)sus$().$(br)I need some time to think on it, and I feel like thaumaturgy is the right path.$(br)$(4)Perhaps I could find some way to transform the block?"
         }
     ]
 }
