@@ -247,7 +247,7 @@ SummoningDirector.addSummonInfo(
                 }
             )
         )
-        .setWeight(99999)
+        .setWeight(625)
 );
 ////////////////////////////////////////////////////THIS IS A MARKER FOR SECTION VISIBILITY/////////////////////////////////////////////////////////////////////////
 //Ghast Type (Ghast, Ghastling, Ghastguard, Ur-Ghast)
@@ -409,6 +409,80 @@ SummoningDirector.addSummonInfo(
         .addMob(MobInfo.create()
             .setMob("twilightforest:snow_guardian")
             .setOffset(0,1,0)
+            .setData(
+                {
+                    HandItems:[
+                        {
+                            id:"randomthings:spectreaxe",
+                            Count:1,
+                            tag:{
+                                Unbreakable:true,
+                                AttributeModifiers:[
+                                    {
+                                        AttributeName:"generic.attackDamage",
+                                        Name:"generic.attackDamage",
+                                        Amount:32.5,
+                                        Operation:0,
+                                        UUIDLeast:918851,
+                                        UUIDMost:352607,
+                                        Slot:"mainhand"
+                                    },
+                                    {
+                                        AttributeName:"generic.attackSpeed",
+                                        Name:"generic.attackSpeed",
+                                        Amount:-2.8,
+                                        Operation:0,
+                                        UUIDLeast:401696,
+                                        UUIDMost:249828,
+                                        Slot:"mainhand"
+                                    }
+                                ]
+                            }
+                        },
+                        {}
+                    ],
+                    HandDropChances:[
+                        0.0F,
+                        0.85F
+                    ],
+                    ArmorItems:[
+                        {},
+                        {},
+                        {
+                            id:"bloodmagic:sentient_armour_chest",
+                            Count:1,
+                            tag:{
+                                Unbreakable:true,
+                                ench:[
+                                    {id:0,lvl:4},
+                                    {id:1,lvl:4},
+                                    {id:3,lvl:4},
+                                    {id:4,lvl:4}
+                                ]
+                            }
+                        },
+                        {
+                            id:"bloodmagic:sentient_armour_helmet",
+                            Count:1,
+                            tag:{
+                                Unbreakable:true,
+                                ench:[
+                                    {id:0,lvl:4},
+                                    {id:1,lvl:4},
+                                    {id:3,lvl:4},
+                                    {id:4,lvl:4}
+                                ]
+                            }
+                        }
+                    ],
+                    ArmorDropChances:[
+                        0.85F,
+                        0.85F,
+                        0.0F,
+                        0.0F
+                    ]
+                }
+            )
         )
         .setWeight(500)
 );
@@ -753,6 +827,80 @@ SummoningDirector.addSummonInfo(
         .addMob(MobInfo.create()
             .setMob("twilightforest:snow_guardian")
             .setOffset(0,1,0)
+            .setData(
+                {
+                    HandItems:[
+                        {
+                            id:"randomthings:spectreaxe",
+                            Count:1,
+                            tag:{
+                                Unbreakable:true,
+                                AttributeModifiers:[
+                                    {
+                                        AttributeName:"generic.attackDamage",
+                                        Name:"generic.attackDamage",
+                                        Amount:32.5,
+                                        Operation:0,
+                                        UUIDLeast:918851,
+                                        UUIDMost:352607,
+                                        Slot:"mainhand"
+                                    },
+                                    {
+                                        AttributeName:"generic.attackSpeed",
+                                        Name:"generic.attackSpeed",
+                                        Amount:-2.8,
+                                        Operation:0,
+                                        UUIDLeast:401696,
+                                        UUIDMost:249828,
+                                        Slot:"mainhand"
+                                    }
+                                ]
+                            }
+                        },
+                        {}
+                    ],
+                    HandDropChances:[
+                        0.0F,
+                        0.85F
+                    ],
+                    ArmorItems:[
+                        {},
+                        {},
+                        {
+                            id:"bloodmagic:sentient_armour_chest",
+                            Count:1,
+                            tag:{
+                                Unbreakable:true,
+                                ench:[
+                                    {id:0,lvl:4},
+                                    {id:1,lvl:4},
+                                    {id:3,lvl:4},
+                                    {id:4,lvl:4}
+                                ]
+                            }
+                        },
+                        {
+                            id:"bloodmagic:sentient_armour_helmet",
+                            Count:1,
+                            tag:{
+                                Unbreakable:true,
+                                ench:[
+                                    {id:0,lvl:4},
+                                    {id:1,lvl:4},
+                                    {id:3,lvl:4},
+                                    {id:4,lvl:4}
+                                ]
+                            }
+                        }
+                    ],
+                    ArmorDropChances:[
+                        0.85F,
+                        0.85F,
+                        0.0F,
+                        0.0F
+                    ]
+                }
+            )
         )
         .setWeight(750)
 );
@@ -924,11 +1072,254 @@ SummoningDirector.addSummonInfo(
         .addMob(MobInfo.create()
             .setMob("twilightforest:snow_guardian")
             .setOffset(0,1,0)
+            .setData(
+                {
+                    HandItems:[
+                        {
+                            id:"randomthings:spectreaxe",
+                            Count:1,
+                            tag:{
+                                Unbreakable:true,
+                                AttributeModifiers:[
+                                    {
+                                        AttributeName:"generic.attackDamage",
+                                        Name:"generic.attackDamage",
+                                        Amount:32.5,
+                                        Operation:0,
+                                        UUIDLeast:918851,
+                                        UUIDMost:352607,
+                                        Slot:"mainhand"
+                                    },
+                                    {
+                                        AttributeName:"generic.attackSpeed",
+                                        Name:"generic.attackSpeed",
+                                        Amount:-2.8,
+                                        Operation:0,
+                                        UUIDLeast:401696,
+                                        UUIDMost:249828,
+                                        Slot:"mainhand"
+                                    }
+                                ]
+                            }
+                        },
+                        {}
+                    ],
+                    HandDropChances:[
+                        0.0F,
+                        0.85F
+                    ],
+                    ArmorItems:[
+                        {},
+                        {},
+                        {
+                            id:"bloodmagic:sentient_armour_chest",
+                            Count:1,
+                            tag:{
+                                Unbreakable:true,
+                                ench:[
+                                    {id:0,lvl:4},
+                                    {id:1,lvl:4},
+                                    {id:3,lvl:4},
+                                    {id:4,lvl:4}
+                                ]
+                            }
+                        },
+                        {
+                            id:"bloodmagic:sentient_armour_helmet",
+                            Count:1,
+                            tag:{
+                                Unbreakable:true,
+                                ench:[
+                                    {id:0,lvl:4},
+                                    {id:1,lvl:4},
+                                    {id:3,lvl:4},
+                                    {id:4,lvl:4}
+                                ]
+                            }
+                        }
+                    ],
+                    ArmorDropChances:[
+                        0.85F,
+                        0.85F,
+                        0.0F,
+                        0.0F
+                    ]
+                }
+            )
         )
         .setWeight(499)
 );
 ////////////////////////////////////////////////////THIS IS A MARKER FOR SECTION VISIBILITY/////////////////////////////////////////////////////////////////////////
-//Portal Type (Lesser/Greater Crimson Portal, Endest Pearl, Small Flux Rift (25), Medium Flux Rift (50), Large Flux Rift (100), Huge Flux Rift (250), Giant Flux Rift(500), Titanic Flux Rift(1000))
+//Portal Type (Lesser/Greater Crimson Portal, Endest Pearl, Small Flux Rift (25), Medium Flux Rift (50), Large Flux Rift (100), Huge Flux Rift (250), Giant Flux Rift(500), Titanic Flux Rift(1000), Rift Swarm (avg medium size)))
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsPortal)
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:cultistportallesser")
+            .setCount(7)
+            .setSpread(5,0,5)
+        )
+        .setWeight(4385)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsPortal)
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:cultistportalgreater")
+        )
+        .setWeight(750)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsPortal)
+        .addMob(MobInfo.create()
+            .setMob("avaritia:gaping_void")
+        )
+        .setWeight(2885)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsPortal)
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:fluxrift")
+            .setOffset(0,2,0)
+            .setData(
+                {
+                    RiftSize:25
+                }
+            )
+        )
+        .setWeight(1000)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsPortal)
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:fluxrift")
+            .setOffset(0,2,0)
+            .setData(
+                {
+                    RiftSize:50
+                }
+            )
+        )
+        .setWeight(500)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsPortal)
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:fluxrift")
+            .setOffset(0,2,0)
+            .setData(
+                {
+                    RiftSize:100
+                }
+            )
+        )
+        .setWeight(250)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsPortal)
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:fluxrift")
+            .setOffset(0,2,0)
+            .setData(
+                {
+                    RiftSize:250
+                }
+            )
+        )
+        .setWeight(125)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsPortal)
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:fluxrift")
+            .setOffset(0,2,0)
+            .setData(
+                {
+                    RiftSize:500
+                }
+            )
+        )
+        .setWeight(20)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsPortal)
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:fluxrift")
+            .setOffset(0,2,0)
+            .setData(
+                {
+                    RiftSize:1000
+                }
+            )
+        )
+        .setWeight(10)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsPortal)
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:fluxrift")
+            .setOffset(0,2,0)
+            .setCount(5)
+            .setSpread(20,20,20)
+            .setData(
+                {
+                    RiftSize:25
+                }
+            )
+        )
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:fluxrift")
+            .setOffset(0,2,0)
+            .setCount(7)
+            .setSpread(20,20,20)
+            .setData(
+                {
+                    RiftSize:12
+                }
+            )
+        )
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:fluxrift")
+            .setOffset(0,2,0)
+            .setCount(3)
+            .setSpread(20,20,20)
+            .setData(
+                {
+                    RiftSize:81
+                }
+            )
+        )
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:fluxrift")
+            .setOffset(0,2,0)
+            .setCount(4)
+            .setSpread(20,20,20)
+            .setData(
+                {
+                    RiftSize:94
+                }
+            )
+        )
+        .setWeight(75)
+);
 ////////////////////////////////////////////////////THIS IS A MARKER FOR SECTION VISIBILITY/////////////////////////////////////////////////////////////////////////
 //Possessed Type (Snow Guardian, Death Tome)
 ////////////////////////////////////////////////////THIS IS A MARKER FOR SECTION VISIBILITY/////////////////////////////////////////////////////////////////////////
