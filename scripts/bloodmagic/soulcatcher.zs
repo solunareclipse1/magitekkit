@@ -1318,9 +1318,414 @@ SummoningDirector.addSummonInfo(
                 }
             )
         )
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:fluxrift")
+            .setData(
+                {
+                    RiftSize:1000
+                }
+            )
+        )
         .setWeight(75)
 );
 ////////////////////////////////////////////////////THIS IS A MARKER FOR SECTION VISIBILITY/////////////////////////////////////////////////////////////////////////
-//Possessed Type (Snow Guardian, Death Tome)
+//Possessed Type (Snow Guardian, Death Tome, Knight Phantom)
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsPossessed)
+        .addMob(MobInfo.create()
+            .setMob("randomthings:spirit")
+            .setOffset(0,1,0)
+        )
+        .setWeight(400)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsPossessed)
+        .addMob(MobInfo.create()
+            .setMob("minecraft:ghast")
+            .setOffset(0,10,0)
+        )
+        .setWeight(500)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsPossessed)
+        .addMob(MobInfo.create()
+            .setMob("minecraft:vex")
+            .setOffset(0,1,0)
+        )
+        .setWeight(500)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsPossessed)
+        .addMob(MobInfo.create()
+            .setMob("grue:entitygrue")
+            .setOffset(0,1,0)
+        )
+        .setWeight(500)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsPossessed)
+        .addMob(MobInfo.create()
+            .setMob("quark:wraith")
+            .setOffset(0,1,0)
+        )
+        .setWeight(500)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsPossessed)
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:cultistportallesser")
+        )
+        .setWeight(500)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsPossessed)
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:wisp")
+            .setOffset(0,2,0)
+        )
+        .setWeight(500)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsPossessed)
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:mindspider")
+            .setOffset(0,1,0)
+        )
+        .setWeight(500)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsPossessed)
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:eldritchguardian")
+            .setOffset(0,1,0)
+        )
+        .setWeight(500)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsPossessed)
+        .addMob(MobInfo.create()
+            .setMob("twilightforest:knight_phantom")
+            .setOffset(0,1,0)
+            .setCount(6)
+            .setSpread(5,1,5)
+        )
+        .setWeight(600)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsPossessed)
+        .addMob(MobInfo.create()
+            .setMob("twilightforest:wraith")
+            .setOffset(0,1,0)
+        )
+        .setWeight(500)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsPossessed)
+        .addMob(MobInfo.create()
+            .setMob("twilightforest:death_tome")
+            .setOffset(0,1,0)
+            .setCount(15)
+            .setSpread(5,1,5)
+        )
+        .setWeight(1500)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsPossessed)
+        .addMob(MobInfo.create()
+            .setMob("twilightforest:mist_wolf")
+            .setOffset(0,1,0)
+        )
+        .setWeight(500)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsPossessed)
+        .addMob(MobInfo.create()
+            .setMob("twilightforest:mini_ghast")
+            .setOffset(0,2,0)
+        )
+        .setWeight(500)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsPossessed)
+        .addMob(MobInfo.create()
+            .setMob("twilightforest:tower_ghast")
+            .setOffset(0,10,0)
+        )
+        .setWeight(500)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsPossessed)
+        .addMob(MobInfo.create()
+            .setMob("twilightforest:snow_guardian")
+            .setOffset(0,1,0)
+            .setCount(10)
+            .setSpread(5,1,5)
+            .setData(
+                {
+                    HandItems:[
+                        {
+                            id:"randomthings:spectreaxe",
+                            Count:1,
+                            tag:{
+                                Unbreakable:true,
+                                AttributeModifiers:[
+                                    {
+                                        AttributeName:"generic.attackDamage",
+                                        Name:"generic.attackDamage",
+                                        Amount:32.5,
+                                        Operation:0,
+                                        UUIDLeast:918851,
+                                        UUIDMost:352607,
+                                        Slot:"mainhand"
+                                    },
+                                    {
+                                        AttributeName:"generic.attackSpeed",
+                                        Name:"generic.attackSpeed",
+                                        Amount:-2.8,
+                                        Operation:0,
+                                        UUIDLeast:401696,
+                                        UUIDMost:249828,
+                                        Slot:"mainhand"
+                                    }
+                                ]
+                            }
+                        },
+                        {}
+                    ],
+                    HandDropChances:[
+                        0.0F,
+                        0.85F
+                    ],
+                    ArmorItems:[
+                        {},
+                        {},
+                        {
+                            id:"bloodmagic:sentient_armour_chest",
+                            Count:1,
+                            tag:{
+                                Unbreakable:true,
+                                ench:[
+                                    {id:0,lvl:4},
+                                    {id:1,lvl:4},
+                                    {id:3,lvl:4},
+                                    {id:4,lvl:4}
+                                ]
+                            }
+                        },
+                        {
+                            id:"bloodmagic:sentient_armour_helmet",
+                            Count:1,
+                            tag:{
+                                Unbreakable:true,
+                                ench:[
+                                    {id:0,lvl:4},
+                                    {id:1,lvl:4},
+                                    {id:3,lvl:4},
+                                    {id:4,lvl:4}
+                                ]
+                            }
+                        }
+                    ],
+                    ArmorDropChances:[
+                        0.85F,
+                        0.85F,
+                        0.0F,
+                        0.0F
+                    ]
+                }
+            )
+        )
+        .setWeight(1500)
+);
 ////////////////////////////////////////////////////THIS IS A MARKER FOR SECTION VISIBILITY/////////////////////////////////////////////////////////////////////////
 //Tainted Type (Taint Seeds, Flux Rifts, Taint Enemies, Giant Taintacle (with multiple taint seeds along with it))
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(rgnts)
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:taintseed")
+        )
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:taintacletiny")
+            .setCount(10)
+            .setSpread(5,0,5)
+        )
+        .setWeight(3625)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(rgnts)
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:taintseedprime")
+        )
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:taintacle")
+            .setCount(3)
+            .setSpread(5,0,5)
+        )
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:taintacletiny")
+            .setCount(35)
+            .setSpread(6,0,6)
+        )
+        .setWeight(1850)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(rgnts)
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:taintswarm")
+            .setOffset(0,2,0)
+            .setCount(5)
+            .setSpread(5,1,5)
+        )
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:taintcrawler")
+            .setOffset(0,1,0)
+            .setCount(18)
+            .setSpread(5,1,5)
+        )
+        .setWeight(3775)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(rgnts)
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:taintaclegiant")
+        )
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:taintswarm")
+            .setOffset(0,2,0)
+            .setCount(5)
+            .setSpread(10,1,10)
+        )
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:taintcrawler")
+            .setOffset(0,1,0)
+            .setCount(18)
+            .setSpread(8,1,8)
+        )
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:taintseedprime")
+            .setCount(5)
+            .setSpread(3,0,3)
+        )
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:taintacle")
+            .setCount(3)
+            .setSpread(5,0,5)
+        )
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:taintacletiny")
+            .setCount(50)
+            .setSpread(7,0,7)
+        )
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:taintseed")
+            .setSpread(15,0,15)
+        )
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:fluxrift")
+            .setData(
+                {
+                    RiftSize:1000
+                }
+            )
+            .setOffset(0,25,0)
+        )
+        .setWeight(500)
+);
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(catalyst)
+        .setReagents(reagentsPortal)
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:fluxrift")
+            .setOffset(0,2,0)
+            .setCount(5)
+            .setSpread(20,20,20)
+            .setData(
+                {
+                    RiftSize:25
+                }
+            )
+        )
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:fluxrift")
+            .setOffset(0,2,0)
+            .setCount(7)
+            .setSpread(20,20,20)
+            .setData(
+                {
+                    RiftSize:12
+                }
+            )
+        )
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:fluxrift")
+            .setOffset(0,2,0)
+            .setCount(3)
+            .setSpread(20,20,20)
+            .setData(
+                {
+                    RiftSize:81
+                }
+            )
+        )
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:fluxrift")
+            .setOffset(0,2,0)
+            .setCount(4)
+            .setSpread(20,20,20)
+            .setData(
+                {
+                    RiftSize:94
+                }
+            )
+        )
+        .addMob(MobInfo.create()
+            .setMob("thaumcraft:fluxrift")
+            .setData(
+                {
+                    RiftSize:1000
+                }
+            )
+        )
+        .setWeight(250)
+);
