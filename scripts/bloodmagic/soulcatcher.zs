@@ -1574,7 +1574,7 @@ SummoningDirector.addSummonInfo(
 SummoningDirector.addSummonInfo(
     SummoningInfo.create()
         .setCatalyst(catalyst)
-        .setReagents(rgnts)
+        .setReagents(reagentsTainted)
         .addMob(MobInfo.create()
             .setMob("thaumcraft:taintseed")
         )
@@ -1588,7 +1588,7 @@ SummoningDirector.addSummonInfo(
 SummoningDirector.addSummonInfo(
     SummoningInfo.create()
         .setCatalyst(catalyst)
-        .setReagents(rgnts)
+        .setReagents(reagentsTainted)
         .addMob(MobInfo.create()
             .setMob("thaumcraft:taintseedprime")
         )
@@ -1607,7 +1607,7 @@ SummoningDirector.addSummonInfo(
 SummoningDirector.addSummonInfo(
     SummoningInfo.create()
         .setCatalyst(catalyst)
-        .setReagents(rgnts)
+        .setReagents(reagentsTainted)
         .addMob(MobInfo.create()
             .setMob("thaumcraft:taintswarm")
             .setOffset(0,2,0)
@@ -1625,7 +1625,7 @@ SummoningDirector.addSummonInfo(
 SummoningDirector.addSummonInfo(
     SummoningInfo.create()
         .setCatalyst(catalyst)
-        .setReagents(rgnts)
+        .setReagents(reagentsTainted)
         .addMob(MobInfo.create()
             .setMob("thaumcraft:taintaclegiant")
         )
@@ -1674,7 +1674,7 @@ SummoningDirector.addSummonInfo(
 SummoningDirector.addSummonInfo(
     SummoningInfo.create()
         .setCatalyst(catalyst)
-        .setReagents(reagentsPortal)
+        .setReagents(reagentsTainted)
         .addMob(MobInfo.create()
             .setMob("thaumcraft:fluxrift")
             .setOffset(0,2,0)
