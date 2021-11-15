@@ -34,3 +34,5 @@ XaeroWaypoints_BACKUP*
 config/jei/bookmarks.ini
 WailaErrorOutput.txt
 WailaHandlerDump.md
+config/Probe.cfg
+scripts/.zsrc
