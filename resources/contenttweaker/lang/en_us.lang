@@ -1,2 +1,10 @@
-fluid.polysteel=Molten Polysteel
+item.contenttweaker.crushed_iridium.name=Crushed Iridium Ore
+item.contenttweaker.purified_iridium.name=Purified Crushed Iridium Ore
+item.contenttweaker.empowered_slate.name=Empowered Slate
+item.contenttweaker.temporal_reagent.name=Temporal Reagent
+item.contenttweaker.ensnaring_reagent.name=Ensnaring Reagent
+item.contenttweaker.solitude_reagent.name=Solitude Reagent
+
 tile.contenttweaker.soul_block.name=Block of Soulium
+
+fluid.polysteel=Molten Polysteel

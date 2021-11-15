@@ -44,6 +44,38 @@ var iridiumPurified = VanillaFactory.createItem("purified_iridium");
 iridiumPurified.maxStackSize = 64;
 iridiumPurified.register();
 
+var t6slate = VanillaFactory.createItem("empowered_slate");
+t6slate.maxStackSize = 64;
+t6slate.register();
+
+var rgntTime = VanillaFactory.createItem("temporal_reagent");
+rgntTime.maxStackSize = 64;
+rgntTime.register();
+
+var rgntCapture = VanillaFactory.createItem("ensnaring_reagent");
+rgntCapture.maxStackSize = 64;
+rgntCapture.register();
+
+var rgntKey = VanillaFactory.createItem("solitude_reagent");
+rgntKey.maxStackSize = 64;
+rgntKey.register();
+
+var bloodLock1 = VanillaFactory.createItem("sanguine_locking_mechanism");
+bloodLock1.maxStackSize = 64;
+bloodLock1.register();
+
+var bloodLock2 = VanillaFactory.createItem("unholy_latch");
+bloodLock2.maxStackSize = 64;
+bloodLock2.register();
+
+var bloodLock3 = VanillaFactory.createItem("sinful_lock_body");
+bloodLock3.maxStackSize = 64;
+bloodLock3.register();
+
+var bloodLock4 = VanillaFactory.createItem("demons_lock");
+bloodLock4.maxStackSize = 64;
+bloodLock4.register();
+
 #Fluids
 var polysteelFluid = VanillaFactory.createFluid("polysteel", Color.fromHex("FFFFFF"));
 polysteelFluid.stillLocation = "contenttweaker:blocks/liquid/polysteel_still";

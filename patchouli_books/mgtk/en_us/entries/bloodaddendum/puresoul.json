@@ -11,12 +11,12 @@
         {
             "type": "spotlight",
             "item": "bloodmagic:blood_shard:1",
-            "text": "The whispers coming from it have only grown louder, that must be a sign of how strong it is! Yes, it must be incredibly powerful! By empowering it with the 5 different types of demon will in an alchemy table, all of the latent energy of the soul is released! Yes, this must be the greatest discovery of the millenia!"
+            "text": "The whispers coming from it have only grown louder, that must be a sign of how strong it is! Yes, it must be incredibly powerful! By empowering it with the 4 different types of demon will in an alchemy table and infusing it with neurotoxin, all of the latent energy is released! Yes, this must be the discovery of the millenia!"
         },
         {
             "type": "spotlight",
             "item": "bloodmagic:blood_orb{orb: 'bloodmagic:transcendent'}",
-            "text": "So many possible uses for this... I have already managed to make a tier 6 blood orb, by simply enhancing a soul matrix with a purified soul in an alchemy table, and then soaking this more 'complex' matrix in the blood altar, my capacity for LP is now thirty million! There must be more uses for these purified souls, I simply have to find them."
+            "text": "So many possible uses for this... I have already managed to make a tier 6 blood orb, by simply enhancing a soul matrix with a purified soul in an alchemy array, and then soaking this more 'complex' matrix in the blood altar, my capacity for LP is now thirty million! There must be more uses for these purified souls, I simply have to find them."
         }
     ]
 }

@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "After giving myself some time to clear my head, I managed to figure out a considerably better use for raw souls. They can be fused with a blood shard, ancient stone, and a shulker shell to create what I have decided to call a soul matrix.$(br2)They are very intricate, and seem to be... intelligent? No, that can't be right."
+            "text": "After giving myself some time to clear my head, I managed to figure out a considerably better use for raw souls. They can be fused with a blood shard, a blank rune, and a shulker shell to create what I have decided to call a soul matrix.$(br2)They are very intricate, and seem to be... intelligent? No, that can't be right."
         },
         {
             "type": "spotlight",
@@ -16,7 +16,7 @@
         {
             "type": "spotlight",
             "item": "easypickings:unstable_goo",
-            "text": "The tier 6 altar is absolute in its power, being able to transform raw souls into untamed soulium considerably more efficiently than simply using the severed souls of mobs. Additionally, if I can time it perfectly, I can convert extremely decayed untamed soulium into multiple raw souls, based on the amount of decay."
+            "text": "The tier 6 altar is absolute in its power, being able to transform raw souls into untamed soulium considerably more efficiently than simply using the severed souls of mobs. Additionally, if I can time it right, I can convert extremely decayed untamed soulium directly into soulium ingots."
         },
         {
             "type": "text",
