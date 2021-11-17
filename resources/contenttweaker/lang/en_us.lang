@@ -4,6 +4,10 @@ item.contenttweaker.empowered_slate.name=Empowered Slate
 item.contenttweaker.temporal_reagent.name=Temporal Reagent
 item.contenttweaker.ensnaring_reagent.name=Ensnaring Reagent
 item.contenttweaker.solitude_reagent.name=Solitude Reagent
+item.contenttweaker.sanguine_locking_mechanism.name=Sanguine Locking Mechanism
+item.contenttweaker.unholy_latch.name=Unholy Latch
+item.contenttweaker.sinful_lock_body.name=Sinful Lock Body
+item.contenttweaker.demons_lock.name=Demon's Lock
 
 tile.contenttweaker.soul_block.name=Block of Soulium
 
