@@ -1,6 +1,18 @@
-recipes.addShapeless(<contenttweaker:soul_block>, [<randomthings:ingredient:3>,<randomthings:ingredient:3>,<randomthings:ingredient:3>,<randomthings:ingredient:3>,<randomthings:ingredient:3>,<randomthings:ingredient:3>,<randomthings:ingredient:3>,<randomthings:ingredient:3>,<randomthings:ingredient:3>]);
+recipes.remove(<bloodmagic:altar>);
+recipes.remove(<bloodmagic:soul_forge>);
+recipes.remove(<bloodmagic:sacrificial_dagger>);
+
+recipes.addShapeless("soulblock", <contenttweaker:soul_block>, [<randomthings:ingredient:3>,<randomthings:ingredient:3>,<randomthings:ingredient:3>,<randomthings:ingredient:3>,<randomthings:ingredient:3>,<randomthings:ingredient:3>,<randomthings:ingredient:3>,<randomthings:ingredient:3>,<randomthings:ingredient:3>]);
 recipes.addShapeless("gemfilling", <bloodmagic:soul_gem:4>.withTag({souls: 16384.0}), [<bloodmagic:soul_gem:4>,<randomthings:ingredient:2>]);
 recipes.addShaped("itemcollector", <randomthings:advanceditemcollector>, [[null, <randomthings:ingredient:3>, null],[<ore:nuggetShadowIron>, <ore:ingotShadowIron>, <ore:nuggetShadowIron>], [<ore:blockShadowIron>, <ore:blockShadowIron>, <ore:blockShadowIron>]]);
 recipes.addShaped("soulchecker", <randomthings:onlinedetector>, [[<thaumcraft:inlay>, <thaumcraft:inlay>, <thaumcraft:inlay>],[<thaumcraft:inlay>, <contenttweaker:soul_block>, <thaumcraft:inlay>], [<thaumcraft:inlay>, <thaumcraft:inlay>, <thaumcraft:inlay>]]);
 recipes.addShaped("soulfilter", <randomthings:itemfilter>, [[<ore:stickWood>, <randomthings:quartzglass>, <ore:stickWood>],[<randomthings:quartzglass>, <bloodmagic:component:10>, <randomthings:quartzglass>], [<ore:stickWood>, <randomthings:quartzglass>, <ore:stickWood>]]);
 recipes.addShapeless("soullamp", <randomthings:lapislamp>, [<minecraft:redstone_lamp>,<ore:plateVoid>,<bloodmagic:decorative_brick>,<randomthings:quartzglass>]);
+recipes.addShapedMirrored("demonlock", <contenttweaker:demons_lock>, [[null, <contenttweaker:unholy_latch>, null],[null, <contenttweaker:sanguine_locking_mechanism>, null], [null, <contenttweaker:sinful_lock_body>, null]]);
+recipes.addShapedMirrored("lockbody", <contenttweaker:sinful_lock_body>, [[<ore:ingotVoid>, <ore:plateVoid>, <ore:ingotVoid>],[<ore:plateVoid>, null, <ore:plateVoid>], [<ore:ingotVoid>, <ore:plateVoid>, <ore:ingotVoid>]]);
+recipes.addShapedMirrored("locklatch", <contenttweaker:unholy_latch>, [[null, <ore:ingotShadowSteel>, null],[<ore:ingotShadowSteel>, null, <ore:ingotShadowSteel>], [<ore:nuggetShadowSteel>, null, null]]);
+recipes.addShapedMirrored("lockmechanism", <contenttweaker:sanguine_locking_mechanism>, [[<ore:plateSanguinite>, <ore:ingotTartarite>, <ore:stickSanguinite>],[<ore:ingotTartarite>, <ore:nuggetTartarite>, <ore:ingotTartarite>], [<ore:stickSanguinite>, <ore:ingotTartarite>, <ore:plateSanguinite>]]);
+recipes.addShaped("soullens", <randomthings:spectrelens>, [[<randomthings:quartzglass>, <bloodmagic:blood_shard:1>, <randomthings:quartzglass>],[<bloodmagic:blood_shard:1>, <randomthings:playerinterface>, <bloodmagic:blood_shard:1>], [<randomthings:quartzglass>, <bloodmagic:blood_shard:1>, <randomthings:quartzglass>]]);
+recipes.addShaped(<bloodmagic:altar>, [[<ore:stone>, null, <ore:stone>],[<ore:stone>, <ore:stoneBowl>, <ore:stone>], [<ore:ingotSanguinite>, <bloodmagic:monster_soul>, <ore:ingotSanguinite>]]);
+recipes.addShaped(<bloodmagic:soul_forge>, [[<ore:ingotShadowSteel>, null, <ore:ingotShadowSteel>],[<ore:stoneBasalt>, <ore:ingotSanguinite>, <ore:stoneBasalt>], [<ore:stoneBasalt>, <ore:blockShadowSteel>, <ore:stoneBasalt>]]);
+recipes.addShapedMirrored(<bloodmagic:sacrificial_dagger>, [[<ore:nuggetInfuscolium>, null, <ore:ingotSanguinite>],[<ore:nuggetInfuscolium>, <ore:ingotSanguinite>, null], [<ore:stickAlduorite>, <ore:nuggetInfuscolium>, <ore:nuggetInfuscolium>]]);

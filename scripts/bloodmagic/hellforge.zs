@@ -7,5 +7,5 @@ TartaricForge.addRecipe(<randomthings:spectreaxe>.withTag({"Quark:RuneColor": 15
 TartaricForge.addRecipe(<bloodmagic:decorative_brick:2>, [<randomthings:ingredient:2>, <bloodmagic:blood_shard>, <minecraft:shulker_shell>, <bloodmagic:blood_rune>], 16384.0, 4096.0);
 TartaricForge.addRecipe(<randomthings:spectreanchor>, [<contenttweaker:demons_lock>, <bloodmagic:item_demon_crystal:*>, <bloodmagic:demon_crystal:*>, <bloodmagic:blood_shard:1>], 16384.0, 16384.0);
 TartaricForge.addRecipe(<contenttweaker:temporal_reagent>, [<bloodmagic:blood_shard:1>, <minecraft:clock>, <minecraft:daylight_detector>, <bloodmagic:demon_crystallizer>], 16384.0, 8192.0);
-TartaricForge.addRecipe(<contenttweaker:ensnaring_reagent>, [<bloodmagic:blood_shard:1>, <minecraft:porkchop>, <bloodmagic:blood_orb>, <bloodmagic:sigil_transposition>], 5000.0, 1700.0);
+TartaricForge.addRecipe(<contenttweaker:ensnaring_reagent>, [<bloodmagic:blood_shard:1>, <minecraft:porkchop>, <bloodmagic:soul_snare>, <bloodmagic:sigil_transposition>], 5000.0, 1700.0);
 TartaricForge.addRecipe(<contenttweaker:solitude_reagent>, [<bloodmagic:blood_shard:1>, <randomthings:summoningpendulum>, <randomthings:timeinabottle>, <bloodmagic:sigil_teleposition>], 16384.0, 16384.0);
