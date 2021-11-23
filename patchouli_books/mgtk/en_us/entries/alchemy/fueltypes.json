@@ -1,0 +1,48 @@
+{
+    "name": "Fuels",
+    "icon": "projecte:item.pe_repair_talisman",
+    "category": "patchouli:alchemy",
+    "advancement": "patchouli:alchemy/start",
+    "priority": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "This book occasionally makes mention of 'fuel items'. This may seem rather self-explanatory at first, but experimentation has shown that it is not simply anything that can be burned as fuel. It seems to instead be a specific set of items. Listed here are all of the known ones.$(br)Something to note is that the block forms of these fuels also seem to work as fuel items."
+        },
+        {
+            "type": "spotlight",
+            "item": "minecraft:coal:1",
+            "text": "Charcoal is an obvious one, though it also seems to be the weakest."
+        },
+        {
+            "type": "spotlight",
+            "item": "minecraft:coal",
+            "text": "Coal seems to be stronger than charcoal, but is still at the lower end of the spectrum."
+        },
+        {
+            "type": "spotlight",
+            "item": "minecraft:redstone",
+            "text": "Redstone is between coal and charcoal in its strength."
+        },
+        {
+            "type": "spotlight",
+            "item": "minecraft:gunpowder",
+            "text": "Gunpowder is better than coal, but not by much."
+        },
+        {
+            "type": "spotlight",
+            "item": "minecraft:blaze_powder",
+            "text": "Blaze powder is quite significantly more powerful than gunpowder."
+        },
+        {
+            "type": "spotlight",
+            "item": "minecraft:glowstone_dust",
+            "text": "Glowstone dust appears to be the strongest of all known fuel types."
+        },
+        {
+            "type": "spotlight",
+            "item": "projecte:item.pe_fuel",
+            "text": "Glowstone dust appears to be the strongest of all known fuel types."
+        }
+    ]
+}

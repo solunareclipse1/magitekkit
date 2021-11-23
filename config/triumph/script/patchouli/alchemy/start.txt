@@ -1,0 +1,52 @@
+setRequirements("any")
+
+
+
+criteria = addCriteria("get_fate_dice", "minecraft:inventory_changed")
+criteria.addItem(<botania:dice, meta:0>)
+
+criteria = addCriteria("get_gaia_spirit", "minecraft:inventory_changed")
+criteria.addItem(<botania:manaresource, meta:5>)
+
+
+
+criteria = addCriteria("get_primordial_pearl", "minecraft:inventory_changed")
+criteria.addItem(<thaumcraft:primordial_pearl, meta:0>)
+
+criteria = addCriteria("get_tattered_scrolls", "minecraft:inventory_changed")
+criteria.addItem(<thaumicaugmentation:research_notes, meta:0>)
+
+
+
+criteria = addCriteria("get_raw_soul", "minecraft:inventory_changed")
+criteria.addItem(<randomthings:ingredient, meta:2>)
+
+criteria = addCriteria("get_pure_soul", "minecraft:inventory_changed")
+criteria.addItem(<bloodmagic:blood_shard, meta:1>)
+
+
+
+criteria = addCriteria("get_discidia_star", "minecraft:inventory_changed")
+criteria.addItem(<astralsorcery:itemshiftingstar, meta:0, nbt:{astralsorcery:{starAttunement:"astralsorcery.constellation.discidia"}}>)
+
+criteria = addCriteria("get_armara_star", "minecraft:inventory_changed")
+criteria.addItem(<astralsorcery:itemshiftingstar, meta:0, nbt:{astralsorcery:{starAttunement:"astralsorcery.constellation.armara"}}>)
+
+criteria = addCriteria("get_vicio_star", "minecraft:inventory_changed")
+criteria.addItem(<astralsorcery:itemshiftingstar, meta:0, nbt:{astralsorcery:{starAttunement:"astralsorcery.constellation.vicio"}}>)
+
+criteria = addCriteria("get_aevitas_star", "minecraft:inventory_changed")
+criteria.addItem(<astralsorcery:itemshiftingstar, meta:0, nbt:{astralsorcery:{starAttunement:"astralsorcery.constellation.aevitas"}}>)
+
+criteria = addCriteria("get_evorsio_star", "minecraft:inventory_changed")
+criteria.addItem(<astralsorcery:itemshiftingstar, meta:0, nbt:{astralsorcery:{starAttunement:"astralsorcery.constellation.evorsio"}}>)
+
+
+
+criteria = addCriteria("get_wildfire_core", "minecraft:inventory_changed")
+criteria.addItem(<embers:wildfire_core, meta:0>)
+
+
+
+criteria = addCriteria("get_hyperthreaded_core", "minecraft:inventory_changed")
+criteria.addItem(<rpsideas:hyperthreaded_cad_core, meta:0>)

@@ -1,0 +1,17 @@
+{
+    "name": "Repair Talisman",
+    "icon": "projecte:item.pe_repair_talisman",
+    "category": "patchouli:alchemy",
+    "advancement": "patchouli:alchemy/start",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Covalence dust likes to bond, mix with, and generally combine with other objects. In some cases, the covalence dust even transforms into the same material it attatched to, allowing it to be used to repair things with ease. Unfortunately, simply applying the powder was inconsistent, but further investigation of the property led to the creation of the first Talisman of Repair."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:repairtalisman",
+            "text": "Coating some void metal in a mixture of all 3 dust types and attatching some red string to it creates a bauble that will attempt to repair any damaged item that the wearer carries. The speed of this repair is, unfortunately, not particularly fast."
+        }
+    ]
+}

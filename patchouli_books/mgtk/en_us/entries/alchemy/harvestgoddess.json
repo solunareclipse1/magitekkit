@@ -1,0 +1,17 @@
+{
+    "name": "Growth",
+    "icon": "projecte:item.pe_harvest_god",
+    "category": "patchouli:alchemy",
+    "advancement": "patchouli:alchemy/start",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The process of farming can often be a rather boring and time consuming one. Of course, fertilizing plants with bonemeal helps speed things up a bit, but bones can be troublesome to obtain in large quantities. Thankfully, the harvest goddess band alleviates many of the pains of growing crops."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ironband",
+            "text": "By just having the band worn, nearby plants will grow incredibly fast. Additionally, pressing the 'change mode key' will "
+        }
+    ]
+}

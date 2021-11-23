@@ -1,0 +1,26 @@
+{
+    "name": "Divining Rods",
+    "icon": "projecte:item.pe_divining_rod_2",
+    "category": "patchouli:alchemy",
+    "advancement": "patchouli:alchemy/start",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The unique properties of covalence dust make it useful for quite a few things. Amongst them is the notoriously monotonous task of mining. Simply shaping some vibrant wood in a certain way, then applying a fair amount of low covalence dust, will create a stick known as a divining rod."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:diviningrod",
+            "text": "Using the rod is rather simple, simply using it on a block will have it scan a 3 cubic meter area, and will then utter a number. The exact meaning of this number is not entirely known, but higher numbers seem to correlate with rarer minerals."
+        },
+        {
+            "type": "crafting",
+            "recipe": "projecte:item.pe_divining_rod_2",
+            "recipe2": "projecte:item.pe_divining_rod_3"
+        },
+        {
+            "type": "text",
+            "text": "Applying higher tier dusts to the divining rod seems to increase its strength, uttering more numbers and increasing its range with each upgrade. The range of these stronger rods can be changed by pressing the change mode key.$(br2)Unfortunately, nobody has yet been able to decipher the meaning of the extra numbers, as they seem somewhat arbitrary. $(#b52f6d)Perhaps there is a method to the madness, but we just do not know everything about it yet?"
+        }
+    ]
+}
