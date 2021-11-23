@@ -41,8 +41,27 @@
         },
         {
             "type": "spotlight",
+            "advancement": "patchouli:alchemy/alchfuel",
             "item": "projecte:item.pe_fuel",
-            "text": "Glowstone dust appears to be the strongest of all known fuel types."
+            "text": "$(philo)mortals wrong. stronger than all combined."
+        },
+        {
+            "type": "spotlight",
+            "item": "projecte:item.pe_fuel:1",
+            "advancement": "patchouli:alchemy/alchfuel",
+            "text": "$(philo)eight times strong as alchemicoal."
+        },
+        {
+            "type": "spotlight",
+            "item": "projecte:item.pe_fuel:2",
+            "advancement": "patchouli:alchemy/alchfuel",
+            "text": "$(philo)the strongest. no better exist."
+        },
+        {
+            "type": "spotlight",
+            "item": "equivadditions:zeitheron_fuel",
+            "advancement": "patchouli:alchemy/philfuel",
+            "text": "$(philo)kind of you, name after me. gratitude."
         }
     ]
 }

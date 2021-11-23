@@ -43,6 +43,26 @@
     {
       "item": "metallurgy:wiki|0",
       "emc": 0
+    },
+    {
+      "item": "projecte:item.pe_covalence_dust|0",
+      "emc": 1
+    },
+    {
+      "item": "projecte:item.pe_covalence_dust|1",
+      "emc": 10
+    },
+    {
+      "item": "projecte:item.pe_covalence_dust|2",
+      "emc": 100
+    },
+    {
+      "item": "twilightforest:liveroot|0",
+      "emc": 1024
+    },
+    {
+      "item": "twilightforest:ironwood_raw|0",
+      "emc": 1507
     }
   ]
 }

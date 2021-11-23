@@ -1,5 +1,5 @@
 {
-    "name": "Growth",
+    "name": "Harvest Goddess",
     "icon": "projecte:item.pe_harvest_god",
     "category": "patchouli:alchemy",
     "advancement": "patchouli:alchemy/start",
@@ -10,8 +10,8 @@
         },
         {
             "type": "crafting",
-            "recipe": "crafttweaker:ironband",
-            "text": "By just having the band worn, nearby plants will grow incredibly fast. Additionally, pressing the 'change mode key' will "
+            "recipe": "crafttweaker:harvband",
+            "text": "By just having the band worn, nearby plants will grow incredibly fast. Additionally, pressing the 'change mode key' while holding the ring will make it consume fuel items to destroy plants in an area."
         }
     ]
 }

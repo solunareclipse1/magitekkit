@@ -1,0 +1,17 @@
+{
+    "name": "Archangel's Smite",
+    "icon": "projecte:item.pe_ring_iron_band",
+    "category": "patchouli:alchemy",
+    "advancement": "patchouli:alchemy/start",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Bows are a great way of harming enemies from afar, but it requires quite a bit of practice to become consistent at hitting things, especially if they are moving, and arrows are not always in good supply.$(br2)When the High Council tasked us with creating a bow that did not need arrows, we immediately set to work, believing transmutation could hold answers."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:archangels",
+            "text": "We eventually created the Archangel's Smite, a ring that consumes fuel items to conjure and automatically aim arrows. Simply swinging the ring fires a volley of arrows, using the ring fires a single one, and pressing the change mode key toggles a constant stream."
+        }
+    ]
+}
