@@ -1,17 +1,17 @@
 {
-    "name": "Ringforging",
-    "icon": "projecte:item.pe_ring_iron_band",
+    "name": "Efficient Flight",
+    "icon": "projecte:item.pe_swrg",
     "category": "patchouli:alchemy",
     "advancement": "patchouli:alchemy/start",
     "pages": [
         {
             "type": "text",
-            "text": "Magical rings are not an uncommon sight, as they often provide great benefits to their wearer.$(br2)With this fact in mind, it's only natural that covalence dust would lend itself well to making a couple powerful rings of its own."
+            "text": "Flight is commonly understood to be incredibly helpful for a variety of tasks, from travel to construction. Many known methods of flight have significant drawbacks, such as limited airtime, high cost, or lack of fine control. Swiftwolf set out to change that.$(br)By using the power of interdiction torches, combined with the weight of an anvil, this powerful ring allows the user to fly, consuming fuel"
         },
         {
             "type": "crafting",
-            "recipe": "crafttweaker:ironband",
-            "text": "Simply coating a ring made from iron in a mixture of all three types of covalence dust increases its strength, both physical and magical. This new ring has no innate magical properties, but can act as a strong base for ones that do."
+            "recipe": "crafttweaker:swrg",
+            "text": "items from the inventory to do so. Additionally, pressing the 'Fire Projectile' key while holding the ring will (at a very high cost) shoot a projectile that will strike lightning, and pressing the 'Change Mode' key will make it repel nearby entities."
         }
     ]
 }

@@ -1,0 +1,17 @@
+{
+    "name": "Alchemical Storage",
+    "icon": "projecte:alchemical_chest",
+    "category": "patchouli:alchemy",
+    "advancement": "patchouli:alchemy/start",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Many find themselves having difficulties managing massive amounts of chests. Many seek to simply reinforce their chests, but this can get very expensive. The alchemical chests offers an arguably less expensive solution to this problem, and a unique bonus."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:alchchest",
+            "text": "Not only does this chest have a whopping 104 slots, it also gains special abilities when certain items are put inside (more"
+        }
+    ]
+}

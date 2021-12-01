@@ -1,6 +1,6 @@
 {
     "name": "Archangel's Smite",
-    "icon": "projecte:item.pe_ring_iron_band",
+    "icon": "projecte:item.pe_archangel_smite",
     "category": "patchouli:alchemy",
     "advancement": "patchouli:alchemy/start",
     "pages": [

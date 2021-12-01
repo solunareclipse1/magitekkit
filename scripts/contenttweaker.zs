@@ -76,6 +76,10 @@ var bloodLock4 = VanillaFactory.createItem("demons_lock");
 bloodLock4.maxStackSize = 64;
 bloodLock4.register();
 
+var darkGlowstone = VanillaFactory.createItem("dark_glowstone");
+darkGlowstone.maxStackSize = 64;
+darkGlowstone.register();
+
 #Fluids
 var polysteelFluid = VanillaFactory.createFluid("polysteel", Color.fromHex("FFFFFF"));
 polysteelFluid.stillLocation = "contenttweaker:blocks/liquid/polysteel_still";

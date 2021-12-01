@@ -1,17 +1,17 @@
 {
-    "name": "Ringforging",
-    "icon": "projecte:item.pe_ring_iron_band",
+    "name": "Item Gravitation",
+    "icon": "projecte:item.pe_black_hole",
     "category": "patchouli:alchemy",
     "advancement": "patchouli:alchemy/start",
     "pages": [
         {
             "type": "text",
-            "text": "Magical rings are not an uncommon sight, as they often provide great benefits to their wearer.$(br2)With this fact in mind, it's only natural that covalence dust would lend itself well to making its own set of powerful rings."
+            "text": "The attractive properties of covalence dust lend themselves fairly well to making a universal magnet. While not the strongest magnet out there, the black hole band gets the job done and can be used freely."
         },
         {
             "type": "crafting",
             "recipe": "crafttweaker:ironband",
-            "text": "Simply coating a ring made from iron in a mixture of all three types of covalence dust increases its strength, both physical and magical. This new ring has no innate magical properties, but can act as a strong base for ones that do."
+            "text": "Simply using it, or pressing the 'Change Mode' key, while holding it will activate the ring. While active, nearby items will be pulled toward the user at "
         }
     ]
 }

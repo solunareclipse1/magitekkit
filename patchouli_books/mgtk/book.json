@@ -5,6 +5,6 @@
 	"show_toasts": true,
 	"filler_texture": "contenttweaker:textures/misc/logo-outline.png",
 	"macros": {
-		"$(philo)": "$(#b52f6d)$(l)"
+		"$(philo)": "$(#b52f6d)$(o)"
 	}
 }

@@ -1,6 +1,6 @@
 {
     "name": "Fuels",
-    "icon": "projecte:item.pe_repair_talisman",
+    "icon": "projecte:item.pe_fuel",
     "category": "patchouli:alchemy",
     "advancement": "patchouli:alchemy/start",
     "priority": true,
@@ -43,25 +43,25 @@
             "type": "spotlight",
             "advancement": "patchouli:alchemy/alchfuel",
             "item": "projecte:item.pe_fuel",
-            "text": "$(philo)mortals wrong. stronger than all combined."
+            "text": "$(philo)The mortals are wrong, as usual. This fuel is already stronger than every mundane one combined."
         },
         {
             "type": "spotlight",
             "item": "projecte:item.pe_fuel:1",
             "advancement": "patchouli:alchemy/alchfuel",
-            "text": "$(philo)eight times strong as alchemicoal."
+            "text": "$(philo)Four times more energy dense than alchemicoal."
         },
         {
             "type": "spotlight",
             "item": "projecte:item.pe_fuel:2",
             "advancement": "patchouli:alchemy/alchfuel",
-            "text": "$(philo)the strongest. no better exist."
+            "text": "$(philo)The strongest fuel type that exists. There are none better."
         },
         {
             "type": "spotlight",
             "item": "equivadditions:zeitheron_fuel",
             "advancement": "patchouli:alchemy/philfuel",
-            "text": "$(philo)kind of you, name after me. gratitude."
+            "text": "$(philo)For the first time in a very, very long time, I was wrong. This is the real strongest fuel item.$(br2)Might I also add that it was very kind of you to name it after me."
         }
     ]
 }

@@ -1,4 +1,3 @@
-recipes.remove(<projecte:item.pe_alchemical_bag:*>);
 recipes.remove(<projecte:item.pe_covalence_dust:*>);
 recipes.remove(<projecte:item.pe_ring_iron_band>);
 recipes.remove(<projecte:item.pe_archangel_smite>);
@@ -15,6 +14,9 @@ recipes.addShapedMirrored("archangels", <projecte:item.pe_archangel_smite>, [[<m
 recipes.addShapedMirrored("harvband", <projecte:item.pe_harvest_god>, [[<botania:storage:1>, <minecraft:vine>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]}).onlyWithTag({Aspects: [{amount: 1, key: "perditio"}]})],[<minecraft:vine>, <projecte:item.pe_ring_iron_band>, <minecraft:vine>], [<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "herba"}]}).onlyWithTag({Aspects: [{amount: 1, key: "herba"}]}), <minecraft:vine>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}).onlyWithTag({Aspects: [{amount: 1, key: "aqua"}]})]]);
 recipes.addShapeless("ironband", <projecte:item.pe_ring_iron_band>, [<aether_legacy:iron_ring>,<projecte:item.pe_covalence_dust>,<projecte:item.pe_covalence_dust:1>,<projecte:item.pe_covalence_dust:2>]);
 recipes.addShaped("diviningrod", <projecte:item.pe_divining_rod_1>, [[<projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust>],[<projecte:item.pe_covalence_dust>, <astralsorcery:blockinfusedwood:6>, <projecte:item.pe_covalence_dust>], [<projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust>]]);
-recipes.addShapedMirrored("supertorch16", <projecte:interdiction_torch> * 16, [[null, null, null],[<projecte:item.pe_covalence_dust:2>, null, null], [<ore:rodMithril>, null, null]]);
-recipes.addShapedMirrored("supertorch4", <projecte:interdiction_torch> * 4, [[null, null, null],[<projecte:item.pe_covalence_dust:1>, null, null], [<ore:rodMithril>, null, null]]);
-recipes.addShapedMirrored("supertorch1", <projecte:interdiction_torch>, [[null, null, null],[<projecte:item.pe_covalence_dust>, null, null], [<ore:rodMithril>, null, null]]);
+recipes.addShapedMirrored("supertorch16", <projecte:interdiction_torch> * 16, [[null, <projecte:item.pe_covalence_dust:2>, null], [null, <ore:rodMithril>, null], [null, null, null]]);
+recipes.addShapedMirrored("supertorch4", <projecte:interdiction_torch> * 4, [[null, <projecte:item.pe_covalence_dust:1>, null], [null, <ore:rodMithril>, null], [null, null, null]]);
+recipes.addShapedMirrored("supertorch1", <projecte:interdiction_torch>, [[null, <projecte:item.pe_covalence_dust>, null], [null, <ore:rodMithril>, null], [null, null, null]]);
+recipes.addShapedMirrored("darkglowstone", <contenttweaker:dark_glowstone>, [[<projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:2>, <projecte:item.pe_covalence_dust>],[<projecte:item.pe_covalence_dust:1>, <ore:dustGlowstone>, <projecte:item.pe_covalence_dust:1>], [<projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:2>, <projecte:item.pe_covalence_dust>]]);
+recipes.addShapedMirrored("blackholeband", <projecte:item.pe_black_hole>, [[<ore:obsidian>, <ore:ingotIron>, <projecte:item.pe_covalence_dust:2>],[<ore:ingotIron>, <projecte:item.pe_ring_iron_band>, <ore:ingotIron>], [<projecte:item.pe_covalence_dust>, <ore:ingotIron>, <ore:redstone>]]);
+recipes.addShapedMirrored("swrg", <projecte:item.pe_swrg>, [[<minecraft:anvil>, <ore:feather>, <projecte:item.pe_covalence_dust:2>],[<ore:feather>, <projecte:item.pe_ring_iron_band>, <ore:feather>], [<projecte:item.pe_covalence_dust:2>, <ore:feather>, <projecte:interdiction_torch>]]);
