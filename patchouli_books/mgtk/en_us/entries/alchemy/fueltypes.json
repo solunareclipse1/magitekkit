@@ -41,20 +41,20 @@
         },
         {
             "type": "spotlight",
-            "advancement": "patchouli:alchemy/alchfuel",
+            "advancement": "patchouli:alchemy/crudecollector",
             "item": "projecte:item.pe_fuel",
             "text": "$(philo)The mortals are wrong, as usual. This fuel is already stronger than every mundane one combined."
         },
         {
             "type": "spotlight",
             "item": "projecte:item.pe_fuel:1",
-            "advancement": "patchouli:alchemy/alchfuel",
+            "advancement": "patchouli:alchemy/crudecollector",
             "text": "$(philo)Four times more energy dense than alchemicoal."
         },
         {
             "type": "spotlight",
             "item": "projecte:item.pe_fuel:2",
-            "advancement": "patchouli:alchemy/alchfuel",
+            "advancement": "patchouli:alchemy/crudecollector",
             "text": "$(philo)The strongest fuel type that exists. There are none better."
         },
         {

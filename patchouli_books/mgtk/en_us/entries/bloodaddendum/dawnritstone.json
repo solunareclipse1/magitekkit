@@ -1,0 +1,23 @@
+{
+    "name": "Ritual Stone of Dawn",
+    "icon": "bloodmagic:ritual_stone:6",
+    "category": "patchouli:bloodaddendum",
+    "advancement": "patchouli:alchemy/crudecollector",
+    "secret": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(7)This entry is here for documentation purposes only. The steps required to create this are pure evil, originally discovered by a madman, and we only did it as we were blinded by greed. Do not attempt any of this under any circumstances."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:darkglowstone",
+            "text": "$(7)Mixing a bit of glowstone with a large amount of covalence dust seems to invert its properties, making it absorb light rather than expel it. Placing this mixture into a tier 6 blood altar will transform it into a new inscription tool."
+        },
+        {
+            "type": "spotlight",
+            "item": "bloodmagic:ritual_stone:6",
+            "text": "$(7)As one might expect, this allows for the creation of a new ritual stone: dawn. There are no known traditional type rituals that this new stone allows for, but sprinkling salis mundus onto it transforms it into something incredible. Information on this is documented in the alchemical texts, and will not be expanded upon here."
+        }
+    ]
+}
