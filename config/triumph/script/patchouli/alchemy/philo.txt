@@ -1,2 +1,3 @@
-criteria = addCriteria("get_philo", "minecraft:inventory_changed")
-criteria.addItem(<bloodmagic:blood_shard, meta:1>)
+criteria = addCriteria("get_minium", "minecraft:inventory_changed")
+criteria.addItem(<projecte:item.pe_philosophers_stone>)
+addRewardFunction("triumph:philotalk0")

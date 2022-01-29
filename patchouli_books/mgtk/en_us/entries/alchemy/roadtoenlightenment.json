@@ -2,6 +2,7 @@
     "name": "Road to Enlightenment",
     "icon": "projecte:item.pe_fuel:2",
     "category": "patchouli:alchemy",
+    "priority": true,
     "advancement": "patchouli:alchemy/alchfuel",
     "pages": [
         {

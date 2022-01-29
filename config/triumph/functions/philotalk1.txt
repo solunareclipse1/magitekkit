@@ -1,0 +1,1 @@
+tellraw @p {"text":"and yet i cannot sense their intentions... what is it they desire..? they used the same silly method as the previous fools...","color":"light_purple","bold":false,"italic":true,"obfuscated":true,"hoverEvent":{"action":"show_text","value":"...click..."},"clickEvent":{"action":"run_command","value":"/advancement grant @p only patchouli:alchemy/philotalk2"}}
