@@ -1,2 +1,0 @@
-addCriteria("impossible", "minecraft:impossible")
-addRewardFunction("triumph:philotalk6")

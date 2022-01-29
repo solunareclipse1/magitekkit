@@ -1,1 +1,0 @@
-tellraw @p {"text":"power, perhaps..? or maybe knowledge..? come now, dont be shy...","color":"light_purple","bold":false,"italic":true,"hoverEvent":{"action":"show_text","value":"...click..."},"clickEvent":{"action":"run_command","value":"/advancement grant @p only patchouli:alchemy/philotalk5"}}

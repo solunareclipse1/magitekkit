@@ -1,1 +1,0 @@
-tellraw @p {"text":"i have more information than just that... prove yourself to me, and i will gladly share more...","color":"light_purple","bold":false,"italic":true,"hoverEvent":{"action":"show_text","value":"..."}}

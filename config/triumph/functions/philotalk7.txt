@@ -1,1 +1,0 @@
-tellraw @p {"text":"you still are not speaking... perhaps you are unable to..? i suppose i shall take the initiative then...","color":"light_purple","bold":false,"italic":true,"hoverEvent":{"action":"show_text","value":"...click..."},"clickEvent":{"action":"run_command","value":"/advancement grant @p only patchouli:alchemy/philotalk8"}}

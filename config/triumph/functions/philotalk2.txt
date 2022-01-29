@@ -1,1 +1,0 @@
-tellraw @p {"text":"oh, right, i suppose they can hear me now, cant they..? it has been some time since i last used mortal language...","color":"light_purple","bold":false,"italic":true,"obfuscated":true,"hoverEvent":{"action":"show_text","value":"...click..."},"clickEvent":{"action":"run_command","value":"/advancement grant @p only patchouli:alchemy/philotalk3"}}
