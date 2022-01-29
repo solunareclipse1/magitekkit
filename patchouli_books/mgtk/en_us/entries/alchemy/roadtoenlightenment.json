@@ -1,0 +1,24 @@
+{
+    "name": "Road to Enlightenment",
+    "icon": "projecte:item.pe_fuel:2",
+    "category": "patchouli:alchemy",
+    "advancement": "patchouli:alchemy/alchfuel",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(7)Leaving that glowstone in there has created... something. These are fuel items, that much we know, and we have made an addendum to the fuel item entry documenting them. However, we believe they may have more uses than just that. They are just so incredibly energy dense, there must be some form of use. And thus, we have come up with a rough draft of an infusion crafting recipe."
+        },
+        {
+            "type": "text",
+            "text": "$(7)If we are correct, this recipe will create the thing we have been searching for, the single object we have commited atrocities to obtain: the $(philo)Philosopher's Stone.$() $(7)It's all rather exciting, I personally have been having trouble sleeping just thinking about how this may finally be the end. The ability to transform anything into anything else, eternal life, other powers beyond our comprehension, who knows what this discovery may hold!"
+        },
+        {
+            "type": "text",
+            "text": "$(7)I suppose I am getting ahead of myself. We still aren't sure if it will actually work, but our current understanding of reality has all signs pointing here, the culmination of centuries of research and failure. We could probably even overthrow the council, what could they even do to stop us? Those fat, corrupt pigs, sitting on their precious inherited positions... they won't even see it coming. Once Aralia returns with the rest of the materials, we can finally begin."
+        },
+        {
+            "type": "text",
+            "text": "$(7)DRAFT: $(philo)Philosopher's Stone$()$(7)$(br2)1 cubic metre of Aeternalis Fuel (center)$(br)1 Mantle of Stars$(br)7 Isolated Materia$(br)3 Empowered Slates$(br)1 cubic metre of Gaia Spirit Ingots$(br)2 Dragon Hearts$(br)1 ingot of Carmot$(br)1 cubic metre of Ebony Psimetal$(br)1 cubic metre of Ivory Psimetal$(br)1 piece of Ambrosium$(br)1 piece of Lapis Lazuli"
+        }
+    ]
+}
