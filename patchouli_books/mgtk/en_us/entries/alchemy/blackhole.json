@@ -11,7 +11,7 @@
         {
             "type": "crafting",
             "recipe": "crafttweaker:ironband",
-            "text": "Simply using it, or pressing the 'Change Mode' key, while holding it will activate the ring. While active, nearby items will be pulled toward the user at "
+            "text": "Simply using it, or pressing the 'Change Mode' key, while holding it will activate the ring. While active, nearby items will be pulled toward the user at no cost. Putting an active ring into an alchemical chest or bag will make it attract and pick up items."
         }
     ]
 }

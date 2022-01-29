@@ -80,6 +80,10 @@ var darkGlowstone = VanillaFactory.createItem("dark_glowstone");
 darkGlowstone.maxStackSize = 64;
 darkGlowstone.register();
 
+var magiCloth = VanillaFactory.createItem("alchemical_weave");
+magiCloth.maxStackSize = 16;
+magiCloth.register();
+
 #Fluids
 var polysteelFluid = VanillaFactory.createFluid("polysteel", Color.fromHex("FFFFFF"));
 polysteelFluid.stillLocation = "contenttweaker:blocks/liquid/polysteel_still";

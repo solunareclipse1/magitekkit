@@ -63,6 +63,10 @@
     {
       "item": "twilightforest:ironwood_raw|0",
       "emc": 1507
+    },
+    {
+      "item": "bloodmagic:blood_orb|0",
+      "emc": 0
     }
   ]
 }

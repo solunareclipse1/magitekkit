@@ -12,6 +12,10 @@
             "type": "crafting",
             "recipe": "crafttweaker:repairtalisman",
             "text": "Coating some void metal in a mixture of all 3 dust types and attatching some red string to it creates a bauble that will attempt to repair any damaged item that the wearer carries. The speed of this repair is, unfortunately, not particularly fast."
+        },
+        {
+            "type": "text",
+            "text": "When placed into an alchemical chest or bag, it will attempt to repair all items within the bag.$(br2)Additionally, having multiple talismans in the same chest or bag will increase the speed at which items are repaired."
         }
     ]
 }

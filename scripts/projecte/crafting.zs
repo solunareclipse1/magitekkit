@@ -8,6 +8,9 @@ recipes.remove(<projecte:alchemical_chest>);
 recipes.remove(<projecte:item.pe_mind_stone>);
 recipes.remove(<projecte:item.pe_divining_rod_1>);
 recipes.remove(<projecte:item.pe_repair_talisman>);
+recipes.remove(<projecte:collector_mk1>);
+recipes.remove(<projecte:collector_mk1>);
+recipes.removeByRegex("projecte:item.pe_alchemical_bag_[0-9]");
 
 recipes.addShaped("repairtalisman", <projecte:item.pe_repair_talisman>, [[<projecte:item.pe_covalence_dust:1>, <ore:bRedString>, <projecte:item.pe_covalence_dust:1>],[<projecte:item.pe_covalence_dust:2>, <ore:blockVoid>, <projecte:item.pe_covalence_dust:2>], [<projecte:item.pe_covalence_dust>, <ore:plateVoid>, <projecte:item.pe_covalence_dust>]]);
 recipes.addShapedMirrored("archangels", <projecte:item.pe_archangel_smite>, [[<minecraft:skull:1>, <ore:barsIron>, <minecraft:arrow>],[<ore:barsIron>, <projecte:item.pe_ring_iron_band>, <ore:barsIron>], [<minecraft:arrow>, <ore:barsIron>, <minecraft:dispenser>]]);
@@ -20,3 +23,6 @@ recipes.addShapedMirrored("supertorch1", <projecte:interdiction_torch>, [[null, 
 recipes.addShapedMirrored("darkglowstone", <contenttweaker:dark_glowstone>, [[<projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:2>, <projecte:item.pe_covalence_dust>],[<projecte:item.pe_covalence_dust:1>, <ore:dustGlowstone>, <projecte:item.pe_covalence_dust:1>], [<projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:2>, <projecte:item.pe_covalence_dust>]]);
 recipes.addShapedMirrored("blackholeband", <projecte:item.pe_black_hole>, [[<ore:obsidian>, <ore:ingotIron>, <projecte:item.pe_covalence_dust:2>],[<ore:ingotIron>, <projecte:item.pe_ring_iron_band>, <ore:ingotIron>], [<projecte:item.pe_covalence_dust>, <ore:ingotIron>, <ore:redstone>]]);
 recipes.addShapedMirrored("swrg", <projecte:item.pe_swrg>, [[<minecraft:anvil>, <ore:feather>, <projecte:item.pe_covalence_dust:2>],[<ore:feather>, <projecte:item.pe_ring_iron_band>, <ore:feather>], [<projecte:item.pe_covalence_dust:2>, <ore:feather>, <projecte:interdiction_torch>]]);
+recipes.addShaped("alchbag", <projecte:item.pe_alchemical_bag:2>, [[<minecraft:shulker_shell>, <projecte:item.pe_covalence_dust:2>, <minecraft:shulker_shell>],[<contenttweaker:alchemical_weave>, <projecte:alchemical_chest>, <contenttweaker:alchemical_weave>], [<contenttweaker:alchemical_weave>, <contenttweaker:alchemical_weave>, <contenttweaker:alchemical_weave>]]);
+recipes.addShapedMirrored("alchchest", <projecte:alchemical_chest>, [[<thaumcraft:stone_arcane>, <projecte:item.pe_covalence_dust:2>, <thaumcraft:stone_arcane>],[<projecte:item.pe_covalence_dust:1>, <ore:chest>, <projecte:item.pe_covalence_dust:1>], [<thaumcraft:stone_arcane>, <projecte:item.pe_covalence_dust>, <thaumcraft:stone_arcane>]]);
+recipes.addShapeless("alchfabric", <contenttweaker:alchemical_weave>, [<embers:ashen_cloth>,<botania:spellcloth>,<thaumcraft:fabric>,<twilightforest:alpha_fur>]);
