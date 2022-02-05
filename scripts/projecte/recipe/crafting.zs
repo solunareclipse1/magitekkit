@@ -22,6 +22,8 @@ recipes.remove(<projecte:item.pe_philosophers_stone>);
 recipes.remove(<projecte:item.pe_klein_star:*>);
 recipes.removeByRegex("projectex:star\/(magnum)|(colossal).*");
 recipes.removeByRegex("projecte:nova_cata.*");
+recipes.remove(<projecte:item.pe_evertide_amulet>);
+recipes.remove(<projecte:item.pe_zero_ring>);
 
 recipes.addShaped("repairtalisman", <projecte:item.pe_repair_talisman>, [[<projecte:item.pe_covalence_dust:1>, <ore:bRedString>, <projecte:item.pe_covalence_dust:1>],[<projecte:item.pe_covalence_dust:2>, <ore:blockVoid>, <projecte:item.pe_covalence_dust:2>], [<projecte:item.pe_covalence_dust>, <ore:plateVoid>, <projecte:item.pe_covalence_dust>]]);
 recipes.addShapedMirrored("archangels", <projecte:item.pe_archangel_smite>, [[<ore:ingotShadowSteel>, <minecraft:ender_eye>, <ore:nuggetShadowSteel>],[<minecraft:ender_eye>, <projecte:item.pe_philosophers_stone>.noReturn(), <ore:nuggetShadowSteel>], [<ore:nuggetShadowSteel>, <ore:nuggetShadowSteel>, <projecte:item.pe_ring_iron_band>]]);
@@ -42,3 +44,5 @@ recipes.addShapeless("miniumfuel", <equivadditions:zeitheron_fuel>, [<projecte:i
 recipes.addShapeless("minumictoaeter", <projecte:item.pe_fuel:2> * 8, [<projecte:item.pe_philosophers_stone>,<equivadditions:zeitheron_fuel>]);
 recipes.addShapeless("klein1", <projecte:item.pe_klein_star>, [<projecte:item.pe_fuel:1>,<projecte:item.pe_ring_iron_band>,<projecte:item.pe_covalence_dust>,<projecte:item.pe_covalence_dust:2>]);
 recipes.addShapeless("nova1", <projecte:nova_catalyst>, [<minecraft:tnt>,<projecte:item.pe_fuel:1>,<projecte:item.pe_covalence_dust:1>,<projecte:item.pe_covalence_dust:1>]);
+recipes.addShapedMirrored("evertide", <projecte:item.pe_evertide_amulet>, [[<minecraft:water_bucket>, <ore:ingotIron>, <quark:chain>],[<ore:ingotIron>, <projecte:item.pe_philosophers_stone>.noReturn(), <ore:ingotIron>], [<ore:ingotIron>, <ore:ingotIron>, <minecraft:water_bucket>]]);
+recipes.addShapedMirrored("zeroring", <projecte:item.pe_zero_ring>, [[<ore:gemAquamarine>, <minecraft:packed_ice>, <ore:nuggetSilver>],[<minecraft:packed_ice>, <projecte:item.pe_philosophers_stone>.noReturn(), <ore:ingotSilver>], [<ore:nuggetSilver>, <ore:ingotSilver>, <projecte:item.pe_ring_iron_band>]]);

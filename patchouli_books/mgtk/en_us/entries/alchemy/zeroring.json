@@ -1,0 +1,17 @@
+{
+    "name": "§5zero ring",
+    "icon": "projecte:item.pe_zero_ring",
+    "category": "patchouli:alchemy",
+    "advancement": "patchouli:alchemy/philo",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(philo)a minium stone can convert iron into gold, so it doesnt take much to imagine it can also freeze things. the zero ring does just that. using the ring will cause it to freeze its surroundings, and can be charged to increase the area in which it does this."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:zeroring",
+            "text": "$(philo)activating the ring with change mode will cause it to passively freeze your surroundings, so long as you have it equipped, though this passive freezing is not particularly fast."
+        }
+    ]
+}
