@@ -1,0 +1,17 @@
+{
+    "name": "§5§oa primer on emc",
+    "icon": "projecte:item.pe_covalence_dust:1",
+    "category": "patchouli:alchemy",
+    "priority": true,
+    "advancement": "patchouli:alchemy/philo",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(philo)the previous mortals were frustratingly close to the truth, it seems. they had figured out some things held more 'value' than others, but were unable to fully piece it together. i shall grant you the knowledge they had failed to grasp, myself.$(br)everything has an innate 'worth', known as 'emc'. this value determines how much 'stuff' is needed to create it through transmutation."
+        },
+        {
+            "type": "text",
+            "text": "$(philo)as an example, an ingot of gold is worth 2048 emc, and an ingot of iron is worth 256 emc. this means that 1 gold is worth 8 iron. all transmutation abides by these values, a law known as 'equivalent exchange'. to find out how much emc an item has, simply inspect it, and it should become clear.$(br2)it should be noted that, while everything has emc, some objects simply refuse to transmute."
+        }
+    ]
+}

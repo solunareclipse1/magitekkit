@@ -1,0 +1,44 @@
+import mods.ctintegration.advancement.AdvancementHelper;
+import crafttweaker.event.CommandEvent;
+import crafttweaker.player.IPlayer;
+
+// this is a boilerplate file for the dialogue system used in this pack.
+// feel free to use this in your own modpack, i wont mind :D
+
+// detect when a command is sent
+events.onCommand(function(event as CommandEvent) {
+    val cmd = event.command; // store the command
+    if (isNull(cmd) || (cmd.name != "trigger") || (event.parameters.length != 3) || event.parameters[0] != "mgtk_dialogueHandler" || event.commandSender.world.remote) {
+        return; // make sure the command matches the pattern we want. note that you have to borrow an already existing command, here we are borrowing /trigger
+    } else {
+        if (event.commandSender instanceof IPlayer) { // making sure the sender is a player
+            val plr as IPlayer = event.commandSender; // storing them as an IPlayer
+            val playerName = plr.name; // and their name
+            val part = event.parameters[2] as int; // storing the 3rd arg of the command we intercepted as an int
+            if (event.parameters[1] == "dialogueID") { // replace dialogueID with whatever you want to use as an identifier
+                val reqAdv = AdvancementHelper.getAdvancementById(server, "modpack:dialogue/needed"); // advancement needed for this command to go through
+                val blockAdv = AdvancementHelper.getAdvancementById(server, "modpack:dialogue/blocking"); // advancement that blocks this command from going through
+                if ( !(plr.getAdvancementProgress(reqAdv).isDone()) || plr.getAdvancementProgress(blockAdv).isDone() ) {
+                    return;
+                }
+                val msgList = [ // replace these with your own commands
+                    "/say this is command 0",
+                    "/say this is command 1",
+                    "/say this is command 2",
+                    "/say this is command 3",
+                    "/say this is command 4",
+                    "/say this is command 5"
+                ] as string[]; // in magitekkit tellraw is used, with a click event that triggers the next message in the list
+                if (msgList.length < part || part <= 0) {
+                    return; // sanity check in case arg 3 was a negative or bigger than the amount of items in our list
+                }
+                server.commandManager.executeCommand(server, msgList[part]); // run the commands as the server
+                if (part == 5) { // if arg 3 was 5, do something special!
+                    server.commandManager.executeCommand(server, "/say wow, thats cool! 2 is my favorite number! heres a gift to commemorate!");
+                    server.commandManager.executeCommand(server, "/give " ~ playerName ~ " planks 5 5");
+                } // in this case, it prints another message and gives the player 5 dark oak planks
+            }
+        }
+        event.cancel(); // stop the original /trigger command, since we dont want it to output errors
+    }
+});

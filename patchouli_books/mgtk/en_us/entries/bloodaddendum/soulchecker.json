@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "In my experimenting I have made an interesting discovery. Wrapping some redstone inlay around a block of soulium creates a rather simple mechanism called a soul checker.$(br2)This block, when placed, can be given someones name. Upon doing so, it will output a redstone signal if they are online."
+            "text": "In my experimenting I have made an interesting discovery. Wrapping some redstone inlay around a block of soulium creates a rather simple mechanism called a soul checker.$(br2)This block, when placed, can be given someones name. Upon doing so, it will output a redstone signal if they are present."
         },
         {
             "type": "crafting",

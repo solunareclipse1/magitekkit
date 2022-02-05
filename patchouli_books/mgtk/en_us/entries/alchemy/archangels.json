@@ -1,17 +1,17 @@
 {
-    "name": "Archangel's Smite",
+    "name": "§5archangels smite",
     "icon": "projecte:item.pe_archangel_smite",
     "category": "patchouli:alchemy",
-    "advancement": "patchouli:alchemy/start",
+    "advancement": "patchouli:alchemy/philo",
     "pages": [
         {
             "type": "text",
-            "text": "Bows are a great way of harming enemies from afar, but it requires quite a bit of practice to become consistent at hitting things, especially if they are moving, and arrows are not always in good supply.$(br2)When the High Council tasked us with creating a bow that did not need arrows, we immediately set to work, believing transmutation could hold answers."
+            "text": "$(philo)this artifact is one of my personal favorites. using the minium stone at its core, the archangels smite transforms emc into physical projectiles; arrows imbued with alchemical power. these arrows will automatically change trajectory toward creatures close enough to it, inflicting a variety of effects upon impact with the target."
         },
         {
             "type": "crafting",
             "recipe": "crafttweaker:archangels",
-            "text": "We eventually created the Archangel's Smite, a ring that consumes fuel items to conjure and automatically aim arrows. Simply swinging the ring fires a volley of arrows, using the ring fires a single one, and pressing the change mode key toggles a constant stream."
+            "text": "$(philo)simply mocking the movements of drawing a bow will fire a single arrow, but a wave of the hand will fire a volley of ten. additionally, pressing change mode will turn on a constant stream. do note that each arrow summoned costs 14 emc."
         }
     ]
 }

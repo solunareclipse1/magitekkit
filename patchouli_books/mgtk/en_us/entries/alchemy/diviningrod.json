@@ -11,7 +11,7 @@
         {
             "type": "crafting",
             "recipe": "crafttweaker:diviningrod",
-            "text": "Using the rod is rather simple, simply using it on a block will have it scan a 3 cubic meter area, and will then utter a number. The exact meaning of this number is not entirely known, but higher numbers seem to correlate with rarer minerals."
+            "text": "Using the rod is rather simple, simply using it on a block will have it inspect a 3 cubic meter area, and will then vibrate. The exact meaning of this vibration is not entirely understood, but stronger vibrations generally seem to correlate with rarer minerals."
         },
         {
             "type": "crafting",
@@ -20,7 +20,12 @@
         },
         {
             "type": "text",
-            "text": "Applying higher tier dusts to the divining rod seems to increase its strength, uttering more numbers and increasing its range with each upgrade. The range of these stronger rods can be changed by pressing the change mode key.$(br2)Unfortunately, nobody has yet been able to decipher the meaning of the extra numbers, as they seem somewhat arbitrary. $(#b52f6d)Perhaps there is a method to the madness, but we just do not know everything about it yet?"
+            "text": "Applying higher tier dusts to the divining rod seems to empower it, changing its vibration patterns and increasing its range with each upgrade. The range of these stronger rods can be changed by pressing the change mode key.$(br2)Unfortunately, nobody has yet been able to decipher the meaning of the extra vibrations, as they seem somewhat arbitrary. $(#b52f6d)Perhaps there is a method to the madness, but we just do not know everything about it yet?"
+        },
+        {
+            "type": "text",
+            "advancement": "patchouli:alchemy/philo",
+            "text": "$(philo)the mortals were on the right track, these vibrations correspond to the emc value of detected blocks."
         }
     ]
 }

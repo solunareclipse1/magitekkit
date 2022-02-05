@@ -2,7 +2,7 @@
     "name": "The Deepest Dark",
     "icon": "beneath:teleporterbeneath",
     "category": "patchouli:dimensions",
-    "advancement": "triumph:patchouli-backend/dimensions/beneath",
+    "advancement": "patchouli:dimensions/beneath",
     "pages": [
         {
             "type": "text",

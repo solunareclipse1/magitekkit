@@ -67,6 +67,22 @@
     {
       "item": "bloodmagic:blood_orb|0",
       "emc": 0
+    },
+    {
+      "item": "projecte:item.pe_fuel|0",
+      "emc": 4096
+    },
+    {
+      "item": "projecte:item.pe_fuel|1",
+      "emc": 16384
+    },
+    {
+      "item": "aether_legacy:ambrosium_shard|0",
+      "emc": 621
+    },
+    {
+      "item": "projecte:item.pe_fuel|2",
+      "emc": 65536
     }
   ]
 }

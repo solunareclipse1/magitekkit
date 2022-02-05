@@ -1,0 +1,4 @@
+import mods.bloodmagic.AlchemyTable;
+
+AlchemyTable.addRecipe(<randomthings:playerinterface>, [<randomthings:onlinedetector>, <ore:chestEnder>, <enderstorage:ender_storage>, <enderstorage:ender_storage:1>, <easypickings:unstable_goo>, <thaumcraft:salis_mundus>], 66600, 1200, 5);
+AlchemyTable.addRecipe(<bloodmagic:blood_shard:1>, [<randomthings:ingredient:2>, <bloodmagic:soul_gem:4>.withTag({souls: 16384.0, demonWillType: "corrosive"}), <bloodmagic:soul_gem:4>.withTag({souls: 16384.0, demonWillType: "destructive"}), <bloodmagic:soul_gem:4>.withTag({souls: 16384.0, demonWillType: "vengeful"}), <bloodmagic:soul_gem:4>.withTag({souls: 16384.0, demonWillType: "steadfast"}), <bloodmagic:component:25>], 666666, 13, 5);

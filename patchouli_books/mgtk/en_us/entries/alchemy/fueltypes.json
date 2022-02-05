@@ -43,25 +43,25 @@
             "type": "spotlight",
             "advancement": "patchouli:alchemy/alchfuel",
             "item": "projecte:item.pe_fuel",
-            "text": "$(7)Alchemicoal is incredibly energy dense, being even more powerful than glowstone blocks. Additonally, it can be burned just like coal, but lasts four times longer."
+            "text": "$(7)Alchemicoal is incredibly energy dense, being far more powerful than even glowstone blocks. Additonally, it can be burned just like coal, but lasts four times longer."
         },
         {
             "type": "spotlight",
             "item": "projecte:item.pe_fuel:1",
-            "advancement": "patchouli:alchemy/alchfuel",
-            "text": "$(7)Four times more powerful than even alchemicoal, and burns even hotter and longer."
+            "advancement": "patchouli:alchemy/philo",
+            "text": "$(philo)mobius fuel is equivalent to 4 alchemicoal, both in emc and in burn time."
         },
         {
             "type": "spotlight",
             "item": "projecte:item.pe_fuel:2",
-            "advancement": "patchouli:alchemy/alchfuel",
-            "text": "$(7)We don't know how many fuel items there are, but this is by far the strongest we have discovered thus far, another quadrupling of power."
+            "advancement": "patchouli:alchemy/philo",
+            "text": "$(philo)aeternalis fuel gives another quadrupling of power over mobius."
         },
         {
             "type": "spotlight",
             "item": "equivadditions:zeitheron_fuel",
-            "advancement": "patchouli:alchemy/philfuel",
-            "text": "$(philo)For the first time in a very, very long time, I was wrong. This is the real strongest fuel item.$(br2)Might I also add that it was very kind of you to name it after me."
+            "advancement": "patchouli:alchemy/philo",
+            "text": "$(philo)named after the stone required to create it, minumic fuel is the strongest of all fuel items, worth eight times more emc than even aeternalis fuel. as one might expect, it also burns for an incredibly long time."
         }
     ]
 }

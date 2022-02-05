@@ -1,5 +1,6 @@
 import mods.inworldcrafting.FireCrafting;
 
+// covalence
 FireCrafting.addRecipe(<projecte:item.pe_covalence_dust:2>*3, <botania:dice>);
 FireCrafting.addRecipe(<projecte:item.pe_covalence_dust>*2, <botania:manaresource:5>);
 
@@ -26,3 +27,5 @@ FireCrafting.addRecipe(<projecte:item.pe_covalence_dust:1>, <astralsorcery:items
 FireCrafting.addRecipe(<projecte:item.pe_covalence_dust>*2, <embers:wildfire_core>);
 
 FireCrafting.addRecipe(<projecte:item.pe_covalence_dust>*12, <rpsideas:hyperthreaded_cad_core>);
+
+// minium return

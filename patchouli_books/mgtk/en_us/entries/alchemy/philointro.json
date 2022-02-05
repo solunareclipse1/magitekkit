@@ -1,0 +1,34 @@
+{
+    "name": "§5§oa formal introduction",
+    "icon": "projecte:item.pe_philosophers_stone",
+    "category": "patchouli:alchemy",
+    "priority": true,
+    "advancement": "patchouli:alchemy/philo",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(philo)greetings, mortal. i briefly introduced myself earlier, but i shall do so properly here, in more detail. i wont bother with my name again, as i already know it is incomprehensible to you, but it can be translated very roughly into your tongue: guardian of the unobtainable stone.$(br)when i told you that i was the minium stone earlier, that was not entirely true. i simply have dominion over it."
+        },
+        {
+            "type": "text",
+            "text": "$(philo)i have complete and utter control over what it does. you might be puzzled as to why i am referring to it as a minium stone, rather than a philosophers stone. that would be because it is not a philosophers stone. there is only 1 philosophers stone, under my protection. do not ask if you can use it, or even see it, none are allowed to but i. it has far too much power.$(br2)so then, what is a minium stone?"
+        },
+        {
+            "type": "spotlight",
+            "item": "projecte:item.pe_philosophers_stone",
+            "text": "$(philo)a minium stone is a conduit for the energies of the one philosophers stone, channeling them to allow mortals to perform incredible feats. i allow them to exist, as an experiment. these stones have some intriguing uses, which i shall describe next."
+        },
+        {
+            "type": "text",
+            "text": "$(philo)firstly, using the stone on certain things will convert them, at no cost, to other things. the list of conversions is far too long to list here, so i would recommend you do a bit of your own research. one should also note that the area in which the stone performs this can be increased by 'charging' it. charging the stone has no cost, and can be done by pressing the 'charge' key. if you wish to lower the size of the area, simply crouching and attempting to charge the stone will have it"
+        },
+        {
+            "type": "text",
+            "text": "$(philo)lower its strength. additionally, changing the stones mode will affect the shape in which it transforms material.$(br2)secondly, the minium stone can perform limited transmutation within a crafting grid. once again, please consult your 'jei' for further information on this, as a list would be far too lengthy. note that the stone will not be comsumed in these such transmutations."
+        },
+        {
+            "type": "text",
+            "text": "$(philo)next, there is the stones ability to transform creatures by firing a projectile. this projectile will not function without sufficient energy, so be sure to provide it with some.$(br2)lastly, the stone can function as a standard, portable, crafting grid, by pressing 'extra function'.$(br2)i am sure you will find these abilities helpful, as many before you have. i do hope you meet my expectations."
+        }
+    ]
+}
