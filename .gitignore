@@ -36,3 +36,5 @@ WailaErrorOutput.txt
 WailaHandlerDump.md
 config/Probe.cfg
 scripts/.zsrc
+/crafttweaker_dump
+scripts/dialogue.zs.old
