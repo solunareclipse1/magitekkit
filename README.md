@@ -21,6 +21,7 @@ In that time, it has changed significantly from humble beginnings as just anothe
 
 This serves as the main GitHub repository for the modpack, and can be used to get a "development version" of the pack.
 ***Mod jar files are not included here***, so you will need to get those separately.
+You can either download a public version of the pack and use that, or manually download the mods using the modlist in this repository.
 
 Modrinth: TBD
 Curseforge: https://www.curseforge.com/minecraft/modpacks/magitekkit
