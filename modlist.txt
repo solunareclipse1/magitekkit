@@ -1,0 +1,41 @@
+===============
+Required by law
+===============
+JEI
+No Telemetry
+Not Enough Crashes
+Mouse Tweaks
+Appleskin
+Patchouli
+Akashic Tome
+Time in a Bottle - CURSEFORGE
+
+=================
+Major content mods
+=================
+AE2
+Create
+Immersive Engineering
+Mekanism + Generators
+Botania
+Hex Casting - CURSEFORGE
+Blood Magic - CURSEFORGE
+ProjectE - CURSEFORGE
+Avaritia - CURSEFORGE
+
+========================
+Libraries / dependencies
+========================
+Flywheel
+AutoRegLib
+Kotlin
+Curios - CURSEFORGE
+CodeChickenLib - CURSEFORGE
+
+
+=================
+Waiting on update
+=================
+Astral Sorcery
+Draconic Evolution
+Thaumcraft

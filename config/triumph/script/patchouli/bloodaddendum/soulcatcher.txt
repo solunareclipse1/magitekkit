@@ -1,3 +1,0 @@
-criteria = addCriteria("create_soulcatcher", "triumph:right_click_block")
-criteria.setItem(<thaumcraft:salis_mundus, meta:0>)
-criteria.setBlock(<randomthings:diaphanousblock>)

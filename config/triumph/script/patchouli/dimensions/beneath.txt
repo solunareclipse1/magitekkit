@@ -1,2 +1,0 @@
-criteria = addCriteria("entered_beneath", "minecraft:changed_dimension")
-criteria.setDimensionDestination("beneath:the_beneath")

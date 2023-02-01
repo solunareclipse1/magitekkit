@@ -1,6 +1,0 @@
-setRequirements("any")
-
-criteria = addCriteria("get_alch_fuel_item", "minecraft:inventory_changed")
-criteria.addItem(<projecte:item.pe_fuel>)
-criteria = addCriteria("get_alch_fuel_block", "minecraft:inventory_changed")
-criteria.addItem(<projecte:fuel_block>)

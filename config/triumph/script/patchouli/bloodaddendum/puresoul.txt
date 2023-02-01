@@ -1,2 +1,0 @@
-criteria = addCriteria("get_pure_soul", "minecraft:inventory_changed")
-criteria.addItem(<bloodmagic:blood_shard, meta:1>)

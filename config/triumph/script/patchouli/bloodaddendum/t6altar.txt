@@ -1,2 +1,0 @@
-criteria = addCriteria("get_soul_matrix", "minecraft:inventory_changed")
-criteria.addItem(<bloodmagic:decorative_brick, meta:2>)

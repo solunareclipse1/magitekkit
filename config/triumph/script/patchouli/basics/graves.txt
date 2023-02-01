@@ -1,1 +1,0 @@
-criteria = addCriteria("die", "triumph:player_death")

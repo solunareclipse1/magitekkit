@@ -1,2 +1,0 @@
-criteria = addCriteria("get_soulium_ingot", "minecraft:inventory_changed")
-criteria.addItem(<randomthings:ingredient, meta:3>)

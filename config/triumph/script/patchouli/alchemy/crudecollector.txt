@@ -1,3 +1,0 @@
-criteria = addCriteria("create_crude_collector", "triumph:right_click_block")
-criteria.setItem(<thaumcraft:salis_mundus, meta:0>)
-criteria.setBlock(<bloodmagic:ritual_stone, meta:6, state:{"type":"dawn"}>)

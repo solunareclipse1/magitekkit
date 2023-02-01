@@ -1,3 +1,0 @@
-criteria = addCriteria("create_soul_tree", "triumph:right_click_block")
-criteria.setItem(<randomthings:ingredient, meta:2>)
-criteria.setBlock(<ore:treeSapling>)

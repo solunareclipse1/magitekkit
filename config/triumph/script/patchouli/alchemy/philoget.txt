@@ -1,3 +1,0 @@
-criteria = addCriteria("get_minium", "minecraft:inventory_changed")
-criteria.addItem(<projecte:item.pe_philosophers_stone>)
-addRewardFunction("triumph:philotalk")

@@ -1,2 +1,0 @@
-addCriteria("location", "minecraft:location")
-addRewardFunction("triumph:playerinit")
