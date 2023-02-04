@@ -1,5 +1,6 @@
 /mmc-pack.json
 /instance.cfg
+/natives
 
 /.minecraft/coremods
 /.minecraft/defaultconfigs
@@ -12,7 +13,7 @@
 /.minecraft/server-resource-packs
 /.minecraft/shaderpacks
 /.minecraft/texturepacks
-/.minecraft/XaeroWaypoints
+/.minecraft/XaeroWaypoints*
 /.minecraft/XaeroWorldMap
 /.minecraft/options.txt
 /.minecraft/patchouli_data.json

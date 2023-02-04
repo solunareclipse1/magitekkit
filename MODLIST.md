@@ -109,7 +109,23 @@ This is an up-to-date list of mods in the pack, roughly sorted into somewhat vag
 
 <br>Libraries & Dependencies
 ============================
- - ???
+ - Architectury API
+ - AutoRegLib
+ - Cloth Config API
+ - CoFH Core
+ - Collective
+ - Curios API
+ - Flywheel
+ - Kotlin for Forge
+ - Iceberg
+ - SuperMartijn642's Config Lib
+ - SuperMartijn642's Core Lib
+ - Thermal Foundation
+
+**Curseforge:**
+ - Bookshelf
+ - CodeChickenLib
+ - PAUCAL
 
 
 
