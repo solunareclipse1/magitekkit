@@ -22,7 +22,9 @@
 
 /.minecraft/config/Advancedperipherals/peripherals*.bak
 /.minecraft/config/jei/jei-client.ini
+/.minecraft/config/jei/world
 /.minecraft/config/Mekanism/client.toml
+/.minecraft/config/pneumaticcraft/ArmorFeatureStatus.cfg
 /.minecraft/config/pneumaticcraft/MicromissileDefaults.cfg
 /.minecraft/config/pneumaticcraft/PneumaticArmorHUDLayout.cfg
 /.minecraft/config/appleskin-client.toml
