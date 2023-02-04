@@ -7,10 +7,14 @@
 /.minecraft/mods
 /.minecraft/resourcepacks
 /.minecraft/saves
+/.minecraft/schematics
 /.minecraft/screenshots
 /.minecraft/server-resource-packs
 /.minecraft/shaderpacks
 /.minecraft/texturepacks
+/.minecraft/XaeroWaypoints
+/.minecraft/XaeroWorldMap
 /.minecraft/options.txt
+/.minecraft/patchouli_data.json
 /.minecraft/usercache.json
 /.minecraft/usernamecache.json
