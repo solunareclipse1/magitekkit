@@ -21,6 +21,7 @@
 /.minecraft/usernamecache.json
 
 /.minecraft/config/Advancedperipherals/peripherals*.bak
+/.minecraft/config/ae2/client.json
 /.minecraft/config/jei/jei-client.ini
 /.minecraft/config/jei/world
 /.minecraft/config/Mekanism/client.toml
