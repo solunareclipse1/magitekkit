@@ -1,0 +1,24 @@
+{
+    "name": "Shapeshifting Tome",
+    "icon": "patchouli:guide_book{\"patchouli:book\":\"patchouli:mgtk_general\"}",
+    "category": "patchouli:basics",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(aralia)While experimenting with some of the symbols from our $(ref-philo)other project$(aralia), I managed to give one of my spellbooks a curious effect. It seems to absorb all forms of information, from simple scrolls to stone tablets. At first it was an inconvenience, but became quite the opposite once I figured out how to access my lost notes."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "akashictome:tome",
+            "text": "$(aralia)Upon enchantment, the tome shifted from its original form, turning into a slab made of... something I can't identify. Picking it up, I seemed to somehow 'activate' it. It showed me all of my notes it had consumed and allowed me to choose one, after which it physically transformed into."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(aralia)As I struggled to get access to the others it had absorbed, I grew rather frustrated and slammed it on my desk. Doing so seemed to change it back into what I am now calling the 'slate form'. I quickly figured out that swinging it through the air causes it to return to such state.$(br2)I believe it could be quite useful for organizing and storing our books about"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(self)The rest of the pages have been torn out, but $(l)this notebook seems to have properties similar to those described."
+        }
+    ]
+}

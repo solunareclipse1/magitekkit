@@ -1,0 +1,6 @@
+{
+    "name": "The Basics",
+    "description": "$(self)It seems this section is dedicated to information that the author deemed 'essential'.",
+    "icon": "minecraft:writable_book",
+    "sortnum": -1
+}

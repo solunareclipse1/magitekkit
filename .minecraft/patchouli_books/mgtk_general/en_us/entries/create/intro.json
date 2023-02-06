@@ -1,0 +1,36 @@
+{
+    "name": "Power of Rotation",
+    "icon": "create:andesite_alloy",
+    "category": "patchouli:create",
+    "priority": true,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(sol)I have made a breakthrough that will almost certainly help with my survival: a cheap, sturdy, and workable material I am calling 'andesite alloy'.$(br2)I believe it has a plethora of applications, which could lead to more progress, but I'm getting ahead of myself."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/materials/andesite_alloy",
+            "recipe2": "create:crafting/materials/andesite_alloy_from_zinc"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/kinetics/shaft",
+            "text": "$(sol)Shaping this material into a sort of 'shaft' makes for a sturdy and relatively lightweight object. It seems mostly useless at first, but combining it with some wood shows much more promise."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "extendedgears:crafting/oak_cogwheel",
+            "recipe2": "extendedgears:crafting/large_oak_cogwheel"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/kinetics/hand_crank",
+            "text": "$(sol)A combination of connected cogs and shafts lets me 'extend' rotational force I apply to them, and even change the speed. I have fashioned a crank to help with this."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(sol)The next step would be to figure out a proper use for this, since just spinning these has little purpose outside of tiring myself out, but $(l)the possibilities I can think of are endless."
+        }
+    ]
+}

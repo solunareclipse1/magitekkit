@@ -1,0 +1,15 @@
+{
+    "name": "Death & Rebirth",
+    "icon": "quark:textures/item/holding_totem.png",
+    "category": "patchouli:basics",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(ketu)Something quite strange has been happening, as of late, and it has caused quite the stir: people seem incapable of staying dead. Upon meeting their end, they simply vanish in a puff of smoke, leaving behind only a bizarre floating artifact. After a short while, the person will usually reappear at their home, having lost everything they were carrying, but otherwise entirely unharmed."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(ketu)From the brief observations I was able to conduct, the aformentioned artifact seems 'bound' to its 'creator'; It is entirely intangible to everyone and everything, except for them. Having said 'creator' strike the artifact returns to them some amount of their lost belongings, and shrinking into nothingness once all have been reclaimed.$(br)My colleagues seem baffled, but I myself have a few theories, and though my requests for research funding were denied, $(hint-ketu)$(l)I won't let that stop me."
+        }
+    ]
+}

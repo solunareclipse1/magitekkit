@@ -1,0 +1,16 @@
+{
+    "name": "Foreword",
+    "icon": "botania:cosmetic_questgiver_mark",
+    "category": "patchouli:basics",
+    "priority": true,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(sol)Not long ago, I found myself in this place, carrying only this empty journal. I am still unsure of how I got here, so I have decided to use it to document my findings in this strange land.$(br2)Having spent a few hours searching around for any signs of civilization, I have concluded this land is entirely uninhabited. I am alone."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(sol)I managed to fashion some makeshift tools using a nearby tree, and the local wildlife should make for a functional meal, but I am entirely out of my element.$(br2)Night will be upon me soon, and I can hear what I believe is thunder roaring in the distance. I need to find some shelter, and quickly."
+        }
+    ]
+}

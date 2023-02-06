@@ -1,0 +1,11 @@
+{
+    "name": "Accomplishments",
+    "icon": "minecraft:experience_bottle",
+    "category": "patchouli:basics",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(sol)Recently, I have felt quite a sense of pride in myself. Setting and completing goals has kept me productive (and more importantly, sane) as I attempt to figure out how I got here.$(br2)I think that continuing to keep track of my $(l)advancements $(sol)will prove beneficial, and may help me set more goals in the future."
+        }
+    ]
+}

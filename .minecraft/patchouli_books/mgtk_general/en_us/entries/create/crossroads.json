@@ -1,0 +1,17 @@
+{
+    "name": "Crossroads",
+    "icon": "minecraft:ender_pearl",
+    "category": "patchouli:create",
+    "priority": true,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(sol)I can see it, the path forward diverges. My harnessing of the power of lightning shows great promise, but I cannot ignore the potential of pressurized gas. Not to mention my recent discovery of these mysterious flowers.$(br2)I am, for the first time in a while, stumped. Which of these many choices is the right one to make?"
+        },
+        {
+            "type": "patchouli:text",
+            "recipe": "create:crafting/materials/andesite_alloy",
+            "text": "$(sol)I think all of them have potential, but which do I follow? Every moment I sit here just writing is another moment wasted, so I think I will review my notes, and then decide."
+        }
+    ]
+}

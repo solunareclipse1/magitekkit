@@ -1,5 +1,17 @@
 {
-    "name": "GENERAL",
-    "landing_text": "LANDING TEXT",
-    "version": 1
+    "name": "Old Notebook",
+    "subtitle": "by ???",
+    "landing_text": "$(self)This notebook has obviously seen better days.$(br2)You aren't sure where you got it, but the information within seems useful. It's likely worth reading through.",
+    "text_overflow_mode": "overflow",
+
+    "macros": {
+        "$(self)": "$()$(7)$(o)",
+        "$(sol)": "$()$(#008000)",
+        "$(ketu)": "$()$(#748e99)",
+        "$(hint-ketu)": "$()$(#748e99)$(l)",
+        "$(aralia)": "$()$(#8000FF)",
+        "$(philo)": "$()$(#b52f6d)$(o)",
+        "$(hint-philo)": "$()$(#b52f6d)$(o)$(l)",
+        "$(ref-philo)": "$()$(#b52f6d)$(l)"
+    }
 }

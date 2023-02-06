@@ -1,0 +1,20 @@
+{
+    "name": "Uncovered Notes",
+    "icon": "create:sand_paper",
+    "category": "patchouli:basics",
+    "priority": true,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(sol)During my time here, I have found an assortment of notes in various places., written by those who came before me. They lack much context, but have proven useful nonetheless. This entry serves as a list of such pages."
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "The Notes of Others",
+            "entries": [
+                "patchouli:basics/tome",
+                "patchouli:basics/grave"
+            ]
+        }
+    ]
+}

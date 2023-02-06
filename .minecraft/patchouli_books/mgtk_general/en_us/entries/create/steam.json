@@ -1,0 +1,25 @@
+{
+    "name": "Water's Potential",
+    "icon": "minecraft:water_bucket",
+    "category": "patchouli:create",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(sol)Water is a curious substance. It is extremely common, can support a variety of different creatures, is essential for most vegetation, and occasionally falls from the sky.$(br2)Even with all that, I believe it still has potential yet untapped. When it comes in contact with lava, some kind of smoke is created. Perhaps it is magical in nature?"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(sol)Maybe, but simply calling something I don't fully understand 'magic' seems naive. Considering lava is extremely hot, it may have something to do with that. Brewing also makes use of water, and also involves the remains of blazes, fire elementals from the nether.$(br2)I think that may be something worth investigating, so I have decided to attempt the capture of a living blaze. "
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/kinetics/empty_blaze_burner",
+            "text": "$(sol)Doing so unprepared would be foolish, but I have devised a plan. I attempted to replicate one of the 'spawners' I found underground, and I believe it will allow me to pacify and contain any blaze I use it on."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "create:blaze_burner",
+            "text": "$(sol)This has proven successful! It was certainly not easy, but I managed to capture a blaze in this small cage. WIP"
+        }
+    ]
+}
