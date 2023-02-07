@@ -4,6 +4,10 @@
     "landing_text": "$(self)This notebook has obviously seen better days.$(br2)You aren't sure where you got it, but the information within seems useful. It's likely worth reading through.",
     "text_overflow_mode": "overflow",
 
+    "book_texture": "magitekkit:textures/gui/patchouli/book_test.png",
+    "filler_texture": "magitekkit:textures/gui/patchouli/filler_test.png",
+    "crafting_texture": "magitekkit:textures/gui/patchouli/crafting_test.png",
+
     "macros": {
         "$(self)": "$()$(7)$(o)",
         "$(sol)": "$()$(#008000)",

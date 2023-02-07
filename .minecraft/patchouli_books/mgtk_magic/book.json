@@ -1,5 +1,21 @@
 {
-    "name": "MAGIC",
-    "landing_text": "LANDING TEXT",
-    "version": 1
+    "name": "Mysterious Tome",
+    "subtitle": "by The High Council",
+    "landing_text": "$(self)This book inexplicably appeared in your possession. It is filled with symbols you don't recognize, all constantly shifting.$(br2)What is 'The High Council'? Perhaps reading the pages within will give some answers.",
+    "text_overflow_mode": "overflow",
+
+    "book_texture": "magitekkit:textures/gui/patchouli/book_magic.png",
+    "filler_texture": "magitekkit:textures/gui/patchouli/filler_magic.png",
+    "crafting_texture": "magitekkit:textures/gui/patchouli/crafting_magic.png",
+
+    "macros": {
+        "$(self)": "$()$(7)$(o)",
+        "$(sol)": "$()$(#008000)",
+        "$(ketu)": "$()$(#748e99)",
+        "$(hint-ketu)": "$()$(#748e99)$(l)",
+        "$(aralia)": "$()$(#8000FF)",
+        "$(philo)": "$()$(#b52f6d)$(o)",
+        "$(hint-philo)": "$()$(#b52f6d)$(o)$(l)",
+        "$(ref-philo)": "$()$(#b52f6d)$(l)"
+    }
 }

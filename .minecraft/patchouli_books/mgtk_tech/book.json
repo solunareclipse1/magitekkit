@@ -1,5 +1,22 @@
 {
-    "name": "TECH",
-    "landing_text": "LANDING TEXT",
-    "version": 1
+    "name": " Glowing Tablet",
+    "subtitle": "by AI_NAME_PLACEHOLDER",
+    "landing_text": "$(#00DDFF)This is clearly a piece of highly advanced technology. Its front glows brightly, showing a large assortment of options.$(br2)It seems intelligent, and happy to finally have someone to interact with.",
+    "text_overflow_mode": "overflow",
+
+    "book_texture": "magitekkit:textures/gui/patchouli/book_tech.png",
+    "filler_texture": "magitekkit:textures/gui/patchouli/filler_tech.png",
+    "crafting_texture": "magitekkit:textures/gui/patchouli/crafting_tech.png",
+    "nameplate_color": "0080FF",
+
+    "macros": {
+        "$(self)": "$()$(7)$(o)",
+        "$(sol)": "$()$(#008000)",
+        "$(ketu)": "$()$(#748e99)",
+        "$(hint-ketu)": "$()$(#748e99)$(l)",
+        "$(aralia)": "$()$(#8000FF)",
+        "$(philo)": "$()$(#b52f6d)$(o)",
+        "$(hint-philo)": "$()$(#b52f6d)$(o)$(l)",
+        "$(ref-philo)": "$()$(#b52f6d)$(l)"
+    }
 }

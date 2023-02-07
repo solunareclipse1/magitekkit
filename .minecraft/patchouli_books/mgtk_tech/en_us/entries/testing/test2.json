@@ -1,0 +1,99 @@
+{
+    "name": "$(#00DDFF)TEST ENTRY",
+    "icon": "minecraft:debug_stick",
+    "category": "patchouli:testing",
+    "priority": true,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(#0080FF)This is the first page.$(br2)Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "This is a text page.$(br2)Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui."
+        },
+        {
+            "type": "patchouli:image",
+            "title": "This is an image page.",
+            "images": [
+                "magitekkit:textures/gui/patchouli/books/test/image1.png",
+                "magitekkit:textures/gui/patchouli/books/test/image2.png"
+            ],
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "This is a crafting page.",
+            "recipe": "minecraft:shulker_box",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+            "type": "patchouli:smelting",
+            "title": "This is a smelting page.",
+            "recipe": "minecraft:iron_ingot_from_smelting_iron_ore",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "name": "This is a multiblock page.",
+            "multiblock": {
+                "pattern": [
+                    [ " GRG ", "GGRGG", "RRRRR", "GGRGG", " GRG " ], 
+                    [ "GG GG", "G   G", "     ", "G   G", "GG GG" ],
+                    [ "G   G", "     ", "     ", "     ", "G   G" ], 
+                    [ "G   G", "     ", "  0  ", "     ", "G   G" ], 
+                    [ "_WWW_", "WWWWW", "WWWWW", "WWWWW", "_WWW_" ]
+                ],
+                "mapping": {
+                    "G": "minecraft:gold_block",
+                    "W": "minecraft:white_wool",
+                    "R": "minecraft:oak_log[axis=y]"
+                },
+                "symmetrical": true
+            },
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore."
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "This is an entity page.",
+            "entity": "minecraft:villager",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "This is a spotlight page.",
+            "item": "minecraft:crossbow",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla."
+        },
+        {
+            "type": "patchouli:link",
+            "url": "https://gnu.org",
+            "link_text": "This is a link page.",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint."
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "This is a relations page.",
+            "entries": [
+                "patchouli:testing/test",
+                "patchouli:testing/test",
+                "patchouli:testing/test",
+                "patchouli:testing/test",
+                "patchouli:testing/test",
+                "patchouli:testing/test",
+                "patchouli:testing/test",
+                "patchouli:testing/test",
+                "patchouli:testing/test",
+                "patchouli:testing/test",
+                "patchouli:testing/test",
+                "patchouli:testing/test"
+            ]
+        },
+        {
+            "type": "patchouli:quest",
+            "title": "This is a quest page.",
+            "trigger": "minecraft:recipes/root",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
+        }
+    ]
+}

@@ -1,5 +1,21 @@
 {
-    "name": "FINALE",
-    "landing_text": "LANDING TEXT",
-    "version": 1
+    "name": "The Origin of Knowledge",
+    "subtitle": "by ???",
+    "landing_text": "$(self)PLACEHOLDER$(br2)PLACEHOLDER",
+    "text_overflow_mode": "overflow",
+
+    "book_texture": "magitekkit:textures/gui/patchouli/book_finale.png",
+    "filler_texture": "magitekkit:textures/gui/patchouli/filler_finale.png",
+    "crafting_texture": "magitekkit:textures/gui/patchouli/crafting_finale.png",
+
+    "macros": {
+        "$(self)": "$()$(7)$(o)",
+        "$(sol)": "$()$(#008000)",
+        "$(ketu)": "$()$(#748e99)",
+        "$(hint-ketu)": "$()$(#748e99)$(l)",
+        "$(aralia)": "$()$(#8000FF)",
+        "$(philo)": "$()$(#b52f6d)$(o)",
+        "$(hint-philo)": "$()$(#b52f6d)$(o)$(l)",
+        "$(ref-philo)": "$()$(#b52f6d)$(l)"
+    }
 }

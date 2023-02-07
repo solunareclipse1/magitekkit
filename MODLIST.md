@@ -101,6 +101,7 @@ This is an up-to-date list of mods in the pack, roughly sorted into somewhat vag
 ======================================
  - Unnamed MagiTekkit custom-code mod
  - Patchouli
+ - KubeJS
 
 **Curseforge:**
  - Compact Crafting
@@ -121,6 +122,7 @@ This is an up-to-date list of mods in the pack, roughly sorted into somewhat vag
  - SuperMartijn642's Config Lib
  - SuperMartijn642's Core Lib
  - Thermal Foundation
+ - Rhino
 
 **Curseforge:**
  - Bookshelf
@@ -139,7 +141,6 @@ This last section lists mods that are not currently in the pack, but might in th
  - Draconic Evolution
  - Extended Crafting
  - Galacticraft
- - KubeJS
  - Modonomicon
  - Thaumcraft
 

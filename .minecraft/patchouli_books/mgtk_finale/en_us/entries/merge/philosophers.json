@@ -1,0 +1,12 @@
+{
+    "name": "Sacrilege",
+    "icon": "projectexpansion:final_star",
+    "category": "patchouli:basics",
+    "priority": true,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "WIP"
+        }
+    ]
+}

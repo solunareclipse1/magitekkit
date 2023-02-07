@@ -1,0 +1,12 @@
+{
+    "name": "Ascension",
+    "icon": "avaritia:infinity_ingot",
+    "category": "patchouli:basics",
+    "priority": true,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "WIP"
+        }
+    ]
+}

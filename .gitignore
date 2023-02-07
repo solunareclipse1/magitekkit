@@ -16,6 +16,7 @@
 /.minecraft/XaeroWorldMap
 /.minecraft/options.txt
 /.minecraft/patchouli_data.json
+/.minecraft/rhino.local.properties
 /.minecraft/usercache.json
 /.minecraft/usernamecache.json
 
@@ -52,3 +53,6 @@
 /.minecraft/config/twilightforest-client.toml
 /.minecraft/config/xaerominimap_entities.json
 /.minecraft/config/xaeropatreon.txt
+
+/.minecraft/kubejs/exported
+/.minecraft/kubejs/README.txt
